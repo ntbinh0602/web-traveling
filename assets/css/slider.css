@@ -1,0 +1,100 @@
+
+.slider.slider-header div img {
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  width: 100%;
+  line-height: 0;
+  vertical-align: middle;
+  min-height: 650px;
+  object-fit: cover;
+  }
+
+  .slider.slider-section-hot-deals div img {
+    width: 100%;
+    border-radius: 10px;
+    height: 165px;
+    object-fit: cover ;
+  }
+
+
+  .action{
+    display:block;
+    margin:100px auto;
+    width:100%;
+    text-align:center;
+  }
+  .action a {
+    display:inline-block;
+    padding:5px 10px; 
+    background:#f30;
+    color:#fff;
+    text-decoration:none;
+  }
+  .action a:hover{
+    background:#000;
+  }
+
+  .slick-dots {
+    position: absolute !important;
+    bottom: 35px !important;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.slick-dots li {
+  margin: 0 4.5px;
+}
+
+  .slick-dots li {
+    width: 21px !important;
+    height: 3px !important;
+    background-color: #B5B5B5;
+    border-radius: 1px !important;
+  }
+
+  .slick-dots li button:before{
+    content: "" !important;
+    background-color: white;
+    width: 21px !important;
+    height: 3px !important;
+    border-radius: 1px !important;
+  }
+
+  .box_rating .slick-dots {
+    bottom: 20px !important;
+  }
+
+
+  .box_rating .slick-dots li button:before {
+    background-color: #30C5BA !important;
+  }
+  .box_rating .slick-dots li {
+    background-color: #b8b8b8!important;
+  }
+
+  /* slider hot deals */
+
+  .slider.slider-section-hot-deals .slick-slide {
+    margin: 0 10px;
+}
+
+/* the parent */
+  .slider.slider-section-hot-deals .slick-list {
+    margin: 0 -10px;
+}
+
+.slider.slider-section-hot-deals .slick-next:before {
+  position: absolute;
+  right: 26px;
+}
+
+.slider.slider-section-hot-deals .slick-prev:before {
+}

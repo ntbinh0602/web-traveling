@@ -1,0 +1,98 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #ee4d2d;
+    --border-color: #dbdbdb;
+    --star-gold-color: #ffce3e;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/helveticaneue.ttf")
+}
+
+html {  
+    font-family: HelveticaNeue, Arial, sans-serif;;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
+.box-wp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.color-section {
+    background: rgba(18, 94, 144, 0.1);
+}
+
+.no-color-section {
+    background: white;
+}
+
+.pt30-s {
+    padding-top: 30px;
+}
+
+.pt60-s {
+    padding-top: 60px;
+}
+
+.pb200-s {
+    padding-bottom: 200px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.main-slider {
+    width: 100%;
+}
+
+
+.shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .shine::before {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: -75%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 50%;
+    z-index: 2;
+  }
+  .shine:hover::before, .shine:focus::before {
+    animation: shine 0.85s;
+  }
+  @keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  
+
+
