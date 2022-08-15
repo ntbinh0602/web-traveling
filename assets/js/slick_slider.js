@@ -25,7 +25,7 @@ $(".header").on(
 $(".slider-section-hot-deals").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  arrows: false,
+  arrows: true,
   fade: false,
   dots: false,
   autoplay: true,
@@ -33,7 +33,6 @@ $(".slider-section-hot-deals").slick({
   pauseOnHover: false,
   pauseOnFocus: false,
 });
-
 
 $(".slider-review").slick({
   slidesToShow: 1,
