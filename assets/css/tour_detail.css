@@ -366,6 +366,26 @@
 
 }
 
+.input-custom {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    padding-left: 12px;
+}
+
+.input-custom img {
+    width: 16px;
+    height: 16px;
+}
+
+.input-custom .input-custom-type {
+    border: none;
+    margin: 0;
+    background: transparent;
+}
+
 .search-input input,select {
     margin-top: 8px;
     width: 100%;

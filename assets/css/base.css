@@ -51,11 +51,11 @@ html {
     padding-bottom: 200px;
 }
 
-input[type="date"]::-webkit-inner-spin-button,
+/* input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
     background: transparent;
     bottom: 0;
-    color: transparent;
+    color: #fff;
     cursor: pointer;
     height: auto;
     left: 0;
@@ -63,6 +63,23 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     right: 0;
     top: 0;
     width: auto;
+} */
+
+input {
+    position: relative;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    
+    color: transparent;
+    /* background: transparent; */
+    z-index: 100;
 }
 
 
