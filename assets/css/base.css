@@ -74,11 +74,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     /* display: none; */
     position: absolute;
     content: "";
-    left: 0;
+    left: 100px;
     top: 0;
-    
+    width: 120px;
+    height: 35px;
     color: transparent;
-    /* background: transparent; */
+    background: transparent;
     z-index: 100;
 }
 
