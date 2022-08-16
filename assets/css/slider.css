@@ -1,4 +1,8 @@
 
+.slick-slider {
+  overflow: hidden;
+}
+
 .slider.slider-header div img {
   background-color: transparent;
   border: 0;

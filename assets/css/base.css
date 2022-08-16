@@ -1,12 +1,13 @@
 :root {
     --white-color: #fff;
     --black-color: #000;
-    --text-color: #333;
+    --text-color: #1D293F;
     --primary-color: #ee4d2d;
     --border-color: #dbdbdb;
     --star-gold-color: #ffce3e;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
 }
+
 
 * {
     box-sizing: inherit;
@@ -63,6 +64,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: 0;
     width: auto;
 }
+
 
 .main-slider {
     width: 100%;
