@@ -1,0 +1,256 @@
+.page-navigation {
+    margin-bottom: 10px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-left {
+    min-height: 234px;
+}
+
+.content-left-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1D293F;
+}
+
+.content-left-description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #32363D;
+    padding-bottom: 54px;
+    border-bottom: 0.5px solid #ADADAD;
+
+}
+
+.content-left-description img {
+    width: 100%;
+}
+
+.content-left-description span {
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+}
+
+.content-left-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.content-left-social-left .btn-like span , .btn-share{
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.content-left-social-left ,.content-left-social-right{
+    display: flex;
+    align-items: center;
+}
+
+.btn-like ,.btn-share{
+    background: #1877F2;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.btn-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.btn-share {
+    width: 80px;
+    height: 30px;
+}
+
+.icon-social {
+    margin-left: 12px;
+}
+
+.btn-like img{
+    margin-bottom: 4px;
+}
+
+
+.btn-like, .btn-share, .content-left-social-left img {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.content-left-social-right span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+    margin-left: 9px;
+}
+
+.news-container {
+    margin-bottom: 76px;
+}
+
+.news-title {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+
+.news-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.news-item-img {
+    width: 306px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.news-item-content {
+    margin-left: 20px;
+}
+
+.news-item-content h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #32363D;
+    margin-bottom: 10px;
+}
+
+.news-item-content p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #2F2F2F;
+}
+
+.content-time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.content-time img {
+    margin-right: 6px;font-size: 12px;
+}
+
+.content-time span {
+    font-size: 12px;
+    color: #737373;
+}
+
+
+
+.content-right {
+    margin-left: 65px;
+}
+
+.content-right-box {
+    width: 341px;
+    height: 241px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 26px 22px 30px 22px;
+}
+
+.content-right-box-description {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    color: #32363D;
+}
+
+.btn-order-ticket {
+    width: 100%;
+    margin-top: 15px;
+    height: 56px;
+    background: #0070B4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    height: 56px;
+    background: #F3F3F3;
+    border: 2px solid #0070B4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #0070B4;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-contact img {
+    margin-right: 18px;
+}
+
+.content-right-news {
+    width: 100%;
+    margin-top: 38px;
+}
+
+.content-right-news span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #32363D;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content-right-news img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-right-news ul {
+    list-style: none;
+}
+
+.content-right-news ul li {
+    border-bottom: 1px solid #DBDBDB;
+    padding: 10px 0;
+}
+
+.content-right-news ul li:last-child {
+    border-bottom: none;
+}
+
+.content-right-news ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
