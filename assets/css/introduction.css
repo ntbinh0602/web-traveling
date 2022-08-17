@@ -1,0 +1,125 @@
+.page-navigation {
+    margin-bottom: 23px;
+}
+
+.introduction-title span{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1D293F;
+}
+
+.introduction-box {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 80px;
+}
+
+.introduction-content {
+    width: 530px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #32363D;
+    margin-right: 82px;
+}
+
+.introduction-img {
+    flex: 1;
+    border: 1px solid #0070B4;
+    margin-right: 29px;
+    position: relative;
+}
+
+.introduction-img-main {
+    position: absolute;
+    z-index: -1;
+    right: -29px;
+    top: -28px;
+    width: 556px;
+    height: 353px;
+}
+
+.introduction-img-main img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.introduction-img-extra {
+    width: 265px;
+    height: 168px;
+    background: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: -29px;
+    left: -36px;
+}
+
+.introduction-img-extra img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.introduction-box-why {
+    width: 100%;
+    height: 368px;
+    background-repeat: no-repeat;
+}
+
+.introduction-box-why-content {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 186, 201, 0.1);
+}
+
+.content-title {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #1D293F;
+    padding-top: 49px;
+    font-weight: 600;
+}
+
+.content-about {
+    margin-top: 33px;
+    display: flex;
+    gap: 111px;
+    justify-content: center;
+}
+
+.content-about-item {
+    width: 284px;
+}
+
+.content-about-item h5 {
+    width: 100%;
+    margin-top: 12px;
+    padding: 0 88px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D293F;
+}
+
+.content-about-item p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1D293F;
+    margin-top: 22px;
+}
+
+.background-bottom {
+    width: 100%;
+    height: 444px;
+}
+
+.background-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

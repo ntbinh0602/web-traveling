@@ -1,0 +1,116 @@
+.page-navigation {
+    margin-bottom: 10px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-left-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #1D293F;
+}
+
+.content-left-description {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #32363D;
+    border-bottom: 0.5px solid #ADADAD;
+    padding-bottom: 15px;
+}
+
+
+.content-right {
+    margin-left: 65px;
+}
+
+.content-right-box {
+    width: 341px;
+    height: 241px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 26px 22px 30px 22px;
+}
+
+.content-right-box-description {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    color: #32363D;
+}
+
+.btn-order-ticket {
+    width: 100%;
+    margin-top: 15px;
+    height: 56px;
+    background: #0070B4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    height: 56px;
+    background: #F3F3F3;
+    border: 2px solid #0070B4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #0070B4;
+    font-size: 16px;
+}
+
+.btn-contact img {
+    margin-right: 18px;
+}
+
+.partner-title {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.partner-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.partner-card {
+    width: 16.66666%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.partner-card-item {
+ cursor: pointer;
+ border: 1px solid #E4E4E4;
+border-radius: 10px;
+height: 100%;
+}
+
+.partner-card-item img {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: none ;
+}
