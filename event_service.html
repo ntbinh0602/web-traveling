@@ -1,447 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/general.css" />
+  <link rel="stylesheet" href="./assets/css/event_service.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
+  <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+  <title>Tổ chức sự kiện</title>
+</head>
+
+<body>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/general.css" />
-    <link rel="stylesheet" href="./assets/css/event_service.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
-    <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
-    <title>Tổ chức sự kiện</title>
-  </head>
+    <div class="header">
+      <div class="header__top">
+        <div class="header__top-nav box-wp">
+          <div class="header__top-left">
+            <a href="index.html">
+              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+              <span class="name-company">PHU MY QUANG CO., LTD</span>
+            </a>
+          </div>
+          <div class="header__top-right">
+            <ul class="header__top-right-list">
+              <li class="header__top-right-item">
+                <a href="./introduction.html">
+                  <span>Giới thiệu</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Tour du lịch</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="mega-menu">
+                  <div class="mega-menu-sub">
+                    <div class="submenu-left">
+                      <ul class="submenu-left-list">
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour trong nước</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour ngoài nước</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour tự chọn</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu-right">
+                      <div class="submenu-right-content">
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Bắc</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Hà Nội</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                            <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                            <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                          </ul>
 
-  <body>
-    <head>
-      <div class="header">
-        <div class="header__top">
-          <div class="header__top-nav box-wp">
-            <div class="header__top-left">
-              <a href="index.html">
-                <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-                <span class="name-company">PHU MY QUANG CO., LTD</span>
-              </a>
-            </div>
-            <div class="header__top-right">
-              <ul class="header__top-right-list">
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Giới thiệu</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tour du lịch</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="mega-menu">
-                    <div class="mega-menu-sub">
-                      <div class="submenu-left">
-                        <ul class="submenu-left-list">
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour trong nước</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour ngoài nước</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour tự chọn</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                        </ul>
+                        </div>
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Trung</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Đà Nẵng</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Tĩnh</a></li>
+                            <li><a href="./tour.html">Du lịch Nghệ An</a></li>
+                            <li><a href="./tour.html">Du lịch Quảng Nam</a></li>
+                            <li><a href="./tour.html">Du lịch Huế</a></li>
+                            <li><a href="./tour.html">Du lịch Quảng Ninh</a></li>
+                            <li><a href="./tour.html">Du lịch Thanh Hóa</a></li>
+                          </ul>
+                        </div>
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Nam</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Cà Mau</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                            <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                            <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                          </ul>
+                        </div>
                       </div>
-                      <div class="submenu-right">
-                        <!-- <div class="submenu-right-content">
-                                <div class="submenu-right-list">
-                                    <h4>Tour Miền Bắc</h4>
-                                    <ul>
-                                      <li><a href="#">Du lịch Hà Nội</a></li>
-                                      <li><a href="#">Du lịch Hà Giang</a></li>
-                                      <li><a href="#">Du lịch Mộc Châu</a></li>
-                                      <li><a href="#">Du lịch Hạ Long</a></li>
-                                      <li><a href="#">Du lịch Lai Châu</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                    </ul>
-      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Miền Trung</h4>
+
+                      <!-- <div class="submenu-right-content2">
+                              <div class="submenu-right-list">
+                                  <h4>Tour Châu Âu</h4>
                                   <ul>
-                                    <li><a href="#">Du lịch Đà Nẵng</a></li>
-                                    <li><a href="#">Du lịch Hà Tĩnh</a></li>
-                                    <li><a href="#">Du lịch Nghệ An</a></li>
-                                    <li><a href="#">Du lịch Quảng Nam</a></li>
-                                    <li><a href="#">Du lịch Huế</a></li>
-                                    <li><a href="#">Du lịch Quảng Ninh</a></li>
-                                    <li><a href="#">Du lịch Thanh Hóa</a></li>
-                                  </ul>      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Miền Nam</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Cà Mau</a></li>
+                                    <li><a href="#">Du lịch Hà Nội</a></li>
                                     <li><a href="#">Du lịch Hà Giang</a></li>
                                     <li><a href="#">Du lịch Mộc Châu</a></li>
                                     <li><a href="#">Du lịch Hạ Long</a></li>
                                     <li><a href="#">Du lịch Lai Châu</a></li>
                                     <li><a href="#">Du lịch Lạng Sơn</a></li>
                                     <li><a href="#">Du lịch Ninh Bình</a></li>
-                                  </ul> 
-                                </div>
-                              </div> -->
-
-                        <!-- <div class="submenu-right-content2">
-                                <div class="submenu-right-list">
-                                    <h4>Tour Châu Âu</h4>
-                                    <ul>
-                                      <li><a href="#">Du lịch Hà Nội</a></li>
-                                      <li><a href="#">Du lịch Hà Giang</a></li>
-                                      <li><a href="#">Du lịch Mộc Châu</a></li>
-                                      <li><a href="#">Du lịch Hạ Long</a></li>
-                                      <li><a href="#">Du lịch Lai Châu</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                    </ul>
-      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Châu Mĩ</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Đà Nẵng</a></li>
-                                    <li><a href="#">Du lịch Hà Tĩnh</a></li>
-                                    <li><a href="#">Du lịch Nghệ An</a></li>
-                                    <li><a href="#">Du lịch Quảng Nam</a></li>
-                                    <li><a href="#">Du lịch Huế</a></li>
-                                    <li><a href="#">Du lịch Quảng Ninh</a></li>
-                                    <li><a href="#">Du lịch Thanh Hóa</a></li>
-                                  </ul>      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Châu Phi</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Cà Mau</a></li>
-                                    <li><a href="#">Du lịch Hà Giang</a></li>
-                                    <li><a href="#">Du lịch Mộc Châu</a></li>
-                                    <li><a href="#">Du lịch Hạ Long</a></li>
-                                    <li><a href="#">Du lịch Lai Châu</a></li>
                                     <li><a href="#">Du lịch Lạng Sơn</a></li>
                                     <li><a href="#">Du lịch Ninh Bình</a></li>
-                                  </ul> 
-                                </div>
-                              </div> -->
-                      </div>
+                                  </ul>
+    
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Mĩ</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Đà Nẵng</a></li>
+                                  <li><a href="#">Du lịch Hà Tĩnh</a></li>
+                                  <li><a href="#">Du lịch Nghệ An</a></li>
+                                  <li><a href="#">Du lịch Quảng Nam</a></li>
+                                  <li><a href="#">Du lịch Huế</a></li>
+                                  <li><a href="#">Du lịch Quảng Ninh</a></li>
+                                  <li><a href="#">Du lịch Thanh Hóa</a></li>
+                                </ul>      
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Phi</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Cà Mau</a></li>
+                                  <li><a href="#">Du lịch Hà Giang</a></li>
+                                  <li><a href="#">Du lịch Mộc Châu</a></li>
+                                  <li><a href="#">Du lịch Hạ Long</a></li>
+                                  <li><a href="#">Du lịch Lai Châu</a></li>
+                                  <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                  <li><a href="#">Du lịch Ninh Bình</a></li>
+                                </ul> 
+                              </div>
+                            </div> -->
                     </div>
                   </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Lưu trú</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="header__top-drop-menu menu-stay">
-                    <ul>
-                      <li><a href="#">Khách sạn</a></li>
-                      <li><a href="#">Resort</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tổ chức sự kiện</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Dịch vụ khác</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="header__top-drop-menu menu-service">
-                    <ul>
-                      <li><a href="#">Vé máy bay</a></li>
-                      <li><a href="#">Thuê xe du lịch</a></li>
-                      <li><a href="#">Dịch vụ event-service</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tin tức</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Liên hệ</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-                    <img src="./assets/img/icons/Polygon 4.png" alt="" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="background-on-top">
-          <img src="./assets/img/bgr-on-top2.png" alt="banner" />
-        </div>
-      </div>
-    </head>
-
-    <section>
-      <div class="box-wp">
-        <div class="page-navigation">
-          <span class="page-navigation"
-            ><a href="./index.html">Trang chủ</a></span
-          >
-          <span class="page-navigation"><a href="#">Tổ chức sự kiện</a></span>
-        </div>
-
-        <div class="box-container">
-          <div class="content-left">
-            <div class="content-left-title">
-              <span>Dịch vụ tổ chức sự kiện trọn gói</span>
-            </div>
-            <div class="content-left-description">
-              <p>
-                Tổ chức sự kiện bài bản, chuyên nghiệp là bài toán đau đầu của
-                nhiều doanh nghiệp, công ty, nhãn hàng, đơn vị, lựa chọn để làm
-                các hoạt động marketing. Nắm bắt được nhu cầu đó, PhuMyQuang ra
-                đời như một giải pháp tối ưu cho khách hàng khi muốn tìm một
-                công ty tổ chức sự kiện uy tín, chuyên nghiệp.
-                <br />
-                PhuMyQuang tập trung vào việc khảo sát, phản hồi từ khách hàng
-                để thấu hiểu khách hàng từ đó đưa ra các kế hoạch, giải pháp,
-                chi phí cho tổ chức sự kiện.
-                <br />
-                Với nhiều ý tưởng sáng tạo, mới lạ, cùng đội ngũ tổ chức, thiết
-                kế và thi công sự kiện chuyên nghiệp, PhuMyQuang được nhận được
-                tín nhiệm từ nhiều đối tác lớn tại Việt Nam.
-              </p>
-            </div>
-          </div>
-          <div class="content-right">
-            <div class="content-right-box">
-              <p class="content-right-box-description">
-                Liên hệ ngay chúng tôi <br />
-                để được hỗ trợ nhanh nhất
-              </p>
-              <button class="btn-order-ticket">Đăng ký tổ chức sự kiện</button>
-              <button class="btn-contact">
-                <img src="./assets/img/icons/phone.png" alt="" />
-                <span>Hotline : 0905 999 888</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="event-service-title">
-          Các gói dịch vụ chúng tôi cung cấp
-        </div>
-        <div class="event-service-container">
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img1.png" alt="" />
-              <span
-                >Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch bản
-                nhà tui không có</span
-              >
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img2.png" alt="" />
-              <span
-                >Tổ chức tiệc tri ân khách hàng: lên kế hoạch, ý tưởng, triển
-                khai</span
-              >
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img3.png" alt="" />
-              <span
-                >Tổ chức team building cho công ty: tư vấn, kịch bản, trò
-                chơi</span
-              >
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img4.png" alt="" />
-              <span
-                >Tổ chức hội nghị khách hàng trọn gói, tư vấn miễn phí
-                100%</span
-              >
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img5.png" alt="" />
-              <span
-                >Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch
-                bản</span
-              >
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img6.png" alt="" />
-              <span>Tổ chức sự kiện truyền thông, quảng bá thương hiệu</span>
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img7.png" alt="" />
-              <span>Tổ chức lễ kỷ niệm ngày thành lập công ty</span>
-            </div>
-          </div>
-
-          <div class="event-service-card">
-            <div class="event-service-card-item">
-              <img src="./assets/img/event-img8.png" alt="" />
-              <span
-                >Tổ chức year end party: kế hoạch, ý tưởng, địa điểm, cách tổ
-                chức</span
-              >
-            </div>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Lưu trú</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="header__top-drop-menu menu-stay">
+                  <ul>
+                    <li><a href="#">Khách sạn</a></li>
+                    <li><a href="#">Resort</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./event_service.html">
+                  <span>Tổ chức sự kiện</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Dịch vụ khác</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="header__top-drop-menu menu-service">
+                  <ul>
+                    <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+                    <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+                    <li><a href="./visa_service.html">Dịch vụ visa</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./news.html">
+                  <span>Tin tức</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./contact.html">
+                  <span>Liên hệ</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                  <img src="./assets/img/icons/Polygon 4.png" alt="" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+      <div class="background-on-top">
+        <img src="./assets/img/bgr-on-top2.png" alt="banner" />
+      </div>
+    </div>
+  </head>
 
-    <footer>
-      <div class="footer">
-        <div class="footer__container box-wp">
-          <div class="footer-top">
-            <div class="footer-top-branch">
-              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-              <h3>PHU MY QUANG TRAVEL</h3>
-              <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
-            </div>
+  <section>
+    <div class="box-wp">
+      <div class="page-navigation">
+        <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
+        <span class="page-navigation"><a href="#">Tổ chức sự kiện</a></span>
+      </div>
 
-            <div class="footer-top-contact">
-              <h5>Thông tin liên hệ</h5>
-              <ul>
-                <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
-                <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
-                <li><b>Email:</b> info@logo.com</li>
-              </ul>
-              <div class="footer-top-contact-social">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/eva_facebook-fill.png"
-                        alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/cib_youtube.png" alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/logos_google-gmail.png"
-                        alt=""
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="footer-top-our-service">
-              <h5>Dịch vụ của chúng tôi</h5>
-              <ul>
-                <li><a href="#">Tour du lịch</a></li>
-                <li><a href="#">Lưu trú</a></li>
-                <li><a href="#">Vé máy bay</a></li>
-                <li><a href="#">Thuê xe du lịch</a></li>
-                <li><a href="#">Dịch vụ Visa</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-top-our-customer">
-              <h5>Góc khách hàng</h5>
-              <ul>
-                <li><a href="#">Chính sách đặt tour</a></li>
-                <li><a href="#">Chính sách bảo mật</a></li>
-                <li><a href="#">Ý kiến khách hàng</a></li>
-                <li><a href="#">Phiếu góp ý</a></li>
-              </ul>
-            </div>
+      <div class="box-container">
+        <div class="content-left">
+          <div class="content-left-title">
+            <span>Dịch vụ tổ chức sự kiện trọn gói</span>
           </div>
-          <div class="footer-bottom">
-            <div class="footer-bottom-left">
-              Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
-            </div>
-            <div class="footer-bottom-right">
-              <p>Designed and Maintained by</p>
-              <a href="https://danaweb.vn/"
-                ><img src="./assets/img/icons/danaweb.png" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="footer-img-plane">
-            <img src="./assets/img/icons/plane.png" alt="" />
+          <div class="content-left-description">
+            <p>
+              Tổ chức sự kiện bài bản, chuyên nghiệp là bài toán đau đầu của
+              nhiều doanh nghiệp, công ty, nhãn hàng, đơn vị, lựa chọn để làm
+              các hoạt động marketing. Nắm bắt được nhu cầu đó, PhuMyQuang ra
+              đời như một giải pháp tối ưu cho khách hàng khi muốn tìm một
+              công ty tổ chức sự kiện uy tín, chuyên nghiệp.
+              <br />
+              PhuMyQuang tập trung vào việc khảo sát, phản hồi từ khách hàng
+              để thấu hiểu khách hàng từ đó đưa ra các kế hoạch, giải pháp,
+              chi phí cho tổ chức sự kiện.
+              <br />
+              Với nhiều ý tưởng sáng tạo, mới lạ, cùng đội ngũ tổ chức, thiết
+              kế và thi công sự kiện chuyên nghiệp, PhuMyQuang được nhận được
+              tín nhiệm từ nhiều đối tác lớn tại Việt Nam.
+            </p>
           </div>
         </div>
-        <div class="footer-img-bottom-l">
-          <div class="footer-img-bottom-l-left">
-            <img src="./assets/img/vt1.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-l-right">
-            <img src="./assets/img/vt1.png" alt="" />
-          </div>
-        </div>
-
-        <div class="footer-img-bottom-s">
-          <div class="footer-img-bottom-s-left">
-            <img src="./assets/img/vt2.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-s-mid">
-            <img src="./assets/img/vt2.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-s-right">
-            <img src="./assets/img/vt2.png" alt="" />
+        <div class="content-right">
+          <div class="content-right-box">
+            <p class="content-right-box-description">
+              Liên hệ ngay chúng tôi <br />
+              để được hỗ trợ nhanh nhất
+            </p>
+            <button class="btn-order-ticket">Đăng ký tổ chức sự kiện</button>
+            <button class="btn-contact">
+              <img src="./assets/img/icons/phone.png" alt="" />
+              <span>Hotline : 0905 999 888</span>
+            </button>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="event-service-title">
+        Các gói dịch vụ chúng tôi cung cấp
+      </div>
+      <div class="event-service-container">
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img1.png" alt="" />
+            <span>Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch bản
+              nhà tui không có</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img2.png" alt="" />
+            <span>Tổ chức tiệc tri ân khách hàng: lên kế hoạch, ý tưởng, triển
+              khai</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img3.png" alt="" />
+            <span>Tổ chức team building cho công ty: tư vấn, kịch bản, trò
+              chơi</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img4.png" alt="" />
+            <span>Tổ chức hội nghị khách hàng trọn gói, tư vấn miễn phí
+              100%</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img5.png" alt="" />
+            <span>Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch
+              bản</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img6.png" alt="" />
+            <span>Tổ chức sự kiện truyền thông, quảng bá thương hiệu</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img7.png" alt="" />
+            <span>Tổ chức lễ kỷ niệm ngày thành lập công ty</span>
+          </div>
+        </div>
+
+        <div class="event-service-card">
+          <div class="event-service-card-item">
+            <img src="./assets/img/event-img8.png" alt="" />
+            <span>Tổ chức year end party: kế hoạch, ý tưởng, địa điểm, cách tổ
+              chức</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container box-wp">
+        <div class="footer-top">
+          <div class="footer-top-branch">
+            <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+            <h3>PHU MY QUANG TRAVEL</h3>
+            <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
+          </div>
+
+          <div class="footer-top-contact">
+            <h5>Thông tin liên hệ</h5>
+            <ul>
+              <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
+              <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
+              <li><b>Email:</b> info@logo.com</li>
+            </ul>
+            <div class="footer-top-contact-social">
+              <ul>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/eva_facebook-fill.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/cib_youtube.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/logos_google-gmail.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-top-our-service">
+            <h5>Dịch vụ của chúng tôi</h5>
+            <ul>
+              <li><a href="#">Tour du lịch</a></li>
+              <li><a href="#">Lưu trú</a></li>
+              <li><a href="#">Vé máy bay</a></li>
+              <li><a href="#">Thuê xe du lịch</a></li>
+              <li><a href="#">Dịch vụ Visa</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-top-our-customer">
+            <h5>Góc khách hàng</h5>
+            <ul>
+              <li><a href="#">Chính sách đặt tour</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Ý kiến khách hàng</a></li>
+              <li><a href="#">Phiếu góp ý</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
+          </div>
+          <div class="footer-bottom-right">
+            <p>Designed and Maintained by</p>
+            <a href="https://danaweb.vn/"><img src="./assets/img/icons/danaweb.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer-img-plane">
+          <img src="./assets/img/icons/plane.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-img-bottom-l">
+        <div class="footer-img-bottom-l-left">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-l-right">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="footer-img-bottom-s">
+        <div class="footer-img-bottom-s-left">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-mid">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-right">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

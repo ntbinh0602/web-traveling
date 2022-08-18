@@ -1,518 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/general.css" />
+  <link rel="stylesheet" href="./assets/css/detail_news.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
+  <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+  <title>Chi tiết tin tức</title>
+</head>
+
+<body>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/general.css" />
-    <link rel="stylesheet" href="./assets/css/detail_news.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
-    <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
-    <title>Chi tiết tin tức</title>
+    <div class="header">
+      <div class="header__top">
+        <div class="header__top-nav box-wp">
+          <div class="header__top-left">
+            <a href="index.html">
+              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+              <span class="name-company">PHU MY QUANG CO., LTD</span>
+            </a>
+          </div>
+          <div class="header__top-right">
+            <ul class="header__top-right-list">
+              <li class="header__top-right-item">
+                <a href="./introduction.html">
+                  <span>Giới thiệu</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Tour du lịch</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="mega-menu">
+                  <div class="mega-menu-sub">
+                    <div class="submenu-left">
+                      <ul class="submenu-left-list">
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour trong nước</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour ngoài nước</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"><span>Tour tự chọn</span>
+                            <i class="fa-solid fa-angle-right"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu-right">
+                      <div class="submenu-right-content">
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Bắc</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Hà Nội</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                            <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                            <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                          </ul>
+
+                        </div>
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Trung</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Đà Nẵng</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Tĩnh</a></li>
+                            <li><a href="./tour.html">Du lịch Nghệ An</a></li>
+                            <li><a href="./tour.html">Du lịch Quảng Nam</a></li>
+                            <li><a href="./tour.html">Du lịch Huế</a></li>
+                            <li><a href="./tour.html">Du lịch Quảng Ninh</a></li>
+                            <li><a href="./tour.html">Du lịch Thanh Hóa</a></li>
+                          </ul>
+                        </div>
+                        <div class="submenu-right-list">
+                          <h4>Tour Miền Nam</h4>
+                          <ul>
+                            <li><a href="./tour.html">Du lịch Cà Mau</a></li>
+                            <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                            <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                            <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                            <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                            <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- <div class="submenu-right-content2">
+                              <div class="submenu-right-list">
+                                  <h4>Tour Châu Âu</h4>
+                                  <ul>
+                                    <li><a href="#">Du lịch Hà Nội</a></li>
+                                    <li><a href="#">Du lịch Hà Giang</a></li>
+                                    <li><a href="#">Du lịch Mộc Châu</a></li>
+                                    <li><a href="#">Du lịch Hạ Long</a></li>
+                                    <li><a href="#">Du lịch Lai Châu</a></li>
+                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                    <li><a href="#">Du lịch Ninh Bình</a></li>
+                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                    <li><a href="#">Du lịch Ninh Bình</a></li>
+                                  </ul>
+    
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Mĩ</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Đà Nẵng</a></li>
+                                  <li><a href="#">Du lịch Hà Tĩnh</a></li>
+                                  <li><a href="#">Du lịch Nghệ An</a></li>
+                                  <li><a href="#">Du lịch Quảng Nam</a></li>
+                                  <li><a href="#">Du lịch Huế</a></li>
+                                  <li><a href="#">Du lịch Quảng Ninh</a></li>
+                                  <li><a href="#">Du lịch Thanh Hóa</a></li>
+                                </ul>      
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Phi</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Cà Mau</a></li>
+                                  <li><a href="#">Du lịch Hà Giang</a></li>
+                                  <li><a href="#">Du lịch Mộc Châu</a></li>
+                                  <li><a href="#">Du lịch Hạ Long</a></li>
+                                  <li><a href="#">Du lịch Lai Châu</a></li>
+                                  <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                  <li><a href="#">Du lịch Ninh Bình</a></li>
+                                </ul> 
+                              </div>
+                            </div> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Lưu trú</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="header__top-drop-menu menu-stay">
+                  <ul>
+                    <li><a href="#">Khách sạn</a></li>
+                    <li><a href="#">Resort</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./event_service.html">
+                  <span>Tổ chức sự kiện</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Dịch vụ khác</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                </a>
+                <div class="header__top-drop-menu menu-service">
+                  <ul>
+                    <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+                    <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+                    <li><a href="./visa_service.html">Dịch vụ visa</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./news.html">
+                  <span>Tin tức</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./contact.html">
+                  <span>Liên hệ</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                  <img src="./assets/img/icons/Polygon 4.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="background-on-top">
+        <img src="./assets/img/bgr-on-top2.png" alt="banner" />
+      </div>
+    </div>
   </head>
 
-  <body>
-    <head>
-      <div class="header">
-        <div class="header__top">
-          <div class="header__top-nav box-wp">
-            <div class="header__top-left">
-              <a href="index.html">
-                <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-                <span class="name-company">PHU MY QUANG CO., LTD</span>
-              </a>
-            </div>
-            <div class="header__top-right">
-              <ul class="header__top-right-list">
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Giới thiệu</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tour du lịch</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="mega-menu">
-                    <div class="mega-menu-sub">
-                      <div class="submenu-left">
-                        <ul class="submenu-left-list">
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour trong nước</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour ngoài nước</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                          <li class="submenu-left-list-item">
-                            <a href="#"
-                              ><span>Tour tự chọn</span>
-                              <i class="fa-solid fa-angle-right"></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="submenu-right">
-                        <!-- <div class="submenu-right-content">
-                                <div class="submenu-right-list">
-                                    <h4>Tour Miền Bắc</h4>
-                                    <ul>
-                                      <li><a href="#">Du lịch Hà Nội</a></li>
-                                      <li><a href="#">Du lịch Hà Giang</a></li>
-                                      <li><a href="#">Du lịch Mộc Châu</a></li>
-                                      <li><a href="#">Du lịch Hạ Long</a></li>
-                                      <li><a href="#">Du lịch Lai Châu</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                    </ul>
-      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Miền Trung</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Đà Nẵng</a></li>
-                                    <li><a href="#">Du lịch Hà Tĩnh</a></li>
-                                    <li><a href="#">Du lịch Nghệ An</a></li>
-                                    <li><a href="#">Du lịch Quảng Nam</a></li>
-                                    <li><a href="#">Du lịch Huế</a></li>
-                                    <li><a href="#">Du lịch Quảng Ninh</a></li>
-                                    <li><a href="#">Du lịch Thanh Hóa</a></li>
-                                  </ul>      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Miền Nam</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Cà Mau</a></li>
-                                    <li><a href="#">Du lịch Hà Giang</a></li>
-                                    <li><a href="#">Du lịch Mộc Châu</a></li>
-                                    <li><a href="#">Du lịch Hạ Long</a></li>
-                                    <li><a href="#">Du lịch Lai Châu</a></li>
-                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                    <li><a href="#">Du lịch Ninh Bình</a></li>
-                                  </ul> 
-                                </div>
-                              </div> -->
-
-                        <!-- <div class="submenu-right-content2">
-                                <div class="submenu-right-list">
-                                    <h4>Tour Châu Âu</h4>
-                                    <ul>
-                                      <li><a href="#">Du lịch Hà Nội</a></li>
-                                      <li><a href="#">Du lịch Hà Giang</a></li>
-                                      <li><a href="#">Du lịch Mộc Châu</a></li>
-                                      <li><a href="#">Du lịch Hạ Long</a></li>
-                                      <li><a href="#">Du lịch Lai Châu</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                      <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                      <li><a href="#">Du lịch Ninh Bình</a></li>
-                                    </ul>
-      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Châu Mĩ</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Đà Nẵng</a></li>
-                                    <li><a href="#">Du lịch Hà Tĩnh</a></li>
-                                    <li><a href="#">Du lịch Nghệ An</a></li>
-                                    <li><a href="#">Du lịch Quảng Nam</a></li>
-                                    <li><a href="#">Du lịch Huế</a></li>
-                                    <li><a href="#">Du lịch Quảng Ninh</a></li>
-                                    <li><a href="#">Du lịch Thanh Hóa</a></li>
-                                  </ul>      
-                                </div>
-                                <div class="submenu-right-list">
-                                  <h4>Tour Châu Phi</h4>
-                                  <ul>
-                                    <li><a href="#">Du lịch Cà Mau</a></li>
-                                    <li><a href="#">Du lịch Hà Giang</a></li>
-                                    <li><a href="#">Du lịch Mộc Châu</a></li>
-                                    <li><a href="#">Du lịch Hạ Long</a></li>
-                                    <li><a href="#">Du lịch Lai Châu</a></li>
-                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
-                                    <li><a href="#">Du lịch Ninh Bình</a></li>
-                                  </ul> 
-                                </div>
-                              </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Lưu trú</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="header__top-drop-menu menu-stay">
-                    <ul>
-                      <li><a href="#">Khách sạn</a></li>
-                      <li><a href="#">Resort</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tổ chức sự kiện</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Dịch vụ khác</span>
-                    <img
-                      src="./assets/img/icons/arrow-down-black.png"
-                      alt="no"
-                    />
-                  </a>
-                  <div class="header__top-drop-menu menu-service">
-                    <ul>
-                      <li><a href="#">Vé máy bay</a></li>
-                      <li><a href="#">Thuê xe du lịch</a></li>
-                      <li><a href="#">Dịch vụ event-service</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Tin tức</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Liên hệ</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-                    <img src="./assets/img/icons/Polygon 4.png" alt="" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="background-on-top">
-          <img src="./assets/img/bgr-on-top2.png" alt="banner" />
-        </div>
+  <section>
+    <div class="box-wp">
+      <div class="page-navigation">
+        <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
+        <span class="page-navigation"><a href="#">Tin tức</a></span>
       </div>
-    </head>
 
-    <section>
-      <div class="box-wp">
-        <div class="page-navigation">
-          <span class="page-navigation"
-            ><a href="./index.html">Trang chủ</a></span
-          >
-          <span class="page-navigation"><a href="#">Tin tức</a></span>
-        </div>
-
-        <div class="box-container">
-          <div class="content-left">
-            <div class="content-left-title">
-              <span>Ninh Bình vào top điểm đến lên phim đẹp nhất châu Á</span>
-            </div>
-            <div class="content-left-social">
-              <div class="content-left-social-left">
-                <button class="btn-like">
-                  <img src="./assets/img/icons/like_facebook.png" alt="" />
-                  <span>Thích 37</span>
-                </button>
-                <button class="btn-share">Chia sẻ</button>
-                <img
-                  class="icon-social"
-                  src="./assets/img/icons/fb_icon.png"
-                  alt=""
-                />
-                <img
-                  class="icon-social"
-                  src="./assets/img/icons/z_icon.png"
-                  alt=""
-                />
-                <img
-                  class="icon-social"
-                  src="./assets/img/icons/twiter_icon.png"
-                  alt=""
-                />
-              </div>
-              <div class="content-left-social-right">
-                <img src="./assets/img/icons/clock.png" alt="" />
-                <span>Tháng Sáu 23, 2022</span>
-              </div>
-            </div>
-            <div class="content-left-description">
-              <p>
-                <b>
-                  <i>
-                    Ninh Bình được vinh danh trong top 12 điểm du lịch ở châu Á
-                    nhờ từng lên phim Kong: Đảo Đầu Lâu.
-                  </i>
-                </b>
-
-                <br />
-                <br />
-
-                Tạp chí du lịch Mỹ Travel+Leisure liệt kê 12 điểm đến ở châu Á
-                từng xuất hiện trong những bộ phim bom tấn và các tác phẩm điện
-                ảnh kinh điển. Những điểm đến này thể hiện rõ vẻ đẹp, lịch sử và
-                văn hóa vùng Á đông.
-                <br /><br />
-
-                Ninh Bình là đại diện của Việt Nam có mặt trong danh sách khi
-                trở thành bối cảnh cho bộ phim bom tấn 190 triệu USD - Kong: Đảo
-                Đầu Lâu (Kong: Skull Island). Với kinh phí như vậy, bộ phim cần
-                bối cảnh rộng lớn tương xứng, sử dụng nhiều điểm ở Việt Nam làm
-                bối cảnh.
-                <br /><br />
-
-                <img src="./assets/img/ninhbinh.png" alt="" />
-                <span
-                  >Đầm Vân Long là một trong những điểm đến của Ninh Bình lên
-                  phim. Ảnh: Shutterstock</span
-                >
-                <br /><br />
-                Cùng với một số địa danh nổi tiếng khác như vịnh Hạ Long (Quảng
-                Ninh) và hang Chuột (Quảng Bình), Ninh Bình góp mặt trong phim
-                với các điểm Tràng An, đầm Vân Long, Tam Cốc. Tạp chí Mỹ gọi
-                Ninh Bình là "vịnh Hạ Long trên cạn", có cảnh quan tương tự song
-                ít du khách nước ngoài biết tới hơn. Ninh Bình cũng được ca ngợi
-                khi có nhiều chùa Phật giáo có phong cách độc đáo.
-                <br /><br />
-                Các điểm đến châu Á sở hữu sự đa dạng, có từ những đền thờ cổ ẩn
-                mình trong rừng rậm cho đến các quán bar sang trọng bên bờ biển,
-                phù hợp với các bộ phim phiêu lưu và nhập vai. Ngoài Ninh Bình,
-                một số điểm đến khác xuất hiện trong danh sách bao gồm Siem Reap
-                (Campuchia) trong Bí mật ngôi mộ cổ (Tomb Raider) của Angelina
-                Jolie, Busan (Hàn Quốc) trong Chiến binh báo đen (Black Panther)
-                hay Singapore trong Giới siêu giàu châu Á (Crazy Rich Asian),
-                Maldives trong Chiến tranh giữa các vì sao ngoại truyện...
-                <br />
-                <br />
-                <b style="float: right">Theo Travel+Leisure</b>
-              </p>
-            </div>
-
-            <div class="news-title">Tin mới nhất</div>
-            <div class="news-container">
-              <div class="news-wrapper">
-                <div class="news-item">
-                  <img
-                    class="news-item-img"
-                    src="./assets/img/news1.png"
-                    alt=""
-                  />
-                  <div class="news-item-content">
-                    <h4>Bay cao ngắm vẻ đẹp Việt Nam</h4>
-                    <div class="content-time">
-                      <img src="./assets/img/icons/clock.png" alt="" />
-                      <span>Tháng Hai 23, 2022</span>
-                    </div>
-                    <p>
-                      Những bức ảnh phong cảnh, nhịp sống con người dọc đất nước
-                      chụp từ trên cao của tác giả Phạm Huy Trung gây được sự
-                      chú ý người xem trong và ngoài nước.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="news-wrapper">
-                <div class="news-item">
-                  <img
-                    class="news-item-img"
-                    src="./assets/img/news2.png"
-                    alt=""
-                  />
-                  <div class="news-item-content">
-                    <h4>Top khách sạn có bãi biển đẹp nhất Việt Nam</h4>
-                    <div class="content-time">
-                      <img src="./assets/img/icons/clock.png" alt="" />
-                      <span>Tháng Hai 23, 2022</span>
-                    </div>
-                    <p>
-                      Đà Nẵng, Phú Quốc, Quy Nhơn... là những nơi có nhiều khách
-                      sạn sở hữu bãi biển đẹp nhất Việt Nam, được du khách quốc
-                      tế yêu thích.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="news-wrapper">
-                <div class="news-item">
-                  <img
-                    class="news-item-img"
-                    src="./assets/img/news3.png"
-                    alt=""
-                  />
-                  <div class="news-item-content">
-                    <h4>Cảnh đẹp dọc đường biển Côn Đảo</h4>
-                    <div class="content-time">
-                      <img src="./assets/img/icons/clock.png" alt="" />
-                      <span>Tháng Hai 23, 2022</span>
-                    </div>
-                    <p>
-                      Đến Côn Đảo, Phương Anh không theo một lịch trình cố định
-                      mà đi dọc đường biển, chỗ nào đẹp thì dừng lại chụp ảnh.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="box-container">
+        <div class="content-left">
+          <div class="content-left-title">
+            <span>Ninh Bình vào top điểm đến lên phim đẹp nhất châu Á</span>
           </div>
-          <div class="content-right">
-            <div class="content-right-box">
-              <p class="content-right-box-description">
-                Liên hệ ngay <br />
-                báo giá nhanh tư vấn chuyên nghiệp
-              </p>
-              <button class="btn-order-ticket">Đăng ký tổ chức sự kiện</button>
-              <button class="btn-contact">
-                <img src="./assets/img/icons/phone.png" alt="" />
-                <span>Hotline : 0905 999 888</span>
+          <div class="content-left-social">
+            <div class="content-left-social-left">
+              <button class="btn-like">
+                <img src="./assets/img/icons/like_facebook.png" alt="" />
+                <span>Thích 37</span>
               </button>
+              <button class="btn-share">Chia sẻ</button>
+              <img class="icon-social" src="./assets/img/icons/fb_icon.png" alt="" />
+              <img class="icon-social" src="./assets/img/icons/z_icon.png" alt="" />
+              <img class="icon-social" src="./assets/img/icons/twiter_icon.png" alt="" />
             </div>
-            <div class="content-right-news">
-              <span>Bài viết cùng chủ đề</span>
-              <img src="./assets/img/event-img2.png" alt="" />
-              <ul>
-                <li>
-                  <a href=""
-                    >Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch
-                    bản</a
-                  >
-                </li>
-                <li><a href="">Năm khu nghỉ cao cấp bên vịnh biển </a></li>
-                <li><a href="">Năm điểm 'sống ảo' khi tới Quy Nhơn </a></li>
-                <li>
-                  <a href=""
-                    >Hội An góp mặt trong tour cao cấp vòng quanh thế giới
-                  </a>
-                </li>
-              </ul>
+            <div class="content-left-social-right">
+              <img src="./assets/img/icons/clock.png" alt="" />
+              <span>Tháng Sáu 23, 2022</span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+          <div class="content-left-description">
+            <p>
+              <b>
+                <i>
+                  Ninh Bình được vinh danh trong top 12 điểm du lịch ở châu Á
+                  nhờ từng lên phim Kong: Đảo Đầu Lâu.
+                </i>
+              </b>
 
-    <footer>
-      <div class="footer">
-        <div class="footer__container box-wp">
-          <div class="footer-top">
-            <div class="footer-top-branch">
-              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-              <h3>PHU MY QUANG TRAVEL</h3>
-              <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
-            </div>
+              <br />
+              <br />
 
-            <div class="footer-top-contact">
-              <h5>Thông tin liên hệ</h5>
-              <ul>
-                <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
-                <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
-                <li><b>Email:</b> info@logo.com</li>
-              </ul>
-              <div class="footer-top-contact-social">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/eva_facebook-fill.png"
-                        alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/cib_youtube.png" alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/logos_google-gmail.png"
-                        alt=""
-                    /></a>
-                  </li>
-                </ul>
+              Tạp chí du lịch Mỹ Travel+Leisure liệt kê 12 điểm đến ở châu Á
+              từng xuất hiện trong những bộ phim bom tấn và các tác phẩm điện
+              ảnh kinh điển. Những điểm đến này thể hiện rõ vẻ đẹp, lịch sử và
+              văn hóa vùng Á đông.
+              <br /><br />
+
+              Ninh Bình là đại diện của Việt Nam có mặt trong danh sách khi
+              trở thành bối cảnh cho bộ phim bom tấn 190 triệu USD - Kong: Đảo
+              Đầu Lâu (Kong: Skull Island). Với kinh phí như vậy, bộ phim cần
+              bối cảnh rộng lớn tương xứng, sử dụng nhiều điểm ở Việt Nam làm
+              bối cảnh.
+              <br /><br />
+
+              <img src="./assets/img/ninhbinh.png" alt="" />
+              <span>Đầm Vân Long là một trong những điểm đến của Ninh Bình lên
+                phim. Ảnh: Shutterstock</span>
+              <br /><br />
+              Cùng với một số địa danh nổi tiếng khác như vịnh Hạ Long (Quảng
+              Ninh) và hang Chuột (Quảng Bình), Ninh Bình góp mặt trong phim
+              với các điểm Tràng An, đầm Vân Long, Tam Cốc. Tạp chí Mỹ gọi
+              Ninh Bình là "vịnh Hạ Long trên cạn", có cảnh quan tương tự song
+              ít du khách nước ngoài biết tới hơn. Ninh Bình cũng được ca ngợi
+              khi có nhiều chùa Phật giáo có phong cách độc đáo.
+              <br /><br />
+              Các điểm đến châu Á sở hữu sự đa dạng, có từ những đền thờ cổ ẩn
+              mình trong rừng rậm cho đến các quán bar sang trọng bên bờ biển,
+              phù hợp với các bộ phim phiêu lưu và nhập vai. Ngoài Ninh Bình,
+              một số điểm đến khác xuất hiện trong danh sách bao gồm Siem Reap
+              (Campuchia) trong Bí mật ngôi mộ cổ (Tomb Raider) của Angelina
+              Jolie, Busan (Hàn Quốc) trong Chiến binh báo đen (Black Panther)
+              hay Singapore trong Giới siêu giàu châu Á (Crazy Rich Asian),
+              Maldives trong Chiến tranh giữa các vì sao ngoại truyện...
+              <br />
+              <br />
+              <b style="float: right">Theo Travel+Leisure</b>
+            </p>
+          </div>
+
+          <div class="news-title">Tin mới nhất</div>
+          <div class="news-container">
+            <div class="news-wrapper">
+              <div class="news-item">
+                <img class="news-item-img" src="./assets/img/news1.png" alt="" />
+                <div class="news-item-content">
+                  <a href="./detail_news.html">
+                    <h4>Bay cao ngắm vẻ đẹp Việt Nam</h4>
+                  </a>
+                  <div class="content-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <span>Tháng Hai 23, 2022</span>
+                  </div>
+                  <p>
+                    Những bức ảnh phong cảnh, nhịp sống con người dọc đất nước
+                    chụp từ trên cao của tác giả Phạm Huy Trung gây được sự
+                    chú ý người xem trong và ngoài nước.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div class="footer-top-our-service">
-              <h5>Dịch vụ của chúng tôi</h5>
-              <ul>
-                <li><a href="#">Tour du lịch</a></li>
-                <li><a href="#">Lưu trú</a></li>
-                <li><a href="#">Vé máy bay</a></li>
-                <li><a href="#">Thuê xe du lịch</a></li>
-                <li><a href="#">Dịch vụ Visa</a></li>
-              </ul>
+            <div class="news-wrapper">
+              <div class="news-item">
+                <img class="news-item-img" src="./assets/img/news2.png" alt="" />
+                <div class="news-item-content">
+                  <a href="./detail_news.html">
+                    <h4>Top khách sạn có bãi biển đẹp nhất Việt Nam</h4>
+                  </a>
+                  <div class="content-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <span>Tháng Hai 23, 2022</span>
+                  </div>
+                  <p>
+                    Đà Nẵng, Phú Quốc, Quy Nhơn... là những nơi có nhiều khách
+                    sạn sở hữu bãi biển đẹp nhất Việt Nam, được du khách quốc
+                    tế yêu thích.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            <div class="footer-top-our-customer">
-              <h5>Góc khách hàng</h5>
-              <ul>
-                <li><a href="#">Chính sách đặt tour</a></li>
-                <li><a href="#">Chính sách bảo mật</a></li>
-                <li><a href="#">Ý kiến khách hàng</a></li>
-                <li><a href="#">Phiếu góp ý</a></li>
-              </ul>
+            <div class="news-wrapper">
+              <div class="news-item">
+                <img class="news-item-img" src="./assets/img/news3.png" alt="" />
+                <div class="news-item-content">
+                  <a href="./detail_news.html">
+                    <h4>Cảnh đẹp dọc đường biển Côn Đảo</h4>
+                  </a>
+                  <div class="content-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <span>Tháng Hai 23, 2022</span>
+                  </div>
+                  <p>
+                    Đến Côn Đảo, Phương Anh không theo một lịch trình cố định
+                    mà đi dọc đường biển, chỗ nào đẹp thì dừng lại chụp ảnh.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="footer-bottom">
-            <div class="footer-bottom-left">
-              Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
-            </div>
-            <div class="footer-bottom-right">
-              <p>Designed and Maintained by</p>
-              <a href="https://danaweb.vn/"
-                ><img src="./assets/img/icons/danaweb.png" alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="footer-img-plane">
-            <img src="./assets/img/icons/plane.png" alt="" />
           </div>
         </div>
-        <div class="footer-img-bottom-l">
-          <div class="footer-img-bottom-l-left">
-            <img src="./assets/img/vt1.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-l-right">
-            <img src="./assets/img/vt1.png" alt="" />
-          </div>
-        </div>
+        <div class="content-right">
 
-        <div class="footer-img-bottom-s">
-          <div class="footer-img-bottom-s-left">
-            <img src="./assets/img/vt2.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-s-mid">
-            <img src="./assets/img/vt2.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-s-right">
-            <img src="./assets/img/vt2.png" alt="" />
+          <div class="content-right-news">
+            <span>Xem nhiều</span>
+            <img src="./assets/img/event-img2.png" alt="" />
+            <ul>
+              <li>
+                <a href="./detail_news.html">Tổ chức lễ khai trương trọn gói: báo giá, kế hoạch, kịch
+                  bản</a>
+              </li>
+              <li><a href="./detail_news.html">Năm khu nghỉ cao cấp bên vịnh biển </a></li>
+              <li><a href="./detail_news.html">Năm điểm 'sống ảo' khi tới Quy Nhơn </a></li>
+              <li>
+                <a href="./detail_news.html">Hội An góp mặt trong tour cao cấp vòng quanh thế giới
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container box-wp">
+        <div class="footer-top">
+          <div class="footer-top-branch">
+            <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+            <h3>PHU MY QUANG TRAVEL</h3>
+            <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
+          </div>
+
+          <div class="footer-top-contact">
+            <h5>Thông tin liên hệ</h5>
+            <ul>
+              <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
+              <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
+              <li><b>Email:</b> info@logo.com</li>
+            </ul>
+            <div class="footer-top-contact-social">
+              <ul>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/eva_facebook-fill.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/cib_youtube.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/logos_google-gmail.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-top-our-service">
+            <h5>Dịch vụ của chúng tôi</h5>
+            <ul>
+              <li><a href="#">Tour du lịch</a></li>
+              <li><a href="#">Lưu trú</a></li>
+              <li><a href="#">Vé máy bay</a></li>
+              <li><a href="#">Thuê xe du lịch</a></li>
+              <li><a href="#">Dịch vụ Visa</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-top-our-customer">
+            <h5>Góc khách hàng</h5>
+            <ul>
+              <li><a href="#">Chính sách đặt tour</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Ý kiến khách hàng</a></li>
+              <li><a href="#">Phiếu góp ý</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
+          </div>
+          <div class="footer-bottom-right">
+            <p>Designed and Maintained by</p>
+            <a href="https://danaweb.vn/"><img src="./assets/img/icons/danaweb.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer-img-plane">
+          <img src="./assets/img/icons/plane.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-img-bottom-l">
+        <div class="footer-img-bottom-l-left">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-l-right">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="footer-img-bottom-s">
+        <div class="footer-img-bottom-s-left">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-mid">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-right">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

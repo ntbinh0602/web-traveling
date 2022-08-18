@@ -1,0 +1,230 @@
+.page-navigation {
+    margin-bottom: 38px;
+}
+
+
+.box-container {
+    display: flex;
+    height: 354px;
+}
+.content-left {
+    display: flex;
+    margin-right: 46px;
+}
+
+.content-car-img-size-l {
+    height: 354px;
+    width: 548px;
+    margin-right: 8px;
+}
+
+.content-car-img-size-l img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-car-img-size-s {
+    display: flex;
+    flex-direction: column;
+    margin: -3px 0;
+}
+
+.img-size-s-item {
+    height: 25%;
+    padding: 3px 0;
+}
+
+.img-size-s-item img {
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-right {
+    width: 423px;
+}
+
+.content-right h3 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.content-right span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #32363D;
+}
+
+.content-right a{
+    text-decoration: none;  
+    color: #30C5BA;
+}
+
+.table-infor-car {
+    display: flex;
+    border: 1px solid #E8E8E8;
+    margin-top: 16px;
+}
+
+.table-column {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E8E8E8;
+}
+
+.table-column img {
+    margin-right: 10px;
+}
+
+.table-column:first-child {
+    width: 156px;
+}
+
+.table-column:last-child {
+    flex: 1;
+}
+
+.table-column:last-child {
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+}
+
+.table-column:last-child span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.table-column span{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 6px 22px;
+}
+
+.table-column span:last-child{
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+
+}
+
+.btn-order-car button {
+    cursor: pointer;
+    width: 258px;
+    height: 56px;
+    background: #30C5BA;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+.row_color {
+    background: #F1F1F1;
+}
+
+.box-description {
+    max-width: 800px;
+    margin-top: 28px;
+    border-bottom: 1px solid #ADADAD;
+    padding-bottom: 15px;
+
+}
+
+.box-description p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #32363D;
+}
+
+.same-car-title {
+    margin-top: 32px;
+}
+
+.same-car-title span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1D293F;
+}
+
+
+/* các thẻ xe */
+
+.car-service-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px -10px 65px -10px;
+}
+
+.car-service-card {
+    width: 33.33333%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+
+}
+
+.car-service-card-item {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 10px 11px 20px 11px;
+}
+
+.car-service-card-item > img {
+    width: 100%;
+    height: 210px;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+    
+}
+
+.car-service-card-item a {
+    text-decoration: none;
+}
+
+.car-service-card-item a > span {
+    margin: 8px 0 15px 11px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: normal;
+    height: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.car-extra-infor {
+    display: flex;
+}
+
+.car-extra-infor span {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737373;
+    margin-right: 40px;
+}
+
+.car-extra-infor img {
+    margin-right: 9px;
+}

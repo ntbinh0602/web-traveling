@@ -249,6 +249,49 @@
  }
 
 
+ /* drop menu ------------------------------ */
+ .submenu-right {
+   padding: 9px 0;
+}
+
+.submenu-right-content {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+
+
+.submenu-left-list-item  a i {
+   font-size: 15px;
+}
+
+.submenu-left-list-item:hover a{
+   color: #0070B4;
+}
+
+.submenu-right-list {
+   margin-left: 40px;
+}
+
+.submenu-right-list ul {
+   margin-top: 6px;
+}
+
+.submenu-right-list ul li {
+   list-style: none;
+}
+
+.submenu-right-list ul li a{
+   font-weight: 400;
+   font-size: 14px;
+   color: #000000;
+   text-transform: none;
+}
+
+.submenu-right-list ul li:hover a {
+   color: #0070B4;
+}
+
  /* banner on top---------------------------- */
 
  .background-on-top {
