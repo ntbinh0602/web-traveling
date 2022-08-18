@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/detail_hotel.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
+    <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+    <title>Chi tiết khách sạn</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="header">
+            <div class="header__top">
+                <div class="header__top-nav box-wp">
+                    <div class="header__top-left">
+                        <a href="index.html">
+                            <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+                            <span class="name-company">PHU MY QUANG CO., LTD</span>
+                        </a>
+                    </div>
+                    <div class="header__top-right">
+                        <ul class="header__top-right-list">
+                            <li class="header__top-right-item">
+                                <a href="./introduction.html">
+                                    <span>Giới thiệu</span>
+                                </a>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="#">
+                                    <span>Tour du lịch</span>
+                                    <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                                </a>
+                                <div class="mega-menu">
+                                    <div class="mega-menu-sub">
+                                        <div class="submenu-left">
+                                            <ul class="submenu-left-list">
+                                                <li class="submenu-left-list-item">
+                                                    <a href="./tour.html"><span>Tour trong nước</span>
+                                                        <i class="fa-solid fa-angle-right"></i></a>
+                                                </li>
+                                                <li class="submenu-left-list-item">
+                                                    <a href="./tour.html"><span>Tour ngoài nước</span>
+                                                        <i class="fa-solid fa-angle-right"></i></a>
+                                                </li>
+                                                <li class="submenu-left-list-item">
+                                                    <a href="./tour.html"><span>Tour tự chọn</span>
+                                                        <i class="fa-solid fa-angle-right"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="submenu-right">
+                                            <div class="submenu-right-content">
+                                                <div class="submenu-right-list">
+                                                    <h4>Tour Miền Bắc</h4>
+                                                    <ul>
+                                                        <li><a href="./tour.html">Du lịch Hà Nội</a></li>
+                                                        <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                                                        <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                                                        <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                                                        <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                                                        <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                                                        <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                                                        <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                                                        <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="submenu-right-list">
+                                                    <h4>Tour Miền Trung</h4>
+                                                    <ul>
+                                                        <li><a href="./tour.html">Du lịch Đà Nẵng</a></li>
+                                                        <li><a href="./tour.html">Du lịch Hà Tĩnh</a></li>
+                                                        <li><a href="./tour.html">Du lịch Nghệ An</a></li>
+                                                        <li><a href="./tour.html">Du lịch Quảng Nam</a></li>
+                                                        <li><a href="./tour.html">Du lịch Huế</a></li>
+                                                        <li><a href="./tour.html">Du lịch Quảng Ninh</a></li>
+                                                        <li><a href="./tour.html">Du lịch Thanh Hóa</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="submenu-right-list">
+                                                    <h4>Tour Miền Nam</h4>
+                                                    <ul>
+                                                        <li><a href="./tour.html">Du lịch Cà Mau</a></li>
+                                                        <li><a href="./tour.html">Du lịch Hà Giang</a></li>
+                                                        <li><a href="./tour.html">Du lịch Mộc Châu</a></li>
+                                                        <li><a href="./tour.html">Du lịch Hạ Long</a></li>
+                                                        <li><a href="./tour.html">Du lịch Lai Châu</a></li>
+                                                        <li><a href="./tour.html">Du lịch Lạng Sơn</a></li>
+                                                        <li><a href="./tour.html">Du lịch Ninh Bình</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="submenu-right-content2">
+                              <div class="submenu-right-list">
+                                  <h4>Tour Châu Âu</h4>
+                                  <ul>
+                                    <li><a href="#">Du lịch Hà Nội</a></li>
+                                    <li><a href="#">Du lịch Hà Giang</a></li>
+                                    <li><a href="#">Du lịch Mộc Châu</a></li>
+                                    <li><a href="#">Du lịch Hạ Long</a></li>
+                                    <li><a href="#">Du lịch Lai Châu</a></li>
+                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                    <li><a href="#">Du lịch Ninh Bình</a></li>
+                                    <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                    <li><a href="#">Du lịch Ninh Bình</a></li>
+                                  </ul>
+    
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Mĩ</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Đà Nẵng</a></li>
+                                  <li><a href="#">Du lịch Hà Tĩnh</a></li>
+                                  <li><a href="#">Du lịch Nghệ An</a></li>
+                                  <li><a href="#">Du lịch Quảng Nam</a></li>
+                                  <li><a href="#">Du lịch Huế</a></li>
+                                  <li><a href="#">Du lịch Quảng Ninh</a></li>
+                                  <li><a href="#">Du lịch Thanh Hóa</a></li>
+                                </ul>      
+                              </div>
+                              <div class="submenu-right-list">
+                                <h4>Tour Châu Phi</h4>
+                                <ul>
+                                  <li><a href="#">Du lịch Cà Mau</a></li>
+                                  <li><a href="#">Du lịch Hà Giang</a></li>
+                                  <li><a href="#">Du lịch Mộc Châu</a></li>
+                                  <li><a href="#">Du lịch Hạ Long</a></li>
+                                  <li><a href="#">Du lịch Lai Châu</a></li>
+                                  <li><a href="#">Du lịch Lạng Sơn</a></li>
+                                  <li><a href="#">Du lịch Ninh Bình</a></li>
+                                </ul> 
+                              </div>
+                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="#">
+                                    <span>Lưu trú</span>
+                                    <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                                </a>
+                                <div class="header__top-drop-menu menu-stay">
+                                    <ul>
+                                        <li><a href="#">Khách sạn</a></li>
+                                        <li><a href="#">Resort</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="./event_service.html">
+                                    <span>Tổ chức sự kiện</span>
+                                </a>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="#">
+                                    <span>Dịch vụ khác</span>
+                                    <img src="./assets/img/icons/arrow-down-black.png" alt="no" />
+                                </a>
+                                <div class="header__top-drop-menu menu-service">
+                                    <ul>
+                                        <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+                                        <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+                                        <li><a href="./visa_service.html">Dịch vụ visa</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="./news.html">
+                                    <span>Tin tức</span>
+                                </a>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="./contact.html">
+                                    <span>Liên hệ</span>
+                                </a>
+                            </li>
+                            <li class="header__top-right-item">
+                                <a href="#">
+                                    <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                                    <img src="./assets/img/icons/Polygon 4.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </head>
+
+    <section>
+        <div class="box-wp">
+            <div class="page-navigation">
+                <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
+                <span class="page-navigation"><a href="#">Lưu trú</a></span>
+                <span class="page-navigation"><a href="#">Khách sạn</a></span>
+                <span class="page-navigation"><a href="#">Khách sạn Đà Nẵng</a></span>
+            </div>
+
+            <div class="body-content-img">
+                <div class="body-content-img-left">
+                    <img src="./assets/img/detail_hotel_img1.png" alt="">
+                </div>
+
+                <div class="body-content-img-right">
+                    <div class="content-img-container">
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img2.png" alt="">
+                        </div>
+
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img3.png" alt="">
+                        </div>
+
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img4.png" alt="">
+                        </div>
+
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img5.png" alt="">
+                        </div>
+
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img6.png" alt="">
+                        </div>
+
+                        <div class="content-img-wrapper">
+                            <img src="./assets/img/detail_hotel_img2.png" alt="">
+                            <!-- <div class=""></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-content-infor">
+                <div class="body-content-left">
+                    <div class="body-content-text-name">
+                        <h4>Vinpearl Luxury Da Nang</h4>
+                    </div>
+                    <div class="content-star-rating">
+                        <img src="./assets/img/icons/yelow-star.png" alt="">
+                        <img src="./assets/img/icons/yelow-star.png" alt="">
+                        <img src="./assets/img/icons/yelow-star.png" alt="">
+                        <img src="./assets/img/icons/yelow-star.png" alt="">
+                        <img src="./assets/img/icons/yelow-star.png" alt="">
+                    </div>
+
+                    <div class="content-address">
+                        <img src="./assets/img/icons/map_ping_fill.png" alt="">
+                        <span>7 Truong Sa, Hoa Hai, Ngu Hanh Son, Đà Nẵng</span>
+                    </div>
+
+                    <div class="content-description">
+                        <p>
+                            <b style="color: #0070B4; font-size:18px">Giới thiệu</b> <br>
+                            <b>Vinpearl Luxury Da Nang</b> được xây dựng trên diện tích 6500m2, với độ cao 41 tầng cung
+                            cấp ra
+                            thị trường 1300 – 1500 căn hộ khách sạn cao cấp. Vinpearl Condotel Riverfront Đà Nẵng xây
+                            dựng trên vị trí đắc địa trên đường Trần Phú đẹp nhất thành phố biển Nha Trang, với tầm nhìn
+                            độc đáo hướng trực diện sông Hàn và cầu Rồng, mở thoáng bao quát toàn thành phố và hướng
+                            biển. Những căn hộ khách sạn được thiết kế theo tiêu chuẩn quốc tế với những tiện ích nghỉ
+                            dưỡng hàng đầu như TTTM, bể bơi, spa, khu thể thao,… dành riêng cho khách hàng đẳng cấp.
+                            <br>
+
+                            Vị trí trung tâm vô cùng thuận lợi, từ đây bạn có thể dễ dàng di chuyển đến nhiều địa điểm
+                            du lịch nổi tiếng của Đà Nẵng như cầu song Hàn (750m), cầu rồng (1,7km), biển Mỹ Khê
+                            (2,9km), Ngũ Hàng Sơn (9,4km). <br><br>
+
+
+                            <b style="color: #0070B4; font-size:18px">Tiện ích và giải trí</b> <br>
+
+                            <b>Nhà hàng và bar:</b> có 4 nhà hàng Pool Bar, Aquamarine, river 1 và 2 mang đến cho du
+                            khách đa
+                            dạng lựa chọn các món ăn mang đậm hương vị dân tộc hoặc ẩm thực đặc sắc quốc tế, được đặt
+                            trong không gian hiện đại, sang trọng. Các nhà hàng mở cửa tất cả các buổi trong ngày, một
+                            số nhà hàng có thời gian nghỉ trưa để chuẩn bị nguyên liệu, vệ sinh,… đem đến sự lựa chọn
+                            hoàn hảo nhất cho thực khách. <br>
+
+                            <b>Trung tâm hội nghị:</b> Vinpearl Condotel Riverfront Đà Nẵng trang bị phòng họp diện tích
+                            50-60m2, với thiết kế cao cấp, trang thiết bị hiện đại phù hợp cho những buổi họp và gặp gỡ
+                            đối tác quan trọng, góp phần mang lại sự thành công cho chuyến công du của khách hàng. <br>
+
+                            <b>Giải trí:</b> Vinpearl Condotel Riverfront Đà Nẵng tích hợp tất cả các tiên ích như spa,
+                            gym, hồ
+                            bơi, khu mua sắm,… nhằm đem đến một kỳ nghĩ dưỡng đẳng cấp, với chất lượng xứng tầm 5 sao
+                            phục vụ cho du khách, đem đến nhiều trải nghiệm tuyệt vời cho du khách.
+
+
+                        </p>
+                    </div>
+
+
+                    <div class="content-bottom">
+                        <h5>
+                            Khách sạn tương tự
+                        </h5>
+                        <div class="content-bottom-card-container">
+                            <div class="card_container">
+                                <div class="card-wrapper">
+                                    <div class="card__box-item">
+                                        <div class="shine">
+                                            <img class="card__box-item-img" src="./assets/img/hotel-img1.png" alt="" />
+                                        </div>
+                                        <div class="card_box-infor">
+                                            <div class="card__box-item-name">
+                                                <a href="./detail_hotel.html">
+                                                    <h3>
+                                                        Risemount Resort Đà Nẵng Risemount
+                                                        Resort Đà Nẵng
+                                                    </h3>
+                                                </a>
+                                            </div>
+                                            <div class="item-rate-star">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                            </div>
+                                            <div class="item-address">
+                                                <img src="./assets/img/icons/map_ping_fill.png" alt="">
+                                                <span>120 Nguyễn Văn Thoại, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng</span>
+                                            </div>
+                                            <div class="item-price">
+                                                Giá từ: <span>1.250.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-wrapper">
+                                    <div class="card__box-item">
+                                        <div class="shine">
+                                            <img class="card__box-item-img" src="./assets/img/hotel-img2.png" alt="" />
+                                        </div>
+                                        <div class="card_box-infor">
+                                            <div class="card__box-item-name">
+                                                <a href="./detail_hotel.html">
+                                                    <h3>
+                                                        Hyatt Regency Đà Nẵng Resort & Spa
+                                                    </h3>
+                                                </a>
+                                            </div>
+                                            <div class="item-rate-star">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                            </div>
+                                            <div class="item-address">
+                                                <img src="./assets/img/icons/map_ping_fill.png" alt="">
+                                                <span>120 Nguyễn Văn Thoại, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng</span>
+                                            </div>
+                                            <div class="item-price">
+                                                Giá từ: <span>1.250.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-wrapper">
+                                    <div class="card__box-item">
+                                        <div class="shine">
+                                            <img class="card__box-item-img" src="./assets/img/hotel-img3.png" alt="" />
+                                        </div>
+                                        <div class="card_box-infor">
+                                            <div class="card__box-item-name">
+                                                <a href="./detail_hotel.html">
+                                                    <h3>
+                                                        InterContinental Danang Sun
+                                                        Peninsula Resort
+                                                    </h3>
+                                                </a>
+                                            </div>
+                                            <div class="item-rate-star">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                                <img src="./assets/img/icons/yelow-star.png" alt="">
+                                            </div>
+                                            <div class="item-address">
+                                                <img src="./assets/img/icons/map_ping_fill.png" alt="">
+                                                <span>120 Nguyễn Văn Thoại, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng</span>
+                                            </div>
+                                            <div class="item-price">
+                                                Giá từ: <span>1.250.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="body-content-right">
+                    <div class="box-content-right">
+                        <div class="box-contact">
+                            <div class="pice">
+                                Chỉ từ : <span>1.250.000đ</span> /đêm
+                            </div>
+                        </div>
+                        <button>
+                            <span class="btn-text-top">Liên hệ đặt phòng</span>
+                            <span class="btn-text-bottom">Để lại thông tin Logo sẽ tư vấn thêm</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container box-wp">
+                <div class="footer-top">
+                    <div class="footer-top-branch">
+                        <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+                        <h3>PHU MY QUANG TRAVEL</h3>
+                        <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
+                    </div>
+
+                    <div class="footer-top-contact">
+                        <h5>Thông tin liên hệ</h5>
+                        <ul>
+                            <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
+                            <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
+                            <li><b>Email:</b> info@logo.com</li>
+                        </ul>
+                        <div class="footer-top-contact-social">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="/assets/img/icons/eva_facebook-fill.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/assets/img/icons/cib_youtube.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="/assets/img/icons/logos_google-gmail.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-top-our-service">
+                        <h5>Dịch vụ của chúng tôi</h5>
+                        <ul>
+                            <li><a href="#">Tour du lịch</a></li>
+                            <li><a href="#">Lưu trú</a></li>
+                            <li><a href="#">Vé máy bay</a></li>
+                            <li><a href="#">Thuê xe du lịch</a></li>
+                            <li><a href="#">Dịch vụ Visa</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-top-our-customer">
+                        <h5>Góc khách hàng</h5>
+                        <ul>
+                            <li><a href="#">Chính sách đặt tour</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Ý kiến khách hàng</a></li>
+                            <li><a href="#">Phiếu góp ý</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
+                    </div>
+                    <div class="footer-bottom-right">
+                        <p>Designed and Maintained by</p>
+                        <a href="https://danaweb.vn/"><img src="./assets/img/icons/danaweb.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="footer-img-plane">
+                    <img src="./assets/img/icons/plane.png" alt="" />
+                </div>
+            </div>
+            <div class="footer-img-bottom-l">
+                <div class="footer-img-bottom-l-left">
+                    <img src="./assets/img/vt1.png" alt="" />
+                </div>
+                <div class="footer-img-bottom-l-right">
+                    <img src="./assets/img/vt1.png" alt="" />
+                </div>
+            </div>
+
+            <div class="footer-img-bottom-s">
+                <div class="footer-img-bottom-s-left">
+                    <img src="./assets/img/vt2.png" alt="" />
+                </div>
+                <div class="footer-img-bottom-s-mid">
+                    <img src="./assets/img/vt2.png" alt="" />
+                </div>
+                <div class="footer-img-bottom-s-right">
+                    <img src="./assets/img/vt2.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
