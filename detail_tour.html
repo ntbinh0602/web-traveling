@@ -5,13 +5,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/general.css" />
     <link rel="stylesheet" href="./assets/css/detail_tour.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
     <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
-    <title>Chi tiết tin tức</title>
+    <title>Chi tiết tour</title>
 </head>
 
 <body>
@@ -256,7 +269,7 @@
                         </div>
 
                         <div class="content-description-top">
-                            <div class="content-description-title">
+                            <div class="content-description-title resize">
                                 <img src="./assets/img/icons/content-icon-tour4.png" alt="">
                                 <h5>Giới thiệu</h5>
                             </div>
@@ -310,9 +323,9 @@
                                         hoang sơ. Và dọc đường đi, xe sẽ dừng nghỉ, Quý khách có thể xuống sẽ thư giãn
                                         và chụp hình lưu niệm. <br><br>
                                         <img src="./assets/img/img_content-t1.png" alt="">
-                                        <img src="./assets/img/img_content-t1.png" alt="">
-                                        <img src="./assets/img/img_content-t1.png" alt="">
-                                        <br>
+                                        <img src="./assets/img/img_content-t2.png" alt="">
+                                        <img src="./assets/img/img_content-t3.png" alt="">
+                                        <br><br>
                                         <b style="color:#0070B4 ;">11h30:</b> Quý khách dừng chân tại Bắc Quang - Hà
                                         Giang để dùng bữa trưa tại nhà
                                         hàng. <br>
@@ -364,11 +377,11 @@
                                         mặt sát đất, ngẩng mặt đụng trời”. Quý khách thăm quan Cột cờ Tổ Quốc và chụp
                                         hình lưu niệm. Từ cột cờ Lũng Cú, Quý khách có thể ngắm phong cảnh ruộng bậc
                                         thang đẹp mắt xen kẽ những nhà trình tường của dân tộc Lô Lô trong bản Séo Lủng
-                                        bên dưới. <br>
+                                        bên dưới. <br><br>
 
                                         <img src="./assets/img/img_content_t4.png" alt="">
                                         <img src="./assets/img/img_content_t5.png" alt="">
-                                        <br>
+                                        <br><br>
 
                                         <b style="color:#0070B4 ;text-transform: uppercase;">Chiều:</b> Quý khách tham
                                         quan chợ Đồng Văn quý khách được tiếp xúc với các nền văn
@@ -403,7 +416,7 @@
                                         Quý khách tiếp tục hành trình trở về Hà Nội. <br><br>
 
                                         <img src="./assets/img/img_content_t7.png" alt=""> <br>
-
+                                        <br>
                                         <b style="color:#0070B4 ;">19h00:</b> Quý khách về tới Hà Nội. Hướng dẫn viên
                                         chia tay Quý khách và kết thúc
                                         chương trình. Hẹn gặp lại quý khách trong những hành trình sau. <br><br>
@@ -494,7 +507,7 @@
                     </div>
                     <div class="content-right-middle">
                         <div class="price-tour">Giá: <span>3.950.000 đ</span></div>
-                        <button>Đặt tour</button>
+                        <button type="button" data-toggle="modal" data-target="#myModal">Đặt tour</button>
                     </div>
 
                     <div class="content-right-bottom">
@@ -752,6 +765,109 @@
             </div>
         </div>
     </footer>
+
+    <!-- modal đặt tour--------------------------->
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h5>Đặt Tour Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế</h5>
+                    <div class="form-container">
+                        <div class="row-input">
+                            <label for="">Họ và tên &nbsp;&nbsp;:</label>
+                            <div class="input-custom">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label for="">Quốc tịch &nbsp;&nbsp;:</label>
+                            <div class="input-custom">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <div class="arrow-for-select">
+                                    <select>
+                                        <option selected value="">Quốc tịch</option>
+                                        <option value="1">Việt Nam</option>
+                                        <option value="2">Indonesia</option>
+                                        <option value="3">Hàn Quốc</option>
+                                        <option value="4">Nhật Bản</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label for="">Địa chỉ &nbsp;&nbsp;:</label>
+                            <div class="input-custom">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label for="">Email &nbsp;&nbsp;:</label>
+                            <div class="input-custom">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label for="">Điện thoại &nbsp;&nbsp;:</label>
+                            <div class="input-custom">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label for="">Số lượng &nbsp;&nbsp;:</label>
+                            <div class="input-custom-extra">
+                                <div class="input-custom-extra-box">
+                                    <label for="">Người lớn</label>
+                                    <div class="input-box">
+                                        <img src="./assets/img/icons/form-icon1.png" alt="">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="input-custom-extra-box">
+                                    <label for="">trẻ em</label>
+                                    <div class="input-box">
+                                        <img src="./assets/img/icons/form-icon1.png" alt="">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-input">
+                            <label class="custom-lable" for="">Yêu cầu &nbsp;&nbsp;:</label>
+                            <div class="input-custom large-txt">
+                                <img src="./assets/img/icons/form-icon7.png" alt="">
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="modal-btn-main">
+                        <button type="button" class="btn-order">Đặt tour</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
+
+<script src="./assets/js/modal.js"></script>
 
 </html>

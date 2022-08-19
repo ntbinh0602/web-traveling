@@ -21,11 +21,22 @@
 }
 
 html {  
-    font-family: HelveticaNeue, Arial, sans-serif;;
+    font-family: HelveticaNeue, Arial, sans-serif !important;
     box-sizing: border-box; 
     scroll-behavior: smooth;
 }
+body {
+    font-family: HelveticaNeue, Arial, sans-serif !important;
+    line-height: 0;
 
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
 .box-wp {
     max-width: 1200px;
     margin: 0 auto;

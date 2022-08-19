@@ -120,7 +120,7 @@
     appearance: none;
 }
 
-.search-input .arrow-for-select:after,.search-input arrow-for-select:before {
+.search-input .arrow-for-select:after{
     border-right: 2px solid #737373;
     border-bottom: 2px solid #737373;
     content: '';

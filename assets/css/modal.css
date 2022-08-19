@@ -1,0 +1,251 @@
+
+@media (min-width: 576px) {
+
+    .modal-dialog {
+        max-width: 100%;
+    }
+
+}
+
+
+   .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin: 0;
+    height: 100% !important;
+   }
+
+  
+  .modal-header {
+    border-bottom: none;
+    padding: 11px 11px 0 0 !important;
+
+  }
+
+  .modal-content {
+    width: 700px;
+  }
+
+  .modal-header button{
+    outline: none;
+    color: #D80027;
+  }
+
+  .modal-body {
+    padding-top: 5px;
+  }
+
+  .modal-body h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 28px;
+    margin-bottom: 23px;
+    width: 470px;
+    text-transform: uppercase;
+    color: #1E3359;
+  }
+
+  .row-input {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 75px;
+    margin-top: 10px;
+  }
+
+  .row-input label {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 16px;
+    color: #000000;
+    margin-bottom: 0;
+  }
+
+  .row-input > label::before {
+    content: "*";
+    position: absolute;
+    right: 4px;
+    top: 0;
+    font-weight: bold;
+    color: #FF002E;
+    font-size: 18px;
+  }
+
+  .input-custom {
+    display: flex; 
+    align-items: center;
+    background: #FFFFFF;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    min-width: 440px;
+    padding: 6px 8px ;
+    
+  }
+
+  .input-custom img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+  }
+
+  .input-custom input {
+    flex: 1;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+ .input-custom select {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    padding-left: 8px;
+ } 
+
+  .arrow-for-select {
+    position: relative;
+    flex: 1;
+}
+
+.input-custom .arrow-for-select select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.input-custom .arrow-for-select:after {
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+}
+
+.input-custom .arrow-for-select:after {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.modal-btn-main {
+    text-align: center;
+    margin-bottom: 57px;
+    margin-top: 52px;
+}
+
+.btn-order {
+    width: 182px;
+    height: 38px;
+    background: #125E90;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.btn-order:hover {
+    opacity: 0.9;
+}
+
+.input-custom-extra ,
+.input-custom-extra-box,
+.input-box
+{
+    display: flex;
+}
+
+.input-custom-extra {
+    width: 440px;
+    justify-content: space-between;
+}
+
+.input-custom-extra-box {
+    flex:1;
+}
+
+.input-custom-extra-box label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.input-box
+{
+    align-items: center;
+}
+
+.input-box {
+    background: #FFFFFF;
+    border: 0.5px solid #ADADAD;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+
+.input-custom-extra-box label {
+    margin-right: 10px;
+    width: 84px;
+}
+
+.input-custom-extra-box:first-child {
+    margin-right: 26px;
+}
+
+.input-box img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.input-custom.large-txt {
+    height: 153px;
+}
+
+.input-custom.large-txt textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.row-input .custom-lable,
+.input-custom.large-txt img {
+    margin-top: -120px;
+}
+

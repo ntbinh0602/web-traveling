@@ -108,6 +108,10 @@
     height: 100%;
 }
 
+.event-service-card-item a {
+    text-decoration: none;
+}
+
 .event-service-card-item img {
     width: 100%;
     height: 190px;
