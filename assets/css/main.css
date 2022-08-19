@@ -422,6 +422,10 @@
    -webkit-box-orient: vertical;
 }
 
+.card__box-item-name a {
+   text-decoration: none;
+}
+
 .card__box-item-name h3{
    font-size: 14px;
    line-height: 17px;

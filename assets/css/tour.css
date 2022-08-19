@@ -160,6 +160,12 @@
     cursor: pointer;
 }
 
+.search-input-value div span.active {
+   background: #0070B4;
+   color: #FFFFFF;
+   /* font-weight: 600; */
+}
+
 .search-input-value div {
     padding-left: 4px;
     padding-right: 4px;
@@ -317,6 +323,10 @@
    display: -webkit-box; 
    -webkit-line-clamp: 2;
    -webkit-box-orient: vertical;
+}
+
+.card__box-item-name a {
+   text-decoration: none;
 }
 
 .card__box-item-name h3{
