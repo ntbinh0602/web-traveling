@@ -111,20 +111,24 @@
 }
 
 input::-webkit-input-placeholder{
+    font-family: 'HelveticaNeue';
     font-size: 14px;
     color: #4D4D51;
 }
 input:-ms-input-placeholder{
+    font-family: 'HelveticaNeue';
     font-size: 14px;
     color: #4D4D51;
 }
 input::placeholder{
+    font-family: 'HelveticaNeue';
     font-size: 14px;
     color: #4D4D51;
 }
 
 
 .contact-form textarea {
+    font-family: 'HelveticaNeue';
     width: 100%;
     resize: none;
     background: rgba(60, 132, 194, 0.05);
@@ -133,29 +137,33 @@ input::placeholder{
     outline: none;
     padding: 21px;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: #4B4B4B;
     height: 120px;
 }
 
 textarea::-webkit-input-placeholder {
+    font-family: 'HelveticaNeue';
     color: #4D4D51;
-    font-size: 16px;
+    font-size: 14px;
     }
     
     textarea:-moz-placeholder { /* Firefox 18- */
+    font-family: 'HelveticaNeue';
     color: #4D4D51; 
-    font-size: 16px;
+    font-size: 14px;
     }
     
     textarea::-moz-placeholder {  /* Firefox 19+ */
+    font-family: 'HelveticaNeue';
     color: #4D4D51; 
-    font-size: 16px;
+    font-size: 14px;
     }
     
     textarea:-ms-input-placeholder {
+    font-family: 'HelveticaNeue';
     color: #4D4D51; 
-    font-size: 16px;
+    font-size: 14px;
     }
 
 .contact-form button {

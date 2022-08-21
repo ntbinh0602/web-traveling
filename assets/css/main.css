@@ -711,6 +711,14 @@
    color: #32363D;
 }
 
+.blog-traveling-text > a > h4 {
+   width: 320px;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
 .blog-traveling-time {
    display: flex;
    align-items: center;

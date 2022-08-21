@@ -46,6 +46,10 @@
     font-size: 18px;
     line-height: 22px;
     color: #32363D;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .news-box-top-content-time {
@@ -96,12 +100,20 @@
     line-height: 22px;
     color: #32363D;
     margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .news-item-content p {
     font-size: 15px;
     line-height: 22px;
     color: #2F2F2F;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .content-time {

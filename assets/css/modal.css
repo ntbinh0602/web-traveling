@@ -157,7 +157,7 @@
     line-height: 17px;
     text-transform: uppercase;
     color: #FFFFFF;
-    outline: none;
+    outline: none !important;
     border: none;
 }
 
@@ -174,11 +174,10 @@
 
 .input-custom-extra {
     width: 440px;
-    justify-content: space-between;
 }
 
 .input-custom-extra-box {
-    flex:1;
+    margin-left: 10px;
 }
 
 .input-custom-extra-box label {
@@ -186,6 +185,12 @@
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+    margin-right: 10px;
+    width: 89px;
+}
+
+.lb-right-text{
+  text-align: right;
 }
 
 .input-box
@@ -200,18 +205,9 @@
     padding: 6px 8px;
 }
 
-.input-custom-extra-box label {
-    margin-right: 10px;
-    width: 84px;
-}
-
-.input-custom-extra-box:first-child {
-    margin-right: 26px;
-}
-
 .input-box img {
-    width: 15px;
-    height: 15px;
+    width: 21px;
+    height: 21px;
     margin-right: 8px;
 }
 
@@ -248,4 +244,9 @@
 .input-custom.large-txt img {
     margin-top: -120px;
 }
+
+.custom-lable:before {
+  content: "" !important;
+}
+
 

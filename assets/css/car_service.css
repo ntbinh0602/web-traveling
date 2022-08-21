@@ -124,9 +124,9 @@
     margin: 8px 0 15px 11px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
     line-height: 20px;
     color: #000000;
-    font-weight: normal;
     height: 20px;
     display: -webkit-box;
     -webkit-line-clamp: 1;
