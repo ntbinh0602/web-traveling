@@ -19,17 +19,7 @@
         display: none;
     }
 
-    .card__box-other-services {
-        display: none;
-    }
 
-    .box__blog-traveling {
-        display: none;
-    }
-
-    .container-contact {
-        display: none;
-    }
 
     .header__top-nav {
         display: none;
@@ -199,5 +189,9 @@
     .card__box-location {
         display: inline-flex;
         margin: 0 16px;
+    }
+
+    .main-slider-hot-deals {
+        padding: 0 16px;
     }
 }

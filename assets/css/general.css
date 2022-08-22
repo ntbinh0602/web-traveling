@@ -641,8 +641,8 @@ button {
  
   .footer-img-plane {
     position: absolute;
-    right: 0;
-    top: -34px;
+    right: 3px;
+   top: 15px;
   }
  
   .footer-img-plane::before {

@@ -32,6 +32,16 @@ $(".slider-section-hot-deals").slick({
   autoplaySpeed: 3000,
   pauseOnHover: false,
   pauseOnFocus: false,
+  responsive: [
+    {
+      breakpoint: 739,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
+    }
+    }
+  ]
 });
 
 $(".slider-review").slick({
