@@ -30,7 +30,7 @@
 
   .modal-header button{
     outline: none;
-    color: #D80027;
+    color: #D80027 !important;
   }
 
   .modal-body {
@@ -69,7 +69,7 @@
   .row-input > label::before {
     content: "*";
     position: absolute;
-    right: 4px;
+    right: 6px;
     top: 0;
     font-weight: bold;
     color: #FF002E;
@@ -113,6 +113,7 @@
     line-height: 18px;
     color: #000000;
     padding-left: 8px;
+    background: transparent;
  } 
 
   .arrow-for-select {

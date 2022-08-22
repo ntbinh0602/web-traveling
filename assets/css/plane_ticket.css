@@ -1,3 +1,5 @@
+
+
 .page-navigation {
     margin-bottom: 10px;
 }
@@ -34,6 +36,7 @@
     height: 241px;
     background: #F5F5F5;
     border-radius: 10px;
+    margin-top: 24px;
     padding: 26px 22px 30px 22px;
 }
 
@@ -113,4 +116,76 @@ height: 100%;
     width: 100%;
     object-position: center;
     object-fit: none ;
+}
+
+/* modal css*/
+
+
+.title-plane {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #125E90;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.label-form {
+    font-size: 14px !important;
+    line-height: 17px;
+    color: #333333 !important;
+}
+
+.modal-header {
+    justify-content: end;
+    padding: 5px 15px 0 0 !important;
+}
+
+.modal-header button {
+    font-size: 35px !important;
+    color: #D80027 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modal-body {
+    padding: 0 35px;
+}
+
+textarea {
+    height: 96px;
+    resize: none;
+}
+
+.form-control {
+    padding: 8px 12px;
+    
+}
+
+.form-control.arrow {
+    position: relative;
+}
+
+select.form-control {
+    height: calc(2.25rem + 6px) !important;
+}
+
+.decrease {
+    position: absolute;
+    top: 33px;
+    right: 14px;
+    cursor: pointer;
+    padding: 5px;
+    background:transparent;
+}
+
+.increase {
+    position: absolute;
+    cursor: pointer;
+    right: 14px;
+    padding: 5px;
+    bottom: 2px;
+    background:transparent;
 }

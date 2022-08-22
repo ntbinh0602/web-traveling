@@ -5,13 +5,19 @@
 
 .header__top {
    position: absolute;
-   
    left: 0px;
    top: 0px;
    padding-top: 32px;
    right: 0px;
    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
 }
+
+.header__top-mobile,
+.card__title-mobile
+{
+   display: none;
+}
+
 
 .header__top-nav {
    display: flex;

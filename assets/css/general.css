@@ -1,5 +1,13 @@
 /* header */
 
+ul {
+   margin-bottom: 0;
+}
+
+button {
+   outline: none !important;
+}
+
 .header {
     width: 100%;
     position: relative;
@@ -195,6 +203,7 @@
    width: 174px;
    min-height: 290px;
    z-index: 100;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .mega-menu::before {
@@ -261,6 +270,7 @@
    border-bottom-right-radius: 10px;
    border-left: 1px solid #ECECEC;
    padding-left: 37px;
+   box-shadow: rgba(0, 0, 0, 0.05) 1px 0px 0px 1px;
 }
 
 
@@ -321,6 +331,7 @@
    background-color: var(--white-color);
    border-radius: 10px;
    top: 29px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .header__top-drop-menu::after {
