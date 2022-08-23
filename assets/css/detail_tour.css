@@ -433,6 +433,10 @@
  .card__box-item-name a {
     text-decoration: none;
  }
+
+ .card__box-item-name a:hover h3 {
+    color: #125E90;
+ }
  
  .card__box-item-name h3{
     font-size: 14px;

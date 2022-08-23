@@ -133,3 +133,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.event-service-card-item > a:hover span {
+    color: #125E90;
+}

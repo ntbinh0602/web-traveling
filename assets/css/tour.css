@@ -172,6 +172,10 @@
     width: 50%
     
 }
+.search-input-value span:hover {
+   background: #0070B4;
+   color: #fff;
+}
 
 .content-left-img-bottom {
    width: 100%;
@@ -236,6 +240,7 @@
    font-size: 16px;
    margin-left: 51px;
    padding-bottom: 5.5px;
+   cursor: pointer;
 }
 
 .filter-choice-item.active {
@@ -243,6 +248,14 @@
    color: #0070B4;
    font-weight: 600;
 }
+
+.filter-choice-item:hover {
+   color: #0070B4;
+   font-weight: 600;
+   border-bottom: 2px solid #0070B4;
+}
+
+
 
 /* card-item ---------------------------------*/
 
@@ -336,10 +349,15 @@
    text-decoration: none;
 }
 
+
 .card__box-item-name h3{
    font-size: 14px;
    line-height: 17px;
    color: #32363D;
+}
+
+.card__box-item-name a:hover h3 {
+   color: #125E90;;
 }
 
 .card__box-item-time {
@@ -415,10 +433,17 @@
    color: #737373;
 }
 
-.pagination-wraper  img {
-   position: absolute;
-   top: 17px;
-    left: 11px;
+.pagination-item:hover {
+   color: #0070B4;
+}
+
+
+.pagination-item.arrow {
+   font-size: 13px;
+}
+
+.pagination-item.arrow.hide {
+   display: none;
 }
 
 .pagination-item.active {

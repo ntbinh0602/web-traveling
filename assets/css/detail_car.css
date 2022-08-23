@@ -211,6 +211,10 @@
     overflow: hidden;
 }
 
+.car-service-card-item > a:hover > span {
+    color: #125E90;
+}
+
 .car-extra-infor {
     display: flex;
 }

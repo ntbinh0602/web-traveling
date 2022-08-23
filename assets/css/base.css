@@ -60,20 +60,6 @@ p {
     padding-bottom: 200px;
 }
 
-/* input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-    background: transparent;
-    bottom: 0;
-    color: #fff;
-    cursor: pointer;
-    height: auto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: auto;
-} */
-
 input {
     position: relative;
 }
@@ -85,7 +71,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     content: "";
     left: 100px;
     top: 0;
-    width: 120px;
+    width: 140px;
     height: 35px;
     color: transparent;
     background: transparent;
