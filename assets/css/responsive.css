@@ -194,4 +194,28 @@
     .main-slider-hot-deals {
         padding: 0 16px;
     }
+
+
+
+    /* footer */
+
+    .footer-top-contact,
+    .footer-top-our-service,
+    .footer-top-our-customer,
+    .footer-bottom,
+    .footer-img-bottom-l,
+    .footer-img-bottom-s,
+    .footer-img-plane {
+        display: none;
+    }
+
+    .footer-top-branch {
+        margin-left: 16px;
+    }
+
+    .footer-top-branch img {
+        width: 50px;
+        height: 50px;
+    }
+
 }

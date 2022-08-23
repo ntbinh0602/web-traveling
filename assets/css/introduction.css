@@ -99,10 +99,14 @@
 .content-about-item h5 {
     width: 100%;
     margin-top: 12px;
-    padding: 0 88px;
+    padding: 0 77px;
     font-size: 16px;
     line-height: 20px;
     color: #1D293F;
+}
+
+.modified-title {
+    padding: 0 88px !important;
 }
 
 .content-about-item p {

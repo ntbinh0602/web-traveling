@@ -1,4 +1,14 @@
 /* header */
+.header__top-right-item .introduction-active,
+.header__top-right-item .tour-active,
+.header__top-right-item .stay-active,
+.header__top-right-item .event-active,
+.header__top-right-item .other-service-active,
+.header__top-right-item .news-active,
+.header__top-right-item .contact-active {
+   color: #0070B4 ;
+}
+
 
 ul {
    margin-bottom: 0;
