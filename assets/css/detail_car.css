@@ -5,11 +5,10 @@
 
 .box-container {
     display: flex;
-    height: 354px;
 }
 .content-left {
     display: flex;
-    margin-right: 46px;
+    width: 60%;
 }
 
 .content-car-img-size-l {
@@ -41,8 +40,13 @@
     object-fit: cover;
 }
 
+
 .content-right {
-    width: 423px;
+    width: 40%;
+}
+
+.content-right-container {
+    padding-right: 40px;
 }
 
 .content-right h3 {
