@@ -25,3 +25,32 @@
         height: auto;
     }
 }
+
+/* mobile - tablet */
+@media (max-width: 1023px) {
+    .section_container,
+    .footer-top,
+    .footer-bottom,
+    .header__bottom,
+    .header__top-nav {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .section_container,
+    .footer-top,
+    .footer-bottom,
+    .header__bottom,
+    .header__top-nav {
+        padding: 0 15px;
+    }
+
+    .footer-img-plane {
+        right: 15px;
+    }
+
+    .header__top-left span {
+        display: none;
+    }
+}

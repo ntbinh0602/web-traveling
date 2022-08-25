@@ -8,7 +8,7 @@
 }
 
 .slider.slider-for {
-    width: 548px;
+    width: 75%;
 	height: 339px;
     margin-right: 8px;
 }
@@ -18,10 +18,23 @@
     margin-bottom: -2px;
     overflow: hidden;
 }
-.banner-slider .slider.slider-for,
+/* .banner-slider .slider.slider-for,
 .banner-slider .slider.slider-nav {
     float: left;
+} */
+
+.banner-slider {
+    display: flex;
 }
+
+.banner-slider .slider.slider-for {
+    width: 80%;
+}
+
+.banner-slider .slider.slider-nav {
+    width: 20%;
+}
+
 .banner-slider .slider.slider-nav {
     height: 341px;
     overflow: hidden;

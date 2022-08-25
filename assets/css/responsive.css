@@ -38,12 +38,8 @@
         width: 20%;
     }
 
-    .card__box-item:last-child {
-        display: none;
-    }
-
-    .card__box-item {
-        width: 33.3333%;
+    .card__box-item img.card__box-item-img {
+        height : auto;
     }
 
     .card__box-other-services {
