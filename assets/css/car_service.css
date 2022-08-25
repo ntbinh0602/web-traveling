@@ -5,7 +5,10 @@
 
 .box-container {
     display: flex;
-    justify-content: flex-end;
+}
+
+.content-left {
+    width: 70%;
 }
 
 .content-left-title {
@@ -27,11 +30,12 @@
 
 
 .content-right {
+    width: 30%;
     margin-left: 65px;
 }
 
 .content-right-box {
-    width: 341px;
+    width: 100%;
     height: 241px;
     background: #F5F5F5;
     border-radius: 10px;
@@ -111,9 +115,9 @@
     padding: 10px 11px 20px 11px;
 }
 
-.car-service-card-item > img {
+.car-service-card-item a > img {
     width: 100%;
-    height: 210px;
+    height: auto;
     border-radius: 8px 8px 0px 0px;
     object-fit: cover;
     
@@ -143,6 +147,8 @@
 
 .car-extra-infor {
     display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
 }
 
 .car-extra-infor span {
@@ -152,9 +158,58 @@
     font-size: 14px;
     line-height: 17px;
     color: #737373;
-    margin-right: 40px;
 }
 
 .car-extra-infor img {
     margin-right: 9px;
 }
+
+/* form đặt đặt phòng */
+
+.title-plane {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #125E90;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.label-form {
+    font-size: 14px !important;
+    line-height: 17px;
+    color: #333333 !important;
+}
+
+.modal-header {
+    justify-content: end;
+    padding: 5px 15px 0 0 !important;
+}
+
+.modal-header button {
+    font-size: 35px !important;
+    color: #D80027 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modal-body {
+    padding: 0 35px;
+}
+
+textarea {
+    height: 96px;
+    resize: none;
+}
+
+.form-control {
+    padding: 8px 12px;
+    
+}
+
+.form-control.arrow {
+    position: relative;
+}
+

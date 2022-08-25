@@ -1,6 +1,6 @@
 
 .banner-slider {
-    /* width: 690px; */
+   overflow: hidden;
 }
 
 .slick-list {
@@ -9,7 +9,7 @@
 
 .slider.slider-for {
     width: 548px;
-	height: 354px;
+	height: 339px;
     margin-right: 8px;
 }
 .slider.slider-nav {
@@ -23,7 +23,7 @@
     float: left;
 }
 .banner-slider .slider.slider-nav {
-    height: 354px;
+    height: 341px;
     overflow: hidden;
 
 }

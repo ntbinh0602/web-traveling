@@ -40,7 +40,7 @@ $(".slider-section-hot-deals").slick({
         slidesToScroll: 1,
         arrows: false
     }
-    }
+    },
   ]
 });
 

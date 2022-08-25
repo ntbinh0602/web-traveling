@@ -1,0 +1,27 @@
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    /* General----------- */
+    .section_container,
+    .footer-top,
+    .footer-bottom,
+    .header__bottom,
+    .header__top-nav {
+        padding: 0 15px;
+    }
+
+    .footer-img-plane {
+        right: 15px;
+    }
+
+    .tour_container {
+        padding: 0 15px;
+    }
+
+    .header__top-left span {
+        display: none;
+    }
+
+    .card__box-item img.card__box-item-img {
+        height: auto;
+    }
+}

@@ -5,11 +5,11 @@
 
 .box-container {
     display: flex;
-    justify-content: flex-end;
 }
 
 .content-left {
     min-height: 234px;
+    width: 70%;
 }
 
 .content-left-title {
@@ -47,7 +47,7 @@
 }
 
 .plugin-facebook {
-    margin-bottom: -3px;
+    margin-bottom: -8px;
 }
 
 
@@ -96,13 +96,18 @@
     margin-top: 20px;
 }
 
+.news-item a {
+    width: 40%;
+}
+
 .news-item-img {
-    width: 306px;
-    height: 160px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
 .news-item-content {
+    width: 60%;
     margin-left: 20px;
 }
 
@@ -126,6 +131,10 @@
     font-size: 15px;
     line-height: 22px;
     color: #2F2F2F;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .content-time {
@@ -147,10 +156,11 @@
 
 .content-right {
     margin-left: 65px;
+    width: 30%;
 }
 
 .content-right-box {
-    width: 341px;
+    width: 100%;
     height: 241px;
     background: #F5F5F5;
     margin-top: 25px;
@@ -207,7 +217,7 @@
 }
 
 .content-right-news {
-    width: 341px;
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -223,7 +233,7 @@
 
 .content-right-news img {
     width: 100%;
-    height: 200px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -250,5 +260,54 @@
 
 .content-right-news ul li:hover a {
     color:#125E90;
+}
+
+/* form tổ chức sự kiện */
+
+.title-plane {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #125E90;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.label-form {
+    font-size: 14px !important;
+    line-height: 17px;
+    color: #333333 !important;
+}
+
+.modal-header {
+    justify-content: end;
+    padding: 5px 15px 0 0 !important;
+}
+
+.modal-header button {
+    font-size: 35px !important;
+    color: #D80027 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modal-body {
+    padding: 0 35px;
+}
+
+textarea {
+    height: 96px;
+    resize: none;
+}
+
+.form-control {
+    padding: 8px 12px;
+    
+}
+
+.form-control.arrow {
+    position: relative;
 }
 

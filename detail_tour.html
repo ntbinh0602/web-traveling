@@ -26,6 +26,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
   <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+  <link rel="stylesheet" href="./assets/css/general_responsive.css">
+  <link rel="stylesheet" href="./assets/css/tour_resonsive.css">
   <title>Chi tiết tour</title>
 </head>
 
@@ -307,7 +309,7 @@
   </head>
 
   <section>
-    <div class="box-wp">
+    <div class="box-wp section_container">
       <div class="page-navigation">
         <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
         <span class="page-navigation"><a href="#">Tour trong nước</a></span>
@@ -321,14 +323,25 @@
           </h4>
           <div class="content-left-social">
             <div class="content-left-social-left">
-              <button class="btn-like">
-                <img src="./assets/img/icons/like_facebook.png" alt="" />
-                <span>Thích 37</span>
-              </button>
-              <button class="btn-share">Chia sẻ</button>
-              <img class="icon-social" src="./assets/img/icons/fb_icon.png" alt="" />
-              <img class="icon-social" src="./assets/img/icons/z_icon.png" alt="" />
-              <img class="icon-social" src="./assets/img/icons/twiter_icon.png" alt="" />
+              <div class="plugin-facebook">
+                <iframe
+                  src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId=763868395038307"
+                  width="200" height="30" style="border: none; overflow: hidden" scrolling="no" frameborder="0"
+                  allowfullscreen="true"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              </div>
+              <div
+                onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=http://smart.danaweb.vn/vi/tam-su','_blank')">
+                <img class="icon-social" src="./assets/img/icons/facebook.svg" alt="" />
+              </div>
+              <div
+                onclick="javascript:window.open('https://www.instagram.com/?url=http://smart.danaweb.vn/vi/tam-su','_blank')">
+                <img class="icon-social" src="./assets/img/icons/instagram.svg" alt="" />
+              </div>
+              <div
+                onclick="javascript:window.open('https://twitter.com/intent/tweet?source=webclient&url=http://smart.danaweb.vn/vi/tam-su','_blank')">
+                <img class="icon-social" src="./assets/img/icons/twiter.svg" alt="" />
+              </div>
             </div>
           </div>
 

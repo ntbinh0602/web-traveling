@@ -34,10 +34,13 @@
 
 .form-contact-img img{
     height: 100%;
+    object-fit: cover;
 }
 
 .form-contact-content {
     margin-left: 57px;
+    margin-bottom: 70px;
+    width: 60%;
 }
 
 .contact-title {

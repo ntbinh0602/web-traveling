@@ -8,7 +8,7 @@
 }
 
 .body-content-left {
-    width: 285px;
+    width: 25%;
     margin-right: 20px;
 }
 
@@ -181,7 +181,7 @@
    width: 100%;
    border-radius:10px ;
    overflow: hidden;
-   height: 121px;
+   height: auto;
    margin-bottom: 8px;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .body-content-right {
-   flex: 1;
+   width: 75%;
 }
 
 .content-right-title {
@@ -404,8 +404,7 @@
 /* Phân Trang --------------------------- */
 
 .pagination {
-   margin-top: 120px;
-   margin-bottom: 65px;
+   margin: 65px 0;
 }
 
 .pagination-wraper{

@@ -1,0 +1,5 @@
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .card__box-item img.card__box-item-img {
+        height: auto;
+    }
+}
