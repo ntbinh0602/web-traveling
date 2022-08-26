@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
     /* General----------- */
     .section_container,
@@ -37,13 +37,21 @@
     }
 }
 
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .d_none {
+        display: none;
+    }
+
     .section_container,
     .footer-top,
     .footer-bottom,
-    .header__bottom,
-    .header__top-nav {
+    .header__bottom {
         padding: 0 15px;
+    }
+
+    .header__top-nav {
+        display: none;
     }
 
     .footer-img-plane {
@@ -53,4 +61,120 @@
     .header__top-left span {
         display: none;
     }
+
+    /* Header nav mobile & tablet */
+
+    .header__top {
+        position: fixed;
+        height: 70px;
+        z-index: 1020;
+        box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    }
+
+    .header__top-mobile {
+        height: 70px;
+        width: 100vw;
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1020;
+        background: #fff;
+    }
+
+    .background-on-top {
+        margin-top: 70px;
+    }
+
+    .header__top-menu-icon {
+        margin-left: 16px;
+    }
+
+    .header__top-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__top-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__top-user {
+        margin-right: 16px;
+    }
+
+    .header__top-user a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    /* footer --------------------- */
+
+    .footer {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .footer-top {
+        position: unset;
+        display: flex;
+        flex-wrap: wrap;
+        top: 0;
+        padding-top: 35px;
+    }
+
+    .footer-bottom {
+        position: unset;
+        padding: 15px 15px 35px;
+    }
+
+
+    .footer-top-branch {
+        width: 100%;
+    }
+
+    .footer-top-contact,
+    .footer-top-our-service,
+    .footer-top-our-customer{
+        margin-left: 0;
+        width: 33.3333%;
+        
+    }
+
+    .footer-top-our-service {
+        padding-left: 60px;
+    }
+
+    .footer-top-our-customer {
+        padding-left: 30px;
+    }
+
+
+    /* introduction */
+
+    .content-about {
+        padding: 0 15px;
+    }
+
+    .content-about-item {
+        width: 33.3333%;
+    }
+
+    .content-about-item h5 {
+        height: 50px;
+    }
+
+    .content-about-item p {
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
 }

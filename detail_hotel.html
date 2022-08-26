@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
   <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
   <link rel="stylesheet" href="./assets/css/general_responsive.css">
+  <link rel="stylesheet" href="./assets/css/detail_stay_responsive.css">
   <title>Chi tiết khách sạn</title>
 </head>
 
@@ -37,6 +38,21 @@
   <head>
     <div class="header">
       <div class="header__top">
+        <div class="header__top-mobile">
+          <div class="header__top-menu-icon">
+            <img src="./assets/img/icons/menu-icon.png" alt="">
+          </div>
+          <div class="header__top-logo">
+            <a href="./index.html"><img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" /></a>
+          </div>
+          <div class="header__top-user">
+            <a href="#">
+              <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+              <img class="icon-arrow-down" src="./assets/img/icons/Polygon 4.png" alt="" />
+            </a>
+          </div>
+        </div>
+
         <div class="header__top-nav box-wp">
           <div class="header__top-left">
             <a href="index.html">
@@ -410,6 +426,16 @@
             <span>7 Truong Sa, Hoa Hai, Ngu Hanh Son, Đà Nẵng</span>
           </div>
 
+          <div class="box-contact-mobile">
+            <div class="box-contact">
+              <div class="pice">Chỉ từ : <span>1.250.000đ</span> /đêm</div>
+            </div>
+            <button data-toggle="modal" data-target="#myModal">
+              <span class="btn-text-top">Liên hệ đặt phòng</span>
+              <span class="btn-text-bottom">Để lại thông tin Logo sẽ tư vấn thêm</span>
+            </button>
+          </div>
+
           <div class="content-description">
             <p>
               <b style="color: #0070b4; font-size: 18px">Giới thiệu</b> <br />
@@ -561,7 +587,7 @@
             </div>
           </div>
         </div>
-        <div class="body-content-right">
+        <div class="body-content-right d_none">
           <div class="box-content-right">
             <div class="box-contact">
               <div class="pice">Chỉ từ : <span>1.250.000đ</span> /đêm</div>

@@ -27,7 +27,7 @@ function hideElement () {
         // if(i>5 && i<7) {
         //     addLastImage.classList.remove("hide");
         // }
-        if(i>6) {
+        if(i && i>6) {
             sum = sum + 1
         }
     }

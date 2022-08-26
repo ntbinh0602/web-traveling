@@ -109,7 +109,7 @@
    margin-top: 36px;
    padding: 26px 29px 29px;
    border-radius: 15px;
-   width: fit-content;
+   width: 87%;
    background: rgba(0, 0, 0, 0.4);
    border: 1px solid rgba(255, 255, 255, 0.22);
    align-items: self-end;
@@ -117,6 +117,10 @@
 
 .header__bottom-search-box-item {
    margin-right: 17px;
+}
+
+.res_tablet {
+   display: none;
 }
 
 .header__bottom-search-box-item p{
@@ -1261,5 +1265,9 @@
    height: 5px;
    background: linear-gradient(90deg, rgba(255, 255, 255, 0.176) 0%, rgba(255, 255, 255, 0) 100%);
    transform: rotate(-5deg);
+ }
+
+ .disabled-title {
+   display: none;
  }
 

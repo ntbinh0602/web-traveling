@@ -33,6 +33,10 @@ button {
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
  }
+
+ .header__top-mobile {
+   display: none;
+ }
  
  .header__top-nav {
     display: flex;

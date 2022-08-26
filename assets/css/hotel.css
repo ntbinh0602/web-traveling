@@ -226,8 +226,39 @@
     font-size: 14px;
     color: #000000;
     border-bottom: 0.5px solid #ADADAD;
-    padding-bottom: 15px;
+    position: relative;
  }
+
+ .content-right-sum-founded span {
+   margin-bottom: 15px;
+   display: block;
+ }
+
+ .content-right-sum-founded button.btn-filter {
+   display: none;
+}
+
+.btn-filter {
+   position: absolute;
+   display: none;
+   right: 0;
+   top: -15px;
+   bottom: 0;
+   height: 35px;
+   width: 140px;
+   outline: none;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 5px;
+   background: #0070B4;
+   color: #fff;
+   font-size: 14px;
+}
+
+.btn-filter img {
+   margin-right: 5px;
+}
  
  .content-right-filter {
     display: flex;

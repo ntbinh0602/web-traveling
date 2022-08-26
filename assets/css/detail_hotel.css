@@ -121,11 +121,21 @@
     margin-left: 36px;
 }
 
+
 .box-content-right {
     margin-top: 42px;
     background: #F5F5F5;
     border-radius: 10px;
     padding: 24px 20px 18px;
+}
+
+.box-contact-mobile {
+    display: none;
+    width: 370px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 24px 20px 18px;
+    margin: 15px 0;
 }
 
 .box-contact .pice {
@@ -141,6 +151,7 @@
     font-weight: 600;
 }
 
+.box-contact-mobile button,
 .box-content-right button {
     padding: 15px;
     background: #0070B4;
@@ -154,10 +165,12 @@
     cursor: pointer;
 }
 
+.box-contact-mobile button:hover,
 .box-content-right button:hover {
     opacity: 0.9;
 }
 
+.box-contact-mobile button .btn-text-top,
 .box-content-right button .btn-text-top{
     display: block;
     font-weight: 600;
@@ -167,6 +180,7 @@
     color: #FFFFFF;
 }
 
+.box-contact-mobile button .btn-text-bottom
 .box-content-right button .btn-text-bottom {
     font-weight: 400;
     font-size: 14px;

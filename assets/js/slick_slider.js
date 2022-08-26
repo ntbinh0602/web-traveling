@@ -34,7 +34,15 @@ $(".slider-section-hot-deals").slick({
   pauseOnFocus: false,
   responsive: [
     {
-      breakpoint: 739,
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false
+    }
+    },
+    {
+      breakpoint: 768,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,

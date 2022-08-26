@@ -107,6 +107,12 @@
     display: inline-block;
 }
 
+.box_order-tour-small-display {
+    display: none;
+    margin-bottom: 16px;
+}
+
+.box_order-tour-small-display,
 .content-right-middle {
     background: rgba(0, 186, 201, 0.2);
     border-radius: 10px;
@@ -130,7 +136,7 @@
     color: #000000;
     margin-left: 17px;
 }
-
+.box_order-tour-small-display button,
 .content-right-middle button {
     width: 100%;
     background: linear-gradient(268.71deg, #30C5BA 1.08%, #4FA6C4 51.25%, #557CC4 98.38%);
@@ -146,6 +152,7 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
 
 .content-right-bottom {
     width: 100%;
