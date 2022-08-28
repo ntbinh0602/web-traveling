@@ -15,3 +15,39 @@
         display: block;
     }
 }
+
+@media (max-width: 767px) {
+    /* detail_holtel */
+
+    .images-container {
+        height: auto;
+    }
+
+    .card-image:first-child {
+        width: calc(100% - 8px);
+    }
+
+    .card-image {
+        width: calc(33% - 4px);
+        height: calc(215px / 2)
+
+    }
+
+    .body-content-infor {
+        display: block;
+    }
+
+    .body-content-left {
+        width: 100%;
+    }
+
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .box-contact-mobile {
+        display: block;
+        width: 100%;
+    }
+
+}

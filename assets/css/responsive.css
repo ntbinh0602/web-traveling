@@ -291,6 +291,9 @@
         display: none;
     }
 
+    .hide_box {
+        display: none;
+    }
 
 
     .header__top-nav {
@@ -302,13 +305,13 @@
         background: transparent;
     }
 
-    .pt30-s {
+    /* .pt30-s {
         padding-top: 0;
     }
 
     .pt60-s {
         padding-top: 0;
-    }
+    } */
 
     .card__box-item {
         width: 285px;
@@ -327,6 +330,7 @@
     }
 
     .card__title h3 {
+        font-size: 24px;
         padding-top: 12px;
         padding-left: 16px;
     }
@@ -388,64 +392,7 @@
         margin-top: 70px;
     }
 
-    .header__top-mobile {
-        height: 70px;
-        width: 100vw;
-        display: flex;
-        position: fixed;
-        justify-content: space-between;
-        align-items: center;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1020;
-        background: #fff;
-        box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
-    }
 
-    .background-on-top {
-        margin-top: 70px;
-    }
-
-    .card__title-mobile {
-        display: block;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 27px;
-        color: #000000;
-    }
-
-    .card__title-pc {
-        display: none;
-    }
-
-    .header__top-menu-icon {
-        margin-left: 16px;
-    }
-
-    .header__top-logo {
-        width: 50px;
-        height: 50px;
-    }
-
-    .header__top-logo img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .header__top-user {
-        margin-right: 16px;
-    }
-
-    .header__top-user a {
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-    }
-
-    .icon-arrow-down {
-        margin-left: 3px;
-    }
 
     .card__box-container {
         width: 100vw;
@@ -459,10 +406,6 @@
     .card__box {
         display: inline-flex;
         margin: 0 16px;
-    }
-
-    .color-section.pt30-s {
-        display: none;
     }
 
     .card__box-item:hover {
@@ -481,27 +424,109 @@
         padding: 0 16px;
     }
 
-
-
-    /* footer */
-
-    .footer-top-contact,
-    .footer-top-our-service,
-    .footer-top-our-customer,
-    .footer-bottom,
-    .footer-img-bottom-l,
-    .footer-img-bottom-s,
-    .footer-img-plane {
-        display: none;
+    .card__box-other-services {
+        display: block;
+        padding: 0 15px;
+        margin-top: 0;
     }
 
-    .footer-top-branch {
-        margin-left: 16px;
+    .card__box-other-services-item {
+        margin-top: 30px;
+        align-items: center;
     }
 
-    .footer-top-branch img {
-        width: 50px;
-        height: 50px;
+
+    .box__blog-traveling {
+        display: block;
     }
 
+    .box__blog-traveling-img-left {
+        position: relative;
+    }
+
+    .box__blog-traveling-img-right {
+        gap: 10px;
+        margin-top: 8px;
+    }
+
+
+    .box__blog-traveling-img-left,
+    .box__blog-traveling-img-right {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .traveling-item-img {
+        width: 25%;
+        
+    }
+
+    .blog-traveling-item-content {
+        width: 75%;
+    }
+
+    .container-contact {
+        display: block;
+        padding: 0 15px;
+        margin-top: 0;
+    }
+
+    .box_rating {
+        width: 100%;
+        height: 430px;
+        margin: 25px 0;
+    }
+
+    .box_contact {
+        width: 100%;
+        background: unset;
+    }
+
+    .contact-form {
+        position: relative;
+        border: none;
+        width: 100%;
+        height: unset;
+        padding: 0;
+        top: 25px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: unset;
+    }
+
+    .contact-form h4 {
+        margin: 0;
+        max-width: unset;
+        font-size: 18px;
+    }
+
+    .blog-traveling-item-content .item-content {
+        height: 33px;
+        -webkit-line-clamp: 2;  
+    }
+
+    .box-review .box-review-content {
+        width: 70%;
+    }
+
+    .container-contact .box-review {
+        height: 420px;
+    }
+
+    .contact-form-input input {
+        width: 100%;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+
+    .disabled-title {
+        display: block;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+    }   
 }

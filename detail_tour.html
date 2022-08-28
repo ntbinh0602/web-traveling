@@ -1,1007 +1,1120 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./assets/css/base.css" />
-  <link rel="stylesheet" href="./assets/css/general.css" />
-  <link rel="stylesheet" href="./assets/css/detail_tour.css" />
-  <link rel="stylesheet" href="./assets/css/modal.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
-  <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
-  <link rel="stylesheet" href="./assets/css/general_responsive.css">
-  <link rel="stylesheet" href="./assets/css/tour_resonsive.css">
-  <title>Chi tiết tour</title>
-</head>
-
-<body>
-
   <head>
-    <div class="header">
-      <div class="header__top">
-        <div class="header__top-mobile">
-          <div class="header__top-menu-icon">
-            <img src="./assets/img/icons/menu-icon.png" alt="">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/detail_tour.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
+    <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+    <link rel="stylesheet" href="./assets/css/general_responsive.css" />
+    <link rel="stylesheet" href="./assets/css/tour_resonsive.css" />
+    <title>Chi tiết tour</title>
+  </head>
+
+  <body>
+    <head>
+      <div class="header">
+        <div class="header__top">
+          <div class="header__top-mobile">
+            <div class="header__top-menu-icon">
+              <img src="./assets/img/icons/menu-icon.png" alt="" />
+            </div>
+            <div class="header__top-logo">
+              <a href="./index.html"
+                ><img src="./assets/img/6f13e9916f56ad08f447 1.png" alt=""
+              /></a>
+            </div>
+            <div class="header__top-user">
+              <a href="#">
+                <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                <img
+                  class="icon-arrow-down"
+                  src="./assets/img/icons/Polygon 4.png"
+                  alt=""
+                />
+              </a>
+            </div>
           </div>
-          <div class="header__top-logo">
-            <a href="./index.html"><img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" /></a>
-          </div>
-          <div class="header__top-user">
-            <a href="#">
-              <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-              <img class="icon-arrow-down" src="./assets/img/icons/Polygon 4.png" alt="" />
-            </a>
+
+          <div class="header__top-nav box-wp">
+            <div class="header__top-left">
+              <a href="index.html">
+                <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+                <span class="name-company">PHU MY QUANG CO., LTD</span>
+              </a>
+            </div>
+            <div class="header__top-right">
+              <ul class="header__top-right-list">
+                <li class="header__top-right-item">
+                  <a href="./introduction.html">
+                    <span>Giới thiệu</span>
+                  </a>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="./tour.html">
+                    <span class="tour-active">Tour du lịch</span>
+                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  </a>
+                  <div class="mega-menu">
+                    <div class="submenu-left">
+                      <ul class="submenu-left-list">
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"
+                            ><span>Tour trong nước</span>
+                            <i class="fa-solid fa-angle-right"></i
+                          ></a>
+                          <div class="submenu-right db">
+                            <div class="submenu-right-content">
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Miền Bắc</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hà Nội</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hà Giang</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Mộc Châu</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hạ Long</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lai Châu</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Ninh Bình</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Ninh Bình</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Miền Trung</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Đà Nẵng</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hà Tĩnh</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Nghệ An</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Quảng Nam</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Huế</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Quảng Ninh</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Thanh Hóa</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Miền Nam</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Cà Mau</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hà Giang</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Mộc Châu</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hạ Long</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lai Châu</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Ninh Bình</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"
+                            ><span>Tour ngoài nước</span>
+                            <i class="fa-solid fa-angle-right"></i
+                          ></a>
+                          <div class="submenu-right">
+                            <div class="submenu-right-content">
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Châu Âu</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Paris</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch London</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Scotland</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Châu Á</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Trung Quốc</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Ấn Độ</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Nepal</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Hàn Quốc</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Campuchia</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Lào</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Thái Lan</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Nam Mĩ</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Colombia</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Chile</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Peru</a>
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html">Du lịch Ecuador</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="submenu-left-list-item">
+                          <a href="./tour.html"
+                            ><span>Tour tự chọn</span>
+                            <i class="fa-solid fa-angle-right"></i
+                          ></a>
+                          <div class="submenu-right">
+                            <div class="submenu-right-content">
+                              <div class="submenu-right-list">
+                                <a href="./tour.html">
+                                  <h4>Tour Biển Đảo</h4>
+                                </a>
+                                <ul>
+                                  <li>
+                                    <a href="./tour.html"
+                                      >Du lịch đảo Phú Quốc</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html"
+                                      >Du lịch đảo Hoàng Sa</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="./tour.html"
+                                      >Du lịch đảo Trường Sa</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="#">
+                    <span>Lưu trú</span>
+                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  </a>
+                  <div class="header__top-drop-menu menu-stay">
+                    <ul>
+                      <li><a href="./hotel.html">Khách sạn</a></li>
+                      <li><a href="./hotel.html">Resort</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="./event_service.html">
+                    <span>Tổ chức sự kiện</span>
+                  </a>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="#">
+                    <span>Dịch vụ khác</span>
+                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  </a>
+                  <div class="header__top-drop-menu menu-service">
+                    <ul>
+                      <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+                      <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+                      <li><a href="./visa_service.html">Dịch vụ visa</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="./news.html">
+                    <span>Tin tức</span>
+                  </a>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="./contact.html">
+                    <span>Liên hệ</span>
+                  </a>
+                </li>
+                <li class="header__top-right-item">
+                  <a href="#">
+                    <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                    <img src="./assets/img/icons/Polygon 4.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
+    </head>
 
-        <div class="header__top-nav box-wp">
-          <div class="header__top-left">
-            <a href="index.html">
-              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-              <span class="name-company">PHU MY QUANG CO., LTD</span>
-            </a>
-          </div>
-          <div class="header__top-right">
-            <ul class="header__top-right-list">
-              <li class="header__top-right-item">
-                <a href="./introduction.html">
-                  <span>Giới thiệu</span>
-                </a>
-              </li>
-              <li class="header__top-right-item">
-                <a href="./tour.html">
-                  <span class="tour-active">Tour du lịch</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                </a>
-                <div class="mega-menu">
-                  <div class="submenu-left">
-                    <ul class="submenu-left-list">
-                      <li class="submenu-left-list-item">
-                        <a href="./tour.html"><span>Tour trong nước</span>
-                          <i class="fa-solid fa-angle-right"></i></a>
-                        <div class="submenu-right db">
-                          <div class="submenu-right-content">
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Miền Bắc</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hà Nội</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hà Giang</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Mộc Châu</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hạ Long</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lai Châu</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Ninh Bình</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Ninh Bình</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Miền Trung</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Đà Nẵng</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hà Tĩnh</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Nghệ An</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Quảng Nam</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Huế</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Quảng Ninh</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Thanh Hóa</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Miền Nam</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Cà Mau</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hà Giang</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Mộc Châu</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hạ Long</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lai Châu</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Ninh Bình</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+    <section>
+      <div class="box-wp section_container">
+        <div class="page-navigation">
+          <span class="page-navigation"
+            ><a href="./index.html">Trang chủ</a></span
+          >
+          <span class="page-navigation"><a href="#">Tour trong nước</a></span>
+          <span class="page-navigation"
+            ><a href="#"
+              >Du lịch Hà Giang - Quảng Bạ - Đồng Văn - Lũng Cú - Sông Nho
+              Quế</a
+            ></span
+          >
+        </div>
+        <div class="box-container">
+          <div class="content-left">
+            <h4>
+              Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
+            </h4>
+            <div class="content-left-social">
+              <div class="content-left-social-left">
+                <div class="plugin-facebook">
+                  <iframe
+                    src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId=763868395038307"
+                    width="200"
+                    height="30"
+                    style="border: none; overflow: hidden"
+                    scrolling="no"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  ></iframe>
+                </div>
+                <div
+                  onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=http://smart.danaweb.vn/vi/tam-su','_blank')"
+                >
+                  <img
+                    class="icon-social"
+                    src="./assets/img/icons/facebook.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  onclick="javascript:window.open('https://www.instagram.com/?url=http://smart.danaweb.vn/vi/tam-su','_blank')"
+                >
+                  <img
+                    class="icon-social"
+                    src="./assets/img/icons/instagram.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  onclick="javascript:window.open('https://twitter.com/intent/tweet?source=webclient&url=http://smart.danaweb.vn/vi/tam-su','_blank')"
+                >
+                  <img
+                    class="icon-social"
+                    src="./assets/img/icons/twiter.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="box_order-tour-small-display">
+              <div class="price-tour">Giá: <span>3.950.000 đ</span></div>
+              <button type="button" data-toggle="modal" data-target="#myModal">
+                Đặt tour
+              </button>
+            </div>
+
+            <div class="content-left-description">
+              <div class="content-left-main-img">
+                <img src="./assets/img/main-img-content.png" alt="" />
+              </div>
+
+              <div class="content-description-top">
+                <div class="content-description-title resize">
+                  <img src="./assets/img/icons/content-icon-tour4.png" alt="" />
+                  <h5>Giới thiệu</h5>
+                </div>
+                <div class="content-description-infor">
+                  <ul>
+                    <li>
+                      <span> Hành trình: </span>
+                      <p>
+                        Hà Giang - Quảng Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
+                      </p>
+                    </li>
+
+                    <li>
+                      <span> Lịch trình: </span>
+                      <p>3 ngày 2 đêm</p>
+                    </li>
+
+                    <li>
+                      <span> Vận chuyển: </span>
+                      <p>Xe du lịch đời mới</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="content-description-middle">
+                <div class="content-description-title">
+                  <img src="./assets/img/icons/content-icon-tour1.png" alt="" />
+                  <h5>Lịch trình</h5>
+                </div>
+                <div class="content-description-infor-detail">
+                  <div class="description-infor-detail-heading">
+                    <div class="ctn-img">
+                      <img
+                        src="./assets/img/icons/content-icon-tour2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 class="heading-clicked">
+                      NGÀY 1 | HÀ NỘI - HÀ GIANG - QUẢN BẠ (Ăn trưa, tối)
+                    </h5>
+                  </div>
+
+                  <div class="description-infor-detail-txt">
+                    <p>
+                      <b style="color: #0070b4">05h15:</b> Xe và hướng dẫn viên
+                      Du Lịch đón Quý khách tại nhà hát lớn. <br />
+                      <b style="color: #0070b4">05h30:</b> Xe khởi hành đi Hà
+                      Giang - vùng đất có chè san, rượu mật ong và thắng cố, xứ
+                      sở của đào phai, hoa lê, truyền thống và náo nhiệt trong
+                      buổi chợ phiên… Trên đường, Quý khách có thể tranh thủ
+                      ngắm cảnh rừng núi Đông bắc vô cùng hùng vĩ và hoang sơ.
+                      Và dọc đường đi, xe sẽ dừng nghỉ, Quý khách có thể xuống
+                      sẽ thư giãn và chụp hình lưu niệm. <br /><br />
+                      <img src="./assets/img/img_content-t1.png" alt="" />
+                      <img src="./assets/img/img_content-t2.png" alt="" />
+                      <img src="./assets/img/img_content-t3.png" alt="" />
+                      <br /><br />
+                      <b style="color: #0070b4">11h30:</b> Quý khách dừng chân
+                      tại Bắc Quang - Hà Giang để dùng bữa trưa tại nhà hàng.
+                      <br />
+                      <b style="color: #0070b4">13h30:</b> Quý khách lên đường
+                      đi Quản Bạ - Du khách đến đây đều có dịp chiêm ngưỡng Núi
+                      Đôi Cô Tiên - “tác phẩm nghệ thuật” của tạo hoá ban tặng
+                      cho vùng đất này, ngoài ra Quý khách còn có dịp nghe kể về
+                      truyền thuyết của ngọn núi này, vô vùng hấp dẫn và thú vị.
+                      <br />
+                      Sau đó, Quý khách sẽ đi qua rừng thông bạt ngàn đẹp nhất
+                      Việt Nam trải dài trên các sườn núi cao để đến với đến thị
+                      trấn Yên Minh. Quý khách đến khách sạn nhận phòng nghỉ
+                      ngơi. <br />
+
+                      <b style="color: #0070b4">18h00:</b> Quý khách tự do dạo
+                      chơi thư giãn tại thị trấn Yên Minh về đêm, và thưởng thức
+                      các món đặc sản núi rừng Đông Bắc: thắng cố (thịt bò hầm),
+                      mèn mén (bánh bột ngô), cháo Ấu Tẩu… Nghỉ đêm tại khách
+                      sạn. <br /><br />
+
+                      Qúy khách tự do tham quan Hà Giang về đêm. Nghỉ đêm tại Hà
+                      Giang.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="content-description-infor-detail">
+                  <div class="description-infor-detail-heading">
+                    <div class="ctn-img">
+                      <img
+                        src="./assets/img/icons/content-icon-tour2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 class="heading-clicked">
+                      NGÀY 2 | YÊN MINH - ĐỒNG VĂN - LŨNG CÚ - MÈO VẠC - TP. HÀ
+                      GIANG (Ăn ba bữa)
+                    </h5>
+                  </div>
+
+                  <div class="description-infor-detail-txt">
+                    <p>
+                      <b style="color: #0070b4; text-transform: uppercase"
+                        >Sáng:</b
+                      >
+                      Quý khách thức dậy ăn sáng và làm thủ tục trả phòng.
+                      <br />
+                      <b style="color: #0070b4">8h00:</b> Xe và Hướng dẫn viên
+                      đưa Quý khách đi Cao nguyên đá Đồng Văn - là một cao
+                      nguyên đá trải rộng trên bốn huyện Quản Bạ, Yên Minh, Đồng
+                      Văn, Mèo Vạc. <br />
+                      Quý khách có thể dừng chân thăm quan ở Phố Cáo, Sủng Là,
+                      vào làng văn hóa Lũng Cẩm nơi lấy bối cảnh những thước
+                      phim nổi tiếng “Chuyện của Pao” – vào mùa đông, mùa xuân
+                      nở rộ những đồng hoa cải vàng hoặc hoa đào tết, quá thích
+                      hợp cho những thước hình lãng mạn mà đậm nét văn hóa…
+                      <br />
+                      Quý khách cũng sẽ ghé thăm dinh thự vua Mèo Vương Chí Sình
+                      với kiến trúc độc đáo và những câu chuyện đặc sắc.
+                      <b style="color: #0070b4">12h00:</b> Quý khách ăn trưa tại
+                      nhà hàng tại Lũng Cú. <br />
+                      Quý khách đến Lũng Cú - Nơi địa đầu Tổ Quốc, hay còn được
+                      miêu tả là: “Nơi cúi mặt sát đất, ngẩng mặt đụng trời”.
+                      Quý khách thăm quan Cột cờ Tổ Quốc và chụp hình lưu niệm.
+                      Từ cột cờ Lũng Cú, Quý khách có thể ngắm phong cảnh ruộng
+                      bậc thang đẹp mắt xen kẽ những nhà trình tường của dân tộc
+                      Lô Lô trong bản Séo Lủng bên dưới. <br /><br />
+
+                      <img src="./assets/img/img_content_t4.png" alt="" />
+                      <img src="./assets/img/img_content_t5.png" alt="" />
+                      <br /><br />
+
+                      <b style="color: #0070b4; text-transform: uppercase"
+                        >Chiều:</b
+                      >
+                      Quý khách tham quan chợ Đồng Văn quý khách được tiếp xúc
+                      với các nền văn hoá của các dân tộc như: Mông Hoa, Lô Hoa,
+                      Lôlô, Choang… tham quan Phố cổ Đồng Văn. Chia tay phố cổ
+                      Đồng Văn, Quý khách lên xe chinh phục một trong “Tứ Đại
+                      Đỉnh Đèo” nổi tiếng nhất của Việt Nam – Đèo Mã Pí Lèng,
+                      đoàn dừng chân chụp ảnh bên điểm dừng chân của đèo Mã Pì
+                      Lèng. <br />
+                      18h00: Quý khách ăn tối, Quý khách tự do tản bộ, thư giãn
+                      giải trí tại thị trấn Tam Sơn, nghỉ đêm tại khách sạn.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+
+                <div class="content-description-infor-detail">
+                  <div class="description-infor-detail-heading">
+                    <div class="ctn-img">
+                      <img
+                        src="./assets/img/icons/content-icon-tour2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h5 class="heading-clicked">
+                      NGÀY 3 | HÀ QUANG - TUYÊN QUANG - HÀ NỘI (Ăn sáng, trưa)
+                    </h5>
+                  </div>
+
+                  <div class="description-infor-detail-txt">
+                    <p>
+                      <b style="color: #0070b4; text-transform: uppercase"
+                        >Sáng:</b
+                      >
+                      Quý khách dùng bữa sáng. Sau đó quý khách về khách sạn làm
+                      thủ tục trả phòng. <br />
+                      Xe và Hướng dẫn viên đưa Quý khách trở về Hà Nội. <br />
+                      <b style="color: #0070b4">12h00:</b> Quý khách dừng chân
+                      ăn trưa tại Thị trấn Việt Quang thưởng thức đặc sản Gà
+                      đồi, cá sông, lợn bản. <br />
+                      Quý khách tiếp tục hành trình trở về Hà Nội. <br /><br />
+
+                      <img src="./assets/img/img_content_t7.png" alt="" />
+                      <br />
+                      <br />
+                      <b style="color: #0070b4">19h00:</b> Quý khách về tới Hà
+                      Nội. Hướng dẫn viên chia tay Quý khách và kết thúc chương
+                      trình. Hẹn gặp lại quý khách trong những hành trình sau.
+                      <br /><br />
+
+                      <i style="text-align: center; display: block"
+                        >Thứ tự tham quan có thể thay đổi nhưng vẫn đảm bảo đầy
+                        đủ điểm trong chương trình.</i
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-description-bottom">
+                <div class="content-description-title">
+                  <img src="./assets/img/icons/content-icon-tour6.png" alt="" />
+                  <h5>Bảng giá & Dịch vụ</h5>
+                </div>
+                <div class="content-description-service">
+                  <div class="content-description-service-top">
+                    <h5>giá tour bao gồm</h5>
+                    <ul>
+                      <li>
+                        Khách sạn tiêu chuẩn 2 -3 khách/1 phòng. Trường hợp lẻ
+                        nam/nữ ngủ phòng đơn, sẽ tính phụ thu phòng đơn
                       </li>
-                      <li class="submenu-left-list-item">
-                        <a href="./tour.html"><span>Tour ngoài nước</span>
-                          <i class="fa-solid fa-angle-right"></i></a>
-                        <div class="submenu-right">
-                          <div class="submenu-right-content">
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Châu Âu</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Paris</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch London</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Scotland</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Châu Á</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Trung Quốc</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Ấn Độ</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Nepal</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Hàn Quốc</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Campuchia</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Lào</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Thái Lan</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Nam Mĩ</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch Colombia</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Chile</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Peru</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch Ecuador</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+
+                      <li>Ăn chính: 5 bữa x 120.000vnđ. Ăn sáng tiêu chuẩn</li>
+                      <li>
+                        Xe ô tô du lịch đời mới, máy lạnh đưa đón theo chương
+                        trình
                       </li>
-                      <li class="submenu-left-list-item">
-                        <a href="./tour.html"><span>Tour tự chọn</span>
-                          <i class="fa-solid fa-angle-right"></i></a>
-                        <div class="submenu-right">
-                          <div class="submenu-right-content">
-                            <div class="submenu-right-list">
-                              <a href="./tour.html">
-                                <h4>Tour Biển Đảo</h4>
-                              </a>
-                              <ul>
-                                <li>
-                                  <a href="./tour.html">Du lịch đảo Phú Quốc</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch đảo Hoàng Sa</a>
-                                </li>
-                                <li>
-                                  <a href="./tour.html">Du lịch đảo Trường Sa</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                      <li>
+                        Hướng dẫn viên chuyên nghiệp , nhiệt tình ,phục vụ khách
+                        chu đáo
                       </li>
+                      <li>
+                        Vé thăm quan tất cả các điểm có trong chương trình.
+                      </li>
+                      <li>
+                        Nước uống phục vụ trên xe ô tô, 01 chai 500ml/khách/ngày
+                      </li>
+                      <li>Bảo hiểm du lịch mức: 30.000.000VND/người/vụ.</li>
+                    </ul>
+                  </div>
+
+                  <div class="content-description-service-bottom">
+                    <h5>giá tour không bao gồm</h5>
+                    <ul>
+                      <li>
+                        Khách sạn tiêu chuẩn 2 -3 khách/1 phòng. Trường hợp lẻ
+                        nam/nữ ngủ phòng đơn, sẽ tính phụ thu phòng đơn
+                      </li>
+
+                      <li>Phụ thu phòng đơn: 500.000vnđ/ 2 đêm</li>
+                      <li>Đồ uống gọi thêm trong các bữa ăn.</li>
+                      <li>Chi phí cá nhân (giặt là, quà tặng…).</li>
+                      <li>Thuế VAT 10%</li>
                     </ul>
                   </div>
                 </div>
-              </li>
-              <li class="header__top-right-item">
-                <a href="#">
-                  <span>Lưu trú</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                </a>
-                <div class="header__top-drop-menu menu-stay">
-                  <ul>
-                    <li><a href="./hotel.html">Khách sạn</a></li>
-                    <li><a href="./hotel.html">Resort</a></li>
-                  </ul>
+              </div>
+
+              <div class="content-description-last">
+                <div class="content-description-title">
+                  <img src="./assets/img/icons/content-icon-tour6.png" alt="" />
+                  <h5>Ghi chú</h5>
                 </div>
-              </li>
-              <li class="header__top-right-item">
-                <a href="./event_service.html">
-                  <span>Tổ chức sự kiện</span>
-                </a>
-              </li>
-              <li class="header__top-right-item">
-                <a href="#">
-                  <span>Dịch vụ khác</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                </a>
-                <div class="header__top-drop-menu menu-service">
-                  <ul>
-                    <li><a href="./plane_ticket.html">Vé máy bay</a></li>
-                    <li><a href="./car_service.html">Thuê xe du lịch</a></li>
-                    <li><a href="./visa_service.html">Dịch vụ visa</a></li>
-                  </ul>
+                <div class="content-description-note">
+                  <p>
+                    - Giờ bay có thể thay đổi theo giờ bay của hãng hàng. Vé máy
+                    bay là không hoàn không hủy. <br />
+
+                    - Khi đi máy bay Quý khách nên mang theo một trong các giấy
+                    tờ sau: (Chứng minh thư nhân dân còn hạn dưới 15 năm, hoặc
+                    hộ chiếu, giấy khai sinh (đối với trẻ em), với trẻ em trên
+                    14t chưa có CMND phải làm giấy xác nhận của địa phương trước
+                    khi bay. <br />
+
+                    - Đối với khách hàng từ 70 – 85 tuổi, gia đình và quý khách
+                    phải cam kết đảm bảo tình trạng sức khỏe với chúng tôi trước
+                    khi tham gia tour. Nếu có bất cứ sự cố nào xảy ra trên tour
+                    công ty không chịu trách nhiệm dưới mọi tình huống. <br />
+                  </p>
                 </div>
-              </li>
-              <li class="header__top-right-item">
-                <a href="./news.html">
-                  <span>Tin tức</span>
-                </a>
-              </li>
-              <li class="header__top-right-item">
-                <a href="./contact.html">
-                  <span>Liên hệ</span>
-                </a>
-              </li>
-              <li class="header__top-right-item">
-                <a href="#">
-                  <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-                  <img src="./assets/img/icons/Polygon 4.png" alt="" />
-                </a>
-              </li>
-            </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content-right d_none">
+            <div class="content-right-top">
+              <h5>
+                Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
+              </h5>
+              <div class="infor-tour">
+                <ul>
+                  <li><span>Mã tour:</span>090190005</li>
+                  <li><span>Thời gian:</span>3 ngày 2 đêm</li>
+                  <li><span>Khởi hành: </span>28/8/2022</li>
+                  <li><span>Xuất phát từ:</span>Hà Nội</li>
+                  <li><span>Vận chuyển: </span>Xe du lịch, máy bay</li>
+                </ul>
+              </div>
+            </div>
+            <div class="content-right-middle">
+              <div class="price-tour">Giá: <span>3.950.000 đ</span></div>
+              <button type="button" data-toggle="modal" data-target="#myModal">
+                Đặt tour
+              </button>
+            </div>
+
+            <div class="content-right-bottom">
+              <a href="#"><img src="./assets/img/image2.jpg" alt="" /></a>
+              <a href="#"><img src="./assets/img/image1.jpg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-watched">
+          <h5 class="box-watched-title">Tour đã xem</h5>
+
+          <div class="card_container">
+            <div class="card-wrapper">
+              <div class="card__box-item">
+                <div class="shine">
+                  <a href="./detail_tour.html">
+                    <img
+                      class="card__box-item-img"
+                      src="./assets/img/card-img1.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="card_box-infor">
+                  <div class="card__box-item-location">
+                    <span>&bull;</span>
+                    <span>Khởi hành từ Hà Nội</span>
+                  </div>
+                  <div class="card__box-item-name">
+                    <a href="./detail_tour.html">
+                      <h3>
+                        Tour lễ 2/9 - Hà Nội - Ninh Bình - Bản Cát Cát -
+                        Fansipan giá cả siêu hời cho du lịch thủ
+                      </h3>
+                    </a>
+                  </div>
+                  <div class="card__box-item-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <div class="card__box-item-time-more">
+                      <span>2/9/2022</span>
+                      <span>-</span>
+                      <span>3 ngày 2 đêm</span>
+                    </div>
+                  </div>
+                  <div class="card__box-item-price">
+                    <span class="item-price-line">2.750.000 đ</span>
+                    <span class="item-price-no-line">1.950.000 đ</span>
+                  </div>
+                </div>
+                <div class="flag-wrapper">
+                  <div class="haft-square-flag">
+                    <span>Hot</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+              <div class="card__box-item">
+                <div class="shine">
+                  <a href="./detail_tour.html">
+                    <img
+                      class="card__box-item-img"
+                      src="./assets/img/card-img2.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="card_box-infor">
+                  <div class="card__box-item-location">
+                    <span>&bull;</span>
+                    <span>Khởi hành từ Hà Nội</span>
+                  </div>
+                  <div class="card__box-item-name">
+                    <a href="./detail_tour.html">
+                      <h3>
+                        Tour lễ 2/9 - Hà Nội - Ninh Bình - Bản Cát Cát - Hạ Long
+                      </h3>
+                    </a>
+                  </div>
+                  <div class="card__box-item-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <div class="card__box-item-time-more">
+                      <span>2/9/2022</span>
+                      <span>-</span>
+                      <span>3 ngày 2 đêm</span>
+                    </div>
+                  </div>
+                  <div class="card__box-item-price">
+                    <span class="item-price-line">2.750.000 đ</span>
+                    <span class="item-price-no-line">1.950.000 đ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-same">
+          <h5 class="box-same-title">Tour liên quan</h5>
+
+          <div class="card_container">
+            <div class="card-wrapper">
+              <div class="card__box-item">
+                <div class="shine">
+                  <a href="./detail_tour.html">
+                    <img
+                      class="card__box-item-img"
+                      src="./assets/img/card-img3.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="card_box-infor">
+                  <div class="card__box-item-location">
+                    <span>&bull;</span>
+                    <span>Khởi hành từ Hà Nội</span>
+                  </div>
+                  <div class="card__box-item-name">
+                    <a href="./detail_tour.html">
+                      <h3>
+                        Tour lễ 2/9 - Hà Nội - Hà Giang - Bản Cát Cát - Fansipan
+                      </h3>
+                    </a>
+                  </div>
+                  <div class="card__box-item-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <div class="card__box-item-time-more">
+                      <span>2/9/2022</span>
+                      <span>-</span>
+                      <span>3 ngày 2 đêm</span>
+                    </div>
+                  </div>
+                  <div class="card__box-item-price">
+                    <span class="item-price-line">2.750.000 đ</span>
+                    <span class="item-price-no-line">1.950.000 đ</span>
+                  </div>
+                </div>
+                <div class="flag-wrapper">
+                  <div class="haft-square-flag">
+                    <span>Hot</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+              <div class="card__box-item">
+                <div class="shine">
+                  <a href="./detail_tour.html">
+                    <img
+                      class="card__box-item-img"
+                      src="./assets/img/card-img4.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="card_box-infor">
+                  <div class="card__box-item-location">
+                    <span>&bull;</span>
+                    <span>Khởi hành từ Hà Nội</span>
+                  </div>
+                  <div class="card__box-item-name">
+                    <a href="./detail_tour.html">
+                      <h3>
+                        Đông Bắc: Hà Nội - Hà Giang - Lũng Cú - Đồng Văn - Mã Pí
+                        Lèng
+                      </h3>
+                    </a>
+                  </div>
+                  <div class="card__box-item-time">
+                    <img src="./assets/img/icons/clock.png" alt="" />
+                    <div class="card__box-item-time-more">
+                      <span>2/9/2022</span>
+                      <span>-</span>
+                      <span>3 ngày 2 đêm</span>
+                    </div>
+                  </div>
+                  <div class="card__box-item-price">
+                    <span class="item-price-line">2.750.000 đ</span>
+                    <span class="item-price-no-line">1.950.000 đ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </head>
+    </section>
 
-  <section>
-    <div class="box-wp section_container">
-      <div class="page-navigation">
-        <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
-        <span class="page-navigation"><a href="#">Tour trong nước</a></span>
-        <span class="page-navigation"><a href="#">Du lịch Hà Giang - Quảng Bạ - Đồng Văn - Lũng Cú - Sông Nho
-            Quế</a></span>
-      </div>
-      <div class="box-container">
-        <div class="content-left">
-          <h4>
-            Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
-          </h4>
-          <div class="content-left-social">
-            <div class="content-left-social-left">
-              <div class="plugin-facebook">
-                <iframe
-                  src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId=763868395038307"
-                  width="200" height="30" style="border: none; overflow: hidden" scrolling="no" frameborder="0"
-                  allowfullscreen="true"
-                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-              </div>
-              <div
-                onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=http://smart.danaweb.vn/vi/tam-su','_blank')">
-                <img class="icon-social" src="./assets/img/icons/facebook.svg" alt="" />
-              </div>
-              <div
-                onclick="javascript:window.open('https://www.instagram.com/?url=http://smart.danaweb.vn/vi/tam-su','_blank')">
-                <img class="icon-social" src="./assets/img/icons/instagram.svg" alt="" />
-              </div>
-              <div
-                onclick="javascript:window.open('https://twitter.com/intent/tweet?source=webclient&url=http://smart.danaweb.vn/vi/tam-su','_blank')">
-                <img class="icon-social" src="./assets/img/icons/twiter.svg" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div class="box_order-tour-small-display">
-            <div class="price-tour">Giá: <span>3.950.000 đ</span></div>
-            <button type="button" data-toggle="modal" data-target="#myModal">
-              Đặt tour
-            </button>
-          </div>
-
-          <div class="content-left-description">
-            <div class="content-left-main-img">
-              <img src="./assets/img/main-img-content.png" alt="" />
+    <footer>
+      <div class="footer">
+        <div class="footer__container box-wp">
+          <div class="footer-top clearfix">
+            <div class="footer-top-branch">
+              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+              <h3>PHU MY QUANG TRAVEL</h3>
+              <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
             </div>
 
-            <div class="content-description-top">
-              <div class="content-description-title resize">
-                <img src="./assets/img/icons/content-icon-tour4.png" alt="" />
-                <h5>Giới thiệu</h5>
-              </div>
-              <div class="content-description-infor">
+            <div class="footer-top-contact">
+              <h5>Thông tin liên hệ</h5>
+              <ul>
+                <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
+                <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
+                <li><b>Email:</b> info@logo.com</li>
+              </ul>
+              <div class="footer-top-contact-social">
                 <ul>
                   <li>
-                    <span> Hành trình: </span>
-                    <p>
-                      Hà Giang - Quảng Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
-                    </p>
+                    <a href="#"
+                      ><img
+                        src="/assets/img/icons/eva_facebook-fill.svg"
+                        alt=""
+                    /></a>
                   </li>
-
                   <li>
-                    <span> Lịch trình: </span>
-                    <p>3 ngày 2 đêm</p>
+                    <a href="#"
+                      ><img src="/assets/img/icons/cib_youtube.svg" alt=""
+                    /></a>
                   </li>
-
                   <li>
-                    <span> Vận chuyển: </span>
-                    <p>Xe du lịch đời mới</p>
+                    <a href="#"
+                      ><img
+                        src="/assets/img/icons/logos_google-gmail.svg"
+                        alt=""
+                    /></a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div class="content-description-middle">
-              <div class="content-description-title">
-                <img src="./assets/img/icons/content-icon-tour1.png" alt="" />
-                <h5>Lịch trình</h5>
-              </div>
-              <div class="content-description-infor-detail">
-                <div class="description-infor-detail-heading">
-                  <img src="./assets/img/icons/content-icon-tour2.png" alt="" />
-                  <h5 class="heading-clicked">NGÀY 1 | HÀ NỘI - HÀ GIANG - QUẢN BẠ (Ăn trưa, tối)</h5>
-                </div>
-
-                <div class="description-infor-detail-txt">
-                  <p>
-                    <b style="color: #0070b4">05h15:</b> Xe và hướng dẫn viên
-                    Du Lịch đón Quý khách tại nhà hát lớn. <br />
-                    <b style="color: #0070b4">05h30:</b> Xe khởi hành đi Hà
-                    Giang - vùng đất có chè san, rượu mật ong và thắng cố, xứ
-                    sở của đào phai, hoa lê, truyền thống và náo nhiệt trong
-                    buổi chợ phiên… Trên đường, Quý khách có thể tranh thủ
-                    ngắm cảnh rừng núi Đông bắc vô cùng hùng vĩ và hoang sơ.
-                    Và dọc đường đi, xe sẽ dừng nghỉ, Quý khách có thể xuống
-                    sẽ thư giãn và chụp hình lưu niệm. <br /><br />
-                    <img src="./assets/img/img_content-t1.png" alt="" />
-                    <img src="./assets/img/img_content-t2.png" alt="" />
-                    <img src="./assets/img/img_content-t3.png" alt="" />
-                    <br /><br />
-                    <b style="color: #0070b4">11h30:</b> Quý khách dừng chân
-                    tại Bắc Quang - Hà Giang để dùng bữa trưa tại nhà hàng.
-                    <br />
-                    <b style="color: #0070b4">13h30:</b> Quý khách lên đường
-                    đi Quản Bạ - Du khách đến đây đều có dịp chiêm ngưỡng Núi
-                    Đôi Cô Tiên - “tác phẩm nghệ thuật” của tạo hoá ban tặng
-                    cho vùng đất này, ngoài ra Quý khách còn có dịp nghe kể về
-                    truyền thuyết của ngọn núi này, vô vùng hấp dẫn và thú vị.
-                    <br />
-                    Sau đó, Quý khách sẽ đi qua rừng thông bạt ngàn đẹp nhất
-                    Việt Nam trải dài trên các sườn núi cao để đến với đến thị
-                    trấn Yên Minh. Quý khách đến khách sạn nhận phòng nghỉ
-                    ngơi. <br />
-
-                    <b style="color: #0070b4">18h00:</b> Quý khách tự do dạo
-                    chơi thư giãn tại thị trấn Yên Minh về đêm, và thưởng thức
-                    các món đặc sản núi rừng Đông Bắc: thắng cố (thịt bò hầm),
-                    mèn mén (bánh bột ngô), cháo Ấu Tẩu… Nghỉ đêm tại khách
-                    sạn. <br /><br />
-
-                    Qúy khách tự do tham quan Hà Giang về đêm. Nghỉ đêm tại Hà
-                    Giang.
-                  </p>
-                </div>
-              </div>
-
-              <div class="content-description-infor-detail">
-                <div class="description-infor-detail-heading">
-                  <img src="./assets/img/icons/content-icon-tour2.png" alt="" />
-                  <h5 class="heading-clicked">
-                    NGÀY 2 | YÊN MINH - ĐỒNG VĂN - LŨNG CÚ - MÈO VẠC - TP. HÀ
-                    GIANG (Ăn ba bữa)
-                  </h5>
-                </div>
-
-                <div class="description-infor-detail-txt">
-                  <p>
-                    <b style="color: #0070b4; text-transform: uppercase">Sáng:</b>
-                    Quý khách thức dậy ăn sáng và làm thủ tục trả phòng.
-                    <br />
-                    <b style="color: #0070b4">8h00:</b> Xe và Hướng dẫn viên
-                    đưa Quý khách đi Cao nguyên đá Đồng Văn - là một cao
-                    nguyên đá trải rộng trên bốn huyện Quản Bạ, Yên Minh, Đồng
-                    Văn, Mèo Vạc. <br />
-                    Quý khách có thể dừng chân thăm quan ở Phố Cáo, Sủng Là,
-                    vào làng văn hóa Lũng Cẩm nơi lấy bối cảnh những thước
-                    phim nổi tiếng “Chuyện của Pao” – vào mùa đông, mùa xuân
-                    nở rộ những đồng hoa cải vàng hoặc hoa đào tết, quá thích
-                    hợp cho những thước hình lãng mạn mà đậm nét văn hóa…
-                    <br />
-                    Quý khách cũng sẽ ghé thăm dinh thự vua Mèo Vương Chí Sình
-                    với kiến trúc độc đáo và những câu chuyện đặc sắc.
-                    <b style="color: #0070b4">12h00:</b> Quý khách ăn trưa tại
-                    nhà hàng tại Lũng Cú. <br />
-                    Quý khách đến Lũng Cú - Nơi địa đầu Tổ Quốc, hay còn được
-                    miêu tả là: “Nơi cúi mặt sát đất, ngẩng mặt đụng trời”.
-                    Quý khách thăm quan Cột cờ Tổ Quốc và chụp hình lưu niệm.
-                    Từ cột cờ Lũng Cú, Quý khách có thể ngắm phong cảnh ruộng
-                    bậc thang đẹp mắt xen kẽ những nhà trình tường của dân tộc
-                    Lô Lô trong bản Séo Lủng bên dưới. <br /><br />
-
-                    <img src="./assets/img/img_content_t4.png" alt="" />
-                    <img src="./assets/img/img_content_t5.png" alt="" />
-                    <br /><br />
-
-                    <b style="color: #0070b4; text-transform: uppercase">Chiều:</b>
-                    Quý khách tham quan chợ Đồng Văn quý khách được tiếp xúc
-                    với các nền văn hoá của các dân tộc như: Mông Hoa, Lô Hoa,
-                    Lôlô, Choang… tham quan Phố cổ Đồng Văn. Chia tay phố cổ
-                    Đồng Văn, Quý khách lên xe chinh phục một trong “Tứ Đại
-                    Đỉnh Đèo” nổi tiếng nhất của Việt Nam – Đèo Mã Pí Lèng,
-                    đoàn dừng chân chụp ảnh bên điểm dừng chân của đèo Mã Pì
-                    Lèng. <br />
-                    18h00: Quý khách ăn tối, Quý khách tự do tản bộ, thư giãn
-                    giải trí tại thị trấn Tam Sơn, nghỉ đêm tại khách sạn.
-                    <br />
-                  </p>
-                </div>
-              </div>
-
-              <div class="content-description-infor-detail">
-                <div class="description-infor-detail-heading">
-                  <img src="./assets/img/icons/content-icon-tour2.png" alt="" />
-                  <h5 class="heading-clicked">
-                    NGÀY 3 | HÀ QUANG - TUYÊN QUANG - HÀ NỘI (Ăn sáng, trưa)
-                  </h5>
-                </div>
-
-                <div class="description-infor-detail-txt">
-                  <p>
-                    <b style="color: #0070b4; text-transform: uppercase">Sáng:</b>
-                    Quý khách dùng bữa sáng. Sau đó quý khách về khách sạn làm
-                    thủ tục trả phòng. <br />
-                    Xe và Hướng dẫn viên đưa Quý khách trở về Hà Nội. <br />
-                    <b style="color: #0070b4">12h00:</b> Quý khách dừng chân
-                    ăn trưa tại Thị trấn Việt Quang thưởng thức đặc sản Gà
-                    đồi, cá sông, lợn bản. <br />
-                    Quý khách tiếp tục hành trình trở về Hà Nội. <br /><br />
-
-                    <img src="./assets/img/img_content_t7.png" alt="" />
-                    <br />
-                    <br />
-                    <b style="color: #0070b4">19h00:</b> Quý khách về tới Hà
-                    Nội. Hướng dẫn viên chia tay Quý khách và kết thúc chương
-                    trình. Hẹn gặp lại quý khách trong những hành trình sau.
-                    <br /><br />
-
-                    <i style="text-align: center; display: block">Thứ tự tham quan có thể thay đổi nhưng vẫn đảm bảo đầy
-                      đủ điểm trong chương trình.</i>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="content-description-bottom">
-              <div class="content-description-title">
-                <img src="./assets/img/icons/content-icon-tour6.png" alt="" />
-                <h5>Bảng giá & Dịch vụ</h5>
-              </div>
-              <div class="content-description-service">
-                <div class="content-description-service-top">
-                  <h5>giá tour bao gồm</h5>
-                  <ul>
-                    <li>
-                      Khách sạn tiêu chuẩn 2 -3 khách/1 phòng. Trường hợp lẻ
-                      nam/nữ ngủ phòng đơn, sẽ tính phụ thu phòng đơn
-                    </li>
-
-                    <li>Ăn chính: 5 bữa x 120.000vnđ. Ăn sáng tiêu chuẩn</li>
-                    <li>
-                      Xe ô tô du lịch đời mới, máy lạnh đưa đón theo chương
-                      trình
-                    </li>
-                    <li>
-                      Hướng dẫn viên chuyên nghiệp , nhiệt tình ,phục vụ khách
-                      chu đáo
-                    </li>
-                    <li>
-                      Vé thăm quan tất cả các điểm có trong chương trình.
-                    </li>
-                    <li>
-                      Nước uống phục vụ trên xe ô tô, 01 chai 500ml/khách/ngày
-                    </li>
-                    <li>Bảo hiểm du lịch mức: 30.000.000VND/người/vụ.</li>
-                  </ul>
-                </div>
-
-                <div class="content-description-service-bottom">
-                  <h5>giá tour không bao gồm</h5>
-                  <ul>
-                    <li>
-                      Khách sạn tiêu chuẩn 2 -3 khách/1 phòng. Trường hợp lẻ
-                      nam/nữ ngủ phòng đơn, sẽ tính phụ thu phòng đơn
-                    </li>
-
-                    <li>Phụ thu phòng đơn: 500.000vnđ/ 2 đêm</li>
-                    <li>Đồ uống gọi thêm trong các bữa ăn.</li>
-                    <li>Chi phí cá nhân (giặt là, quà tặng…).</li>
-                    <li>Thuế VAT 10%</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="content-description-last">
-              <div class="content-description-title">
-                <img src="./assets/img/icons/content-icon-tour6.png" alt="" />
-                <h5>Ghi chú</h5>
-              </div>
-              <div class="content-description-note">
-                <p>
-                  - Giờ bay có thể thay đổi theo giờ bay của hãng hàng. Vé máy
-                  bay là không hoàn không hủy. <br />
-
-                  - Khi đi máy bay Quý khách nên mang theo một trong các giấy
-                  tờ sau: (Chứng minh thư nhân dân còn hạn dưới 15 năm, hoặc
-                  hộ chiếu, giấy khai sinh (đối với trẻ em), với trẻ em trên
-                  14t chưa có CMND phải làm giấy xác nhận của địa phương trước
-                  khi bay. <br />
-
-                  - Đối với khách hàng từ 70 – 85 tuổi, gia đình và quý khách
-                  phải cam kết đảm bảo tình trạng sức khỏe với chúng tôi trước
-                  khi tham gia tour. Nếu có bất cứ sự cố nào xảy ra trên tour
-                  công ty không chịu trách nhiệm dưới mọi tình huống. <br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content-right d_none">
-          <div class="content-right-top">
-            <h5>
-              Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông Nho Quế
-            </h5>
-            <div class="infor-tour">
+            <div class="footer-top-our-service">
+              <h5>Dịch vụ của chúng tôi</h5>
               <ul>
-                <li><span>Mã tour:</span>090190005</li>
-                <li><span>Thời gian:</span>3 ngày 2 đêm</li>
-                <li><span>Khởi hành: </span>28/8/2022</li>
-                <li><span>Xuất phát từ:</span>Hà Nội</li>
-                <li><span>Vận chuyển: </span>Xe du lịch, máy bay</li>
+                <li><a href="#">Tour du lịch</a></li>
+                <li><a href="#">Lưu trú</a></li>
+                <li><a href="#">Vé máy bay</a></li>
+                <li><a href="#">Thuê xe du lịch</a></li>
+                <li><a href="#">Dịch vụ Visa</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-top-our-customer">
+              <h5>Góc khách hàng</h5>
+              <ul>
+                <li><a href="#">Chính sách đặt tour</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="#">Ý kiến khách hàng</a></li>
+                <li><a href="#">Phiếu góp ý</a></li>
               </ul>
             </div>
           </div>
-          <div class="content-right-middle">
-            <div class="price-tour">Giá: <span>3.950.000 đ</span></div>
-            <button type="button" data-toggle="modal" data-target="#myModal">
-              Đặt tour
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
+            </div>
+            <div class="footer-bottom-right">
+              <p>Designed and Maintained by</p>
+              <a href="https://danaweb.vn/"
+                ><img src="./assets/img/icons/danaweb.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="footer-img-plane">
+            <img src="./assets/img/icons/plane.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-img-bottom-l">
+          <div class="footer-img-bottom-l-left">
+            <img src="./assets/img/vt1.png" alt="" />
+          </div>
+          <div class="footer-img-bottom-l-right">
+            <img src="./assets/img/vt1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="footer-img-bottom-s">
+          <div class="footer-img-bottom-s-left">
+            <img src="./assets/img/vt2.png" alt="" />
+          </div>
+          <div class="footer-img-bottom-s-mid">
+            <img src="./assets/img/vt2.png" alt="" />
+          </div>
+          <div class="footer-img-bottom-s-right">
+            <img src="./assets/img/vt2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- modal đặt tour--------------------------->
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
             </button>
           </div>
-
-          <div class="content-right-bottom">
-            <a href="#"><img src="./assets/img/image2.jpg" alt="" /></a>
-            <a href="#"><img src="./assets/img/image1.jpg" alt="" /></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="box-watched">
-        <h5 class="box-watched-title">Tour đã xem</h5>
-
-        <div class="card_container">
-          <div class="card-wrapper">
-            <div class="card__box-item">
-              <div class="shine">
-                <a href="./detail_tour.html">
-                  <img class="card__box-item-img" src="./assets/img/card-img1.jpg" alt="" />
-                </a>
+          <div class="modal-body">
+            <h5>
+              Đặt Tour Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông
+              Nho Quế
+            </h5>
+            <div class="form-container">
+              <div class="row-input">
+                <label for="">Họ và tên &nbsp;&nbsp;:</label>
+                <div class="input-custom">
+                  <img src="./assets/img/icons/form-icon7.png" alt="" />
+                  <input class="input-text" type="text" />
+                </div>
               </div>
-              <div class="card_box-infor">
-                <div class="card__box-item-location">
-                  <span>&bull;</span>
-                  <span>Khởi hành từ Hà Nội</span>
-                </div>
-                <div class="card__box-item-name">
-                  <a href="./detail_tour.html">
-                    <h3>
-                      Tour lễ 2/9 - Hà Nội - Ninh Bình - Bản Cát Cát -
-                      Fansipan giá cả siêu hời cho du lịch thủ
-                    </h3>
-                  </a>
-                </div>
-                <div class="card__box-item-time">
-                  <img src="./assets/img/icons/clock.png" alt="" />
-                  <div class="card__box-item-time-more">
-                    <span>2/9/2022</span>
-                    <span>-</span>
-                    <span>3 ngày 2 đêm</span>
+
+              <div class="row-input">
+                <label for="">Quốc tịch &nbsp;&nbsp;:</label>
+                <div class="input-custom">
+                  <img src="./assets/img/icons/form-icon8.png" alt="" />
+                  <div class="arrow-for-select">
+                    <select>
+                      <option selected value="">Quốc tịch</option>
+                      <option value="1">Việt Nam</option>
+                      <option value="2">Indonesia</option>
+                      <option value="3">Hàn Quốc</option>
+                      <option value="4">Nhật Bản</option>
+                    </select>
                   </div>
                 </div>
-                <div class="card__box-item-price">
-                  <span class="item-price-line">2.750.000 đ</span>
-                  <span class="item-price-no-line">1.950.000 đ</span>
+              </div>
+
+              <div class="row-input">
+                <label for="">Địa chỉ &nbsp;&nbsp;:</label>
+                <div class="input-custom">
+                  <img src="./assets/img/icons/form-icon1.png" alt="" />
+                  <input type="text" />
                 </div>
               </div>
-              <div class="flag-wrapper">
-                <div class="haft-square-flag">
-                  <span>Hot</span>
+
+              <div class="row-input">
+                <label for="">Email &nbsp;&nbsp;:</label>
+                <div class="input-custom">
+                  <img src="./assets/img/icons/form-icon2.png" alt="" />
+                  <input type="text" />
+                </div>
+              </div>
+
+              <div class="row-input">
+                <label for="">Điện thoại &nbsp;&nbsp;:</label>
+                <div class="input-custom">
+                  <img src="./assets/img/icons/form-icon5.png" alt="" />
+                  <input type="text" />
+                </div>
+              </div>
+
+              <div class="row-input">
+                <label for="">Số lượng &nbsp;&nbsp;:</label>
+                <div class="input-custom-extra">
+                  <div class="input-custom-extra-box">
+                    <label for="">Người lớn</label>
+                    <div class="input-box">
+                      <img src="./assets/img/icons/form-icon3.png" alt="" />
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div class="input-custom-extra-box">
+                    <label class="lb-right-text" for="">Trẻ em</label>
+                    <div class="input-box">
+                      <img src="./assets/img/icons/form-icon6.png" alt="" />
+                      <input type="text" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row-input">
+                <label class="custom-lable" for="">Yêu cầu &nbsp;&nbsp;:</label>
+                <div class="input-custom large-txt">
+                  <img src="./assets/img/icons/form-icon4.png" alt="" />
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="card-wrapper">
-            <div class="card__box-item">
-              <div class="shine">
-                <a href="./detail_tour.html">
-                  <img class="card__box-item-img" src="./assets/img/card-img2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="card_box-infor">
-                <div class="card__box-item-location">
-                  <span>&bull;</span>
-                  <span>Khởi hành từ Hà Nội</span>
-                </div>
-                <div class="card__box-item-name">
-                  <a href="./detail_tour.html">
-                    <h3>
-                      Tour lễ 2/9 - Hà Nội - Ninh Bình - Bản Cát Cát - Hạ Long
-                    </h3>
-                  </a>
-                </div>
-                <div class="card__box-item-time">
-                  <img src="./assets/img/icons/clock.png" alt="" />
-                  <div class="card__box-item-time-more">
-                    <span>2/9/2022</span>
-                    <span>-</span>
-                    <span>3 ngày 2 đêm</span>
-                  </div>
-                </div>
-                <div class="card__box-item-price">
-                  <span class="item-price-line">2.750.000 đ</span>
-                  <span class="item-price-no-line">1.950.000 đ</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="box-same">
-        <h5 class="box-same-title">Tour liên quan</h5>
-
-        <div class="card_container">
-          <div class="card-wrapper">
-            <div class="card__box-item">
-              <div class="shine">
-                <a href="./detail_tour.html">
-                  <img class="card__box-item-img" src="./assets/img/card-img3.jpg" alt="" />
-                </a>
-              </div>
-              <div class="card_box-infor">
-                <div class="card__box-item-location">
-                  <span>&bull;</span>
-                  <span>Khởi hành từ Hà Nội</span>
-                </div>
-                <div class="card__box-item-name">
-                  <a href="./detail_tour.html">
-                    <h3>
-                      Tour lễ 2/9 - Hà Nội - Hà Giang - Bản Cát Cát - Fansipan
-                    </h3>
-                  </a>
-                </div>
-                <div class="card__box-item-time">
-                  <img src="./assets/img/icons/clock.png" alt="" />
-                  <div class="card__box-item-time-more">
-                    <span>2/9/2022</span>
-                    <span>-</span>
-                    <span>3 ngày 2 đêm</span>
-                  </div>
-                </div>
-                <div class="card__box-item-price">
-                  <span class="item-price-line">2.750.000 đ</span>
-                  <span class="item-price-no-line">1.950.000 đ</span>
-                </div>
-              </div>
-              <div class="flag-wrapper">
-                <div class="haft-square-flag">
-                  <span>Hot</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-wrapper">
-            <div class="card__box-item">
-              <div class="shine">
-                <a href="./detail_tour.html">
-                  <img class="card__box-item-img" src="./assets/img/card-img4.jpg" alt="" />
-                </a>
-              </div>
-              <div class="card_box-infor">
-                <div class="card__box-item-location">
-                  <span>&bull;</span>
-                  <span>Khởi hành từ Hà Nội</span>
-                </div>
-                <div class="card__box-item-name">
-                  <a href="./detail_tour.html">
-                    <h3>
-                      Đông Bắc: Hà Nội - Hà Giang - Lũng Cú - Đồng Văn - Mã Pí
-                      Lèng
-                    </h3>
-                  </a>
-                </div>
-                <div class="card__box-item-time">
-                  <img src="./assets/img/icons/clock.png" alt="" />
-                  <div class="card__box-item-time-more">
-                    <span>2/9/2022</span>
-                    <span>-</span>
-                    <span>3 ngày 2 đêm</span>
-                  </div>
-                </div>
-                <div class="card__box-item-price">
-                  <span class="item-price-line">2.750.000 đ</span>
-                  <span class="item-price-no-line">1.950.000 đ</span>
-                </div>
-              </div>
+            <div class="modal-btn-main">
+              <button type="button" class="btn-order">Đặt tour</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </body>
 
-  <footer>
-    <div class="footer">
-      <div class="footer__container box-wp">
-        <div class="footer-top">
-          <div class="footer-top-branch">
-            <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-            <h3>PHU MY QUANG TRAVEL</h3>
-            <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
-          </div>
-
-          <div class="footer-top-contact">
-            <h5>Thông tin liên hệ</h5>
-            <ul>
-              <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
-              <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
-              <li><b>Email:</b> info@logo.com</li>
-            </ul>
-            <div class="footer-top-contact-social">
-              <ul>
-                <li>
-                  <a href="#"><img src="/assets/img/icons/eva_facebook-fill.svg" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="/assets/img/icons/cib_youtube.svg" alt="" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="/assets/img/icons/logos_google-gmail.svg" alt="" /></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-top-our-service">
-            <h5>Dịch vụ của chúng tôi</h5>
-            <ul>
-              <li><a href="#">Tour du lịch</a></li>
-              <li><a href="#">Lưu trú</a></li>
-              <li><a href="#">Vé máy bay</a></li>
-              <li><a href="#">Thuê xe du lịch</a></li>
-              <li><a href="#">Dịch vụ Visa</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-top-our-customer">
-            <h5>Góc khách hàng</h5>
-            <ul>
-              <li><a href="#">Chính sách đặt tour</a></li>
-              <li><a href="#">Chính sách bảo mật</a></li>
-              <li><a href="#">Ý kiến khách hàng</a></li>
-              <li><a href="#">Phiếu góp ý</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <div class="footer-bottom-left">
-            Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
-          </div>
-          <div class="footer-bottom-right">
-            <p>Designed and Maintained by</p>
-            <a href="https://danaweb.vn/"><img src="./assets/img/icons/danaweb.png" alt="" /></a>
-          </div>
-        </div>
-        <div class="footer-img-plane">
-          <img src="./assets/img/icons/plane.png" alt="" />
-        </div>
-      </div>
-      <div class="footer-img-bottom-l">
-        <div class="footer-img-bottom-l-left">
-          <img src="./assets/img/vt1.png" alt="" />
-        </div>
-        <div class="footer-img-bottom-l-right">
-          <img src="./assets/img/vt1.png" alt="" />
-        </div>
-      </div>
-
-      <div class="footer-img-bottom-s">
-        <div class="footer-img-bottom-s-left">
-          <img src="./assets/img/vt2.png" alt="" />
-        </div>
-        <div class="footer-img-bottom-s-mid">
-          <img src="./assets/img/vt2.png" alt="" />
-        </div>
-        <div class="footer-img-bottom-s-right">
-          <img src="./assets/img/vt2.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- modal đặt tour--------------------------->
-
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">
-            &times;
-          </button>
-        </div>
-        <div class="modal-body">
-          <h5>
-            Đặt Tour Du lịch Hà Giang - Quản Bạ - Đồng Văn - Lũng Cú - Sông
-            Nho Quế
-          </h5>
-          <div class="form-container">
-            <div class="row-input">
-              <label for="">Họ và tên &nbsp;&nbsp;:</label>
-              <div class="input-custom">
-                <img src="./assets/img/icons/form-icon7.png" alt="" />
-                <input class="input-text" type="text" />
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label for="">Quốc tịch &nbsp;&nbsp;:</label>
-              <div class="input-custom">
-                <img src="./assets/img/icons/form-icon8.png" alt="" />
-                <div class="arrow-for-select">
-                  <select>
-                    <option selected value="">Quốc tịch</option>
-                    <option value="1">Việt Nam</option>
-                    <option value="2">Indonesia</option>
-                    <option value="3">Hàn Quốc</option>
-                    <option value="4">Nhật Bản</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label for="">Địa chỉ &nbsp;&nbsp;:</label>
-              <div class="input-custom">
-                <img src="./assets/img/icons/form-icon1.png" alt="" />
-                <input type="text" />
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label for="">Email &nbsp;&nbsp;:</label>
-              <div class="input-custom">
-                <img src="./assets/img/icons/form-icon2.png" alt="" />
-                <input type="text" />
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label for="">Điện thoại &nbsp;&nbsp;:</label>
-              <div class="input-custom">
-                <img src="./assets/img/icons/form-icon5.png" alt="" />
-                <input type="text" />
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label for="">Số lượng &nbsp;&nbsp;:</label>
-              <div class="input-custom-extra">
-                <div class="input-custom-extra-box">
-                  <label for="">Người lớn</label>
-                  <div class="input-box">
-                    <img src="./assets/img/icons/form-icon3.png" alt="" />
-                    <input type="text" />
-                  </div>
-                </div>
-                <div class="input-custom-extra-box">
-                  <label class="lb-right-text" for="">Trẻ em</label>
-                  <div class="input-box">
-                    <img src="./assets/img/icons/form-icon6.png" alt="" />
-                    <input type="text" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row-input">
-              <label class="custom-lable" for="">Yêu cầu &nbsp;&nbsp;:</label>
-              <div class="input-custom large-txt">
-                <img src="./assets/img/icons/form-icon4.png" alt="" />
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal-btn-main">
-            <button type="button" class="btn-order">Đặt tour</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
-<script src="./assets/js/modal.js"></script>
-<script src="./assets/js/app.js"></script>
-
+  <script src="./assets/js/modal.js"></script>
+  <script src="./assets/js/app.js"></script>
 </html>

@@ -13,7 +13,7 @@
     }
 
     .content-right-box {
-        width: 40%;
+        width: 100%;
     }
 
     .content-right {
@@ -26,5 +26,93 @@
 
     .event-service-card {
         width: 33.3333%;
+    }
+
+    .partner-container {
+        gap: unset;
+        flex-wrap: wrap;
+        margin: 0 -10px 50px;
+    }
+
+    .partner-card {
+        width: 33.3333%;
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+
+    .visa-container {
+        gap: unset;
+        flex-wrap: wrap;
+        margin: 0 -10px 50px;
+    }
+
+    .visa-card {
+        width: 50%;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+    
+    .car-service-card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box-container {
+        display: block;
+    }
+
+    .content-right,
+    .content-left {
+        width: 100%;
+    }
+
+    .content-left-description {
+        border-bottom: unset;
+    }
+
+    .content-right-box {
+        width: 100%;
+    }
+
+    .content-right {
+        margin-left: 0;
+        margin-top: 30px;
+        display: flex;
+        justify-content: end;
+        border-bottom: 0.5px solid #ADADAD;
+        padding-bottom: 15px;
+    }
+
+    .event-service-card {
+        width: 100%;
+    }
+
+    .partner-container {
+        gap: unset;
+        flex-wrap: wrap;
+        margin: 0 -10px 50px;
+    }
+
+    .partner-card {
+        width: 50%;
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+
+    .visa-container {
+        gap: unset;
+        flex-wrap: wrap;
+        margin: 0 -10px 50px;
+    }
+
+    .visa-card {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+    
+    .car-service-card {
+        width: 100%;
     }
 }

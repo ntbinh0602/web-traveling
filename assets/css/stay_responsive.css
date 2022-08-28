@@ -22,3 +22,39 @@
 
 
 }
+
+@media (max-width: 767px) {
+    .body-content {
+        display: block;
+    }
+
+    .body-content-right {
+        width: 100%;
+    }
+
+    .content-right-filter {
+        display: none;
+    }
+
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card__box-item img.card__box-item-img {
+        height: auto;
+    }
+
+    .content-right-sum-founded {
+        padding-bottom: 20px;
+        border-bottom: 0.5px solid #ADADAD;
+    }
+
+    .content-right-sum-founded button.btn-filter {
+        display: flex;
+        position: unset;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    
+}

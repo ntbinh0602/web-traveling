@@ -1,0 +1,86 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .box-container {
+        display: block;
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+    .car-service-card {
+        width: 50%;
+    }
+
+    .content-right {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .content-right-container {
+        padding: 0;
+    }
+
+    .btn-order-car button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .box-container {
+        display: block;
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+    .car-service-card {
+        width: 100%;
+    }
+
+    .content-right {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .content-right-container {
+        padding: 0;
+    }
+
+    .btn-order-car button {
+        width: 100%;
+    }
+
+    .banner-slider {
+        display: block;
+    }
+
+    .banner-slider .slider.slider-for {
+        width: 100%;
+        height: auto;
+        margin-bottom:15px;
+    }
+
+    .banner-slider .slider.slider-nav {
+        width: 100%;
+        height: unset;
+        
+    }
+    .thumbImg img {
+        height: auto;
+        padding: 0 2px;
+    }
+
+    .slider-nav .slick-slide.thumbnail-image .thumbImg {
+        height: auto;
+    }
+
+    .slider-nav .slick-slide.slick-current.thumbnail-image .thumbImg::before {
+        left: 2px;
+        right: 2px;
+    }
+
+    .slick-slider .slick-list {
+        margin: 0 -2px;
+    }
+}
