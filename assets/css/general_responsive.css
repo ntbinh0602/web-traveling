@@ -108,6 +108,7 @@
 
     .menu-small-display-list {
         list-style: none;
+        border-top: 1px solid #dadada;
     }
 
     .menu-small-display-list-item {
@@ -375,6 +376,8 @@
 
     .menu-small-display-list {
         list-style: none;
+        border-top: 1px solid #dadada;
+
     }
 
     .menu-small-display-list-item {

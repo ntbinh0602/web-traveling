@@ -9,7 +9,29 @@
    top: 0px;
    padding-top: 32px;
    right: 0px;
-   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+   transition: 0.5s;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+html:not([data-scroll='0']) .header__top {
+   position: fixed;
+   z-index: 1020;
+   padding-top: 12px;
+   padding-bottom: 12px;
+
+}
+
+html:not([data-scroll='0']) .header__top-left {
+   width: 60px;
+   height: 60px;
+}
+
+html:not([data-scroll='0']) .header__top-nav {
+   align-items: center;
+}
+
+html:not([data-scroll='0']) .header__top-right-list {
+   margin-top: 0;
 }
 
 .header__top-mobile,
@@ -28,6 +50,7 @@
 .header__top-left {
    width: 100px;
    height: 100px;
+   transition: 0.5s;
 }
 
 .header__top-left a{
