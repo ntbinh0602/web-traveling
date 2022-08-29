@@ -136,8 +136,8 @@ height: 100%;
     text-align: center;
     color: #125E90;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: -8px;
+    margin-bottom: 18px;
 }
 
 .label-form {
@@ -159,11 +159,15 @@ height: 100%;
 }
 
 .modal-body {
-    padding: 0 35px;
+    padding: 0 15px;
+}
+
+.form-group {
+    margin-bottom: 5px;
 }
 
 textarea {
-    height: 96px;
+    height: 70px;
     resize: none;
 }
 

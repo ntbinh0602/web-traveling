@@ -80,9 +80,106 @@
         margin-top: 70px;
     }
 
-    .header__top-menu-icon {
-        margin-left: 16px;
+
+    /* Menu màn hình nhỏ */
+    .menu-small-display {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.2);
     }
+
+    .menu-small-display-container {
+        background: #fff;
+        width: 40%;
+        height: 100vh;
+        transition: 0.5s;
+    }
+
+    .hide_menu {
+        margin-left: -40%;
+    }
+    .hide_layer {
+        visibility: hidden;
+    }
+
+    .menu-small-display-list {
+        list-style: none;
+    }
+
+    .menu-small-display-list-item {
+        padding: 10px 0 10px 30px;
+        border-bottom: 1px solid #dadada;
+    }
+
+    .menu-small-display-list-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .menu-small-display-list-item > a {
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .menu-small-display-list-item > a:hover {
+        color: #0070B4;
+        font-weight: 600;
+    }
+
+    .icon-menu {
+        padding: 10px 20px;
+        background: #efefef;
+        float: right;
+        width: 60px;
+        text-align: center;
+    }
+
+    .menu-small-display-list-item.active {
+        background: #efefef;
+    }
+
+    .submenu-mobile-item > a {
+        display: block;
+    }
+
+    .submenu-mobile-item > a:hover {
+        color: #0070B4;
+        font-weight: 600;
+    }
+
+    .header__top-menu-icon #btn-menu-top {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .submenu-mobile-list {
+        list-style: none;
+        display: none;
+    }
+
+    .submenu-mobile-item {
+        padding: 8px 15px;
+    }
+
+    .has-submenu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .has-submenu > a{
+        line-height: 36px;
+        width:calc(100% - 60px);
+    }
+
+
+
+
+
 
     .header__top-logo {
         width: 50px;
@@ -95,7 +192,7 @@
     }
 
     .header__top-user {
-        margin-right: 16px;
+        margin-right: 15px;
     }
 
     .header__top-user a {
@@ -197,6 +294,14 @@
         margin-right: 100px;
     }
 
+    .clearfix:after{
+        clear: both;
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -242,9 +347,102 @@
         margin-top: 70px;
     }
 
-    .header__top-menu-icon {
-        margin-left: 15px;
+
+     /* Menu màn hình nhỏ */
+    .menu-small-display {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.2);
     }
+
+    .menu-small-display-container {
+        background: #fff;
+        width: 70%;
+        height: 100vh;
+        transition: 0.5s;
+    }
+
+    .hide_menu {
+        margin-left: -70%;
+    }
+    .hide_layer {
+        visibility: hidden;
+    }
+
+    .menu-small-display-list {
+        list-style: none;
+    }
+
+    .menu-small-display-list-item {
+        padding: 10px 0 10px 30px;
+        border-bottom: 1px solid #dadada;
+    }
+
+    .menu-small-display-list-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .menu-small-display-list-item > a {
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .menu-small-display-list-item > a:hover {
+        color: #0070B4;
+        font-weight: 600;
+    }
+
+    .icon-menu {
+        padding: 10px 20px;
+        background: #efefef;
+        float: right;
+        width: 60px;
+        text-align: center;
+    }
+
+    .menu-small-display-list-item.active {
+        background: #efefef;
+    }
+
+    .submenu-mobile-item > a {
+        display: block;
+    }
+
+    .submenu-mobile-item > a:hover {
+        color: #0070B4;
+        font-weight: 600;
+    }
+
+    .header__top-menu-icon #btn-menu-top {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .submenu-mobile-list {
+        list-style: none;
+        display: none;
+    }
+
+    .submenu-mobile-item {
+        padding: 8px 15px;
+    }
+
+    .has-submenu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .has-submenu > a{
+        line-height: 36px;
+        width:calc(100% - 60px);
+    }
+
 
     .header__top-logo {
         width: 50px;

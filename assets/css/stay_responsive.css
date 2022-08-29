@@ -20,6 +20,10 @@
         display: flex;
      }
 
+     .content-right-description p {
+        padding-bottom: 15px;
+     }
+
 
 }
 

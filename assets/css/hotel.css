@@ -105,6 +105,15 @@
     margin-top: 8px;
 }
 
+.box-checkbox label {
+   margin-bottom: 0;
+}
+
+.box-checkbox label::after,
+.box-checkbox label::before {
+   box-sizing: unset;
+}
+
 .search-input-checkbox {
     display: flex;
     align-items: center;
@@ -456,3 +465,30 @@
  .pagination-item.active {
     color: #0070B4;
  }
+
+
+ .modal-body {
+   padding: 0;
+}
+
+
+.btn-confirm {
+   width: 100%;
+   padding: 0 15px;
+   margin-bottom: 30px;
+   text-align: right;
+}
+
+.btn-confirm button {
+   padding: 5px 30px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: #FC636B;
+   color: #fff;
+   border-radius: 4px;
+}
+
+.btn-confirm button:hover {
+   opacity: 0.9;
+}

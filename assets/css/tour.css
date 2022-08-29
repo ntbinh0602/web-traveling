@@ -75,7 +75,7 @@
 
 }
 
-.input-custom {
+.search-input-custom {
    margin-top: 8px;
     display: flex;
     align-items: center;
@@ -85,12 +85,12 @@
     padding-left: 12px;
 }
 
-.input-custom img {
+.search-input-custom img {
     width: 16px;
     height: 16px;
 }
 
-.input-custom .input-custom-type {
+.search-input-custom .input-custom-type {
     border: none;
     margin: 0;
     background: transparent;
@@ -477,3 +477,38 @@
    color: #0070B4;
 }
 
+/* form tổ chức sự kiện */
+
+.modal-content {
+   margin: 0 auto;
+}
+
+.modal-body {
+   padding: 0;
+}
+
+
+.btn-confirm {
+   width: 100%;
+   padding: 0 15px;
+   margin-bottom: 30px;
+   text-align: right;
+}
+
+.btn-confirm button {
+   padding: 5px 30px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: #FC636B;
+   color: #fff;
+   border-radius: 4px;
+}
+
+.btn-confirm button:hover {
+   opacity: 0.9;
+}
+
+.search-input:last-child {
+   padding-bottom: 15px;
+}

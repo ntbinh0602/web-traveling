@@ -1,686 +1,701 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/general.css" />
+  <link rel="stylesheet" href="./assets/css/modal.css" />
+
+  <link rel="stylesheet" href="./assets/css/visa_service.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
+  <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
+  <link rel="stylesheet" href="./assets/css/general_responsive.css" />
+  <link rel="stylesheet" href="./assets/css/event_service_responsive.css" />
+  <title>Dịch vụ visa</title>
+</head>
+
+<body>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/general.css" />
-    <link rel="stylesheet" href="./assets/css/modal.css" />
-
-    <link rel="stylesheet" href="./assets/css/visa_service.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto Condensed"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/custom_scrollbar.css" />
-    <link rel="icon" href="./assets/img/pmqicon-removebg-preview.png" />
-    <link rel="stylesheet" href="./assets/css/general_responsive.css" />
-    <link rel="stylesheet" href="./assets/css/event_service_responsive.css" />
-    <title>Dịch vụ visa</title>
-  </head>
-
-  <body>
-    <head>
-      <div class="header">
-        <div class="header__top">
-          <div class="header__top-mobile">
-            <div class="header__top-menu-icon">
-              <img src="./assets/img/icons/menu-icon.png" alt="" />
-            </div>
-            <div class="header__top-logo">
-              <a href="./index.html"
-                ><img src="./assets/img/6f13e9916f56ad08f447 1.png" alt=""
-              /></a>
-            </div>
-            <div class="header__top-user">
-              <a href="#">
-                <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-                <img
-                  class="icon-arrow-down"
-                  src="./assets/img/icons/Polygon 4.png"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-
-          <div class="header__top-nav box-wp">
-            <div class="header__top-left">
-              <a href="index.html">
-                <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-                <span class="name-company">PHU MY QUANG CO., LTD</span>
-              </a>
-            </div>
-            <div class="header__top-right">
-              <ul class="header__top-right-list">
-                <li class="header__top-right-item">
-                  <a href="./introduction.html">
-                    <span>Giới thiệu</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="./tour.html">
-                    <span>Tour du lịch</span>
-                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                  </a>
-                  <div class="mega-menu">
-                    <div class="submenu-left">
-                      <ul class="submenu-left-list">
-                        <li class="submenu-left-list-item">
-                          <a href="./tour.html"
-                            ><span>Tour trong nước</span>
-                            <i class="fa-solid fa-angle-right"></i
-                          ></a>
-                          <div class="submenu-right db">
-                            <div class="submenu-right-content">
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Miền Bắc</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hà Nội</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hà Giang</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Mộc Châu</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hạ Long</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lai Châu</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Ninh Bình</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Ninh Bình</a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Miền Trung</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Đà Nẵng</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hà Tĩnh</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Nghệ An</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Quảng Nam</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Huế</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Quảng Ninh</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Thanh Hóa</a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Miền Nam</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Cà Mau</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hà Giang</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Mộc Châu</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hạ Long</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lai Châu</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lạng Sơn</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Ninh Bình</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="submenu-left-list-item">
-                          <a href="./tour.html"
-                            ><span>Tour ngoài nước</span>
-                            <i class="fa-solid fa-angle-right"></i
-                          ></a>
-                          <div class="submenu-right">
-                            <div class="submenu-right-content">
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Châu Âu</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Paris</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch London</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Scotland</a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Châu Á</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Trung Quốc</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Ấn Độ</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Nepal</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Hàn Quốc</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Campuchia</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Lào</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Thái Lan</a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Nam Mĩ</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Colombia</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Chile</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Peru</a>
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html">Du lịch Ecuador</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="submenu-left-list-item">
-                          <a href="./tour.html"
-                            ><span>Tour tự chọn</span>
-                            <i class="fa-solid fa-angle-right"></i
-                          ></a>
-                          <div class="submenu-right">
-                            <div class="submenu-right-content">
-                              <div class="submenu-right-list">
-                                <a href="./tour.html">
-                                  <h4>Tour Biển Đảo</h4>
-                                </a>
-                                <ul>
-                                  <li>
-                                    <a href="./tour.html"
-                                      >Du lịch đảo Phú Quốc</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html"
-                                      >Du lịch đảo Hoàng Sa</a
-                                    >
-                                  </li>
-                                  <li>
-                                    <a href="./tour.html"
-                                      >Du lịch đảo Trường Sa</a
-                                    >
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span>Lưu trú</span>
-                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                  </a>
-                  <div class="header__top-drop-menu menu-stay">
-                    <ul>
-                      <li><a href="./hotel.html">Khách sạn</a></li>
-                      <li><a href="./hotel.html">Resort</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="./event_service.html">
-                    <span>Tổ chức sự kiện</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <span class="other-service-active">Dịch vụ khác</span>
-                    <img src="./assets/img/icons/arrow-down-black.png" alt="" />
-                  </a>
-                  <div class="header__top-drop-menu menu-service">
-                    <ul>
-                      <li><a href="./plane_ticket.html">Vé máy bay</a></li>
-                      <li><a href="./car_service.html">Thuê xe du lịch</a></li>
-                      <li><a href="./visa_service.html">Dịch vụ visa</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="./news.html">
-                    <span>Tin tức</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="./contact.html">
-                    <span>Liên hệ</span>
-                  </a>
-                </li>
-                <li class="header__top-right-item">
-                  <a href="#">
-                    <img src="./assets/img/icons/Ellipse 24.png" alt="" />
-                    <img src="./assets/img/icons/Polygon 4.png" alt="" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="background-on-top">
-          <img src="./assets/img/visa_banner.png" alt="banner" />
-        </div>
-      </div>
-    </head>
-
-    <section>
-      <div class="box-wp section_container">
-        <div class="page-navigation">
-          <span class="page-navigation"
-            ><a href="./index.html">Trang chủ</a></span
-          >
-          <span class="page-navigation"><a href="#">Dịch vụ visa</a></span>
-        </div>
-
-        <div class="box-container">
-          <div class="content-left">
-            <div class="content-left-title">
-              <span>Dịch vụ visa</span>
-            </div>
-            <div class="content-left-description">
-              <p>
-                <b>
-                  <i>
-                    Công ty Cổ phần truyền thông Du lịch cam kết tỷ lệ đậu visa
-                    cao nhất, tận tâm nhất và đúng hạn trao tận tay Visa tới
-                    khách hàng. Để có một bộ hồ sơ hoàn hảo xin visa đạt tỷ lệ
-                    đậu cao hãy cùng tìm hiểu qua bài viết dưới đây nhé!
-                  </i>
-                </b>
-                <br />
-                <br />
-
-                Hồ sơ xin cấp visa gồm những gì?
-                <br />
-                Dù xin visa du lịch, thăm thân, hay công tác thì bạn phải đảm
-                bảo bộ hồ sơ của mình có những giấy tờ sau đây: <br />
-
-                <b style="color: #0070b4">- Hồ sơ cá nhân:</b> <br />
-
-                1. Hộ chiếu đã kí tên (còn hạn ít nhất 06 tháng) và còn trang
-                trống dán visa. <br />
-
-                2. 02 Ảnh 4x6 chuẩn quốc tế (ảnh chụp không quá 6 tháng, đầu để
-                trần, áo trắng, phông nền trắng) <br />
-
-                3. Đơn làm visa (theo mẫu 48R) được điền đầy đủ thông tin và ký
-                tên xác nhận (chữ ký trên tờ khai phải đúng với chữ ký trông Hộ
-                chiếu) <br />
-
-                4. Bản sao công chứng tất cả các trang của sổ hộ khẩu hiện tại
-                có tên người xin visa <br />
-                5. Bản sao công chứng Giấy khai sinh <br />
-                6. Bản gốc Sơ yếu lý lịch có xác nhận của chính quyền địa phương
-                nơi người xin visa đang đăng ký sinh sống (Dịch sang tiếng Anh)
-                <br />
-                7. Chứng minh trình trạng độc thân/ kết hôn/ ly hôn <br />
-                8. Tờ khai chi tiết lý lịch thân nhân <br />
-
-                <b style="color: #0070b4">- Hồ sơ tài chính:</b> <br />
-
-                1. Bản sao công chứng tài khoản cá nhân trong 03 tháng gần nhất
-                <br />
-                2. Giấy xác nhận số dư tài khoản có giá trị tối thiểu 5.000 -
-                7.000 USD <br />
-                3. Các giấy tờ chứng minh tài chính khác (sổ nhà đất, xe cộ,...)
-                <br />
-
-                <b style="color: #0070b4">- Hồ sơ công việc</b> <br />
-
-                + Làm visa đối với khối hành chính sự nghiệp: <br />
-                1. Quyết định tuyển dụng hoặc quyết định bổ nhiệm (trong trường
-                hợp giữ chức vụ) <br />
-                2. Đơn xin nghỉ phép đi du lịch (Bản gốc tiếng Việt và dịch sang
-                tiếng Anh công chứng – Hoặc làm luôn bằng tiếng Anh) <br />
-                3. Giấy xác nhận công tác. <br />
-                + Làm visa đối với khối kinh doanh thuộc Nhà nước quản lý:
-                <br />
-                1. Quyết định tuyển dụng, hoặc quyết định bổ nhiệm, hoặc hợp
-                đồng lao động <br />
-                2. Giấy phép thành lập hoặc giấy Đăng ký kinh doanh của Công ty
-                nơi đang làm việc <br />
-                3. Giấy xác nhận công tác. <br />
-                + Làm visa đối với công ty TNHH: <br />
-                1. Trong trường hợp Quý khách là người đứng tên trong Giấy đăng
-                ký kinh doanh thì chỉ cần nộp Giấy đăng ký kinh doanh + biên lai
-                đóng thuế 3 tháng gần nhất <br />
-                2. Trong trường Quý khách là nhân viên: hợp đồng lao động, giấy
-                xác nhận công tác và giấy đăng ký kinh doanh của Cty nơi Quý
-                khách đang làm việc. <br />
-                3. Trong trường hợp là người về hưu: Quyết định nghỉ hưu hoặc sổ
-                hưu trí <br />
-                <b style="color: #e52620">Xin lưu ý:</b> Nếu trẻ nhỏ chưa đến
-                tuổi vị thành niên (&#60; 18 tuổi) đi du lịch cùng – cần nộp
-                giấy ủy quyền của cả hai bố mẹ, chữ ký của cả hai bố mẹ phải
-                được chính quyền địa phương xác nhận <br />
-                <br />
-                <b>Những lưu ý khi nhờ dịch vụ làm visa </b> <br />
-                - Nếu đang đi làm phải có xác nhận tham gia BHXH có mộc xác nhận
-                của BHXH nơi đang đăng ký (theo mẫu do dịch vụ làm visa du lịch
-                hướng dẫn) <br />
-                - Hồ sơ phải có bản gốc để đối chiếu. <br />
-                - Người nộp visa phải có mặt trình diện theo sự hướng dẫn của
-                dịch vụ visa du lịch <br />
-                <b style="color: #e52620">Xin lưu ý:</b>
-                Nếu du khách thường xuyên đi nước ngoài với các mục đích khác
-                nhau thì cần lựa chọn: Visa du lịch, visa công tác, visa thăm
-                thân,…sao cho phù hợp.
-              </p>
-            </div>
-          </div>
-          <div class="content-right">
-            <div class="content-right-box">
-              <p class="content-right-box-description">
-                Liên hệ ngay chúng tôi <br />
-                để được hỗ trợ nhanh nhất
-              </p>
-              <button
-                class="btn-order-ticket"
-                data-toggle="modal"
-                data-target="#myModal"
-              >
-                Đăng ký dịch vụ visa
-              </button>
-              <button class="btn-contact">
-                <a href="tel:0905999888">
-                  <img src="./assets/img/icons/phone.png" alt="" />
-                  <span>Hotline : 0905 999 888</span>
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="visa-title"><span>Các bước làm visa</span></div>
-        <div class="visa-container">
-          <div class="visa-card">
-            <div class="visa-card-item">
-              <h3>1</h3>
-              <h4>Đăng ký (1 phút)</h4>
-              <p>
-                Form điền thông tin đơn giản, nhanh chóng. Thông tin được bảo
-                mật an toàn.
-              </p>
-            </div>
-          </div>
-          <div class="visa-card">
-            <div class="visa-card-item">
-              <h3>2</h3>
-              <h4>Tư vấn</h4>
-              <p>
-                Nhân viên sẽ liên hệ lại với bạn trong vòng 4h. Hoặc liên hệ qua
-                Hotline 0905 498 888
-              </p>
-            </div>
-          </div>
-          <div class="visa-card">
-            <div class="visa-card-item">
-              <h3>3</h3>
-              <h4>Hoàn thiện hồ sơ</h4>
-              <p>
-                Một nhân viên giàu kinh nghiệm sẽ đồng hành hỗ trợ bạn suốt quá
-                trình
-              </p>
-            </div>
-          </div>
-          <div class="visa-card">
-            <div class="visa-card-item">
-              <h3>4</h3>
-              <h4>Nhận visa tận tay</h4>
-              <p>
-                Khách hàng nhận Visa sẽ đến lấy trực tiếp hoặc chuyển phát nhanh
-                đến khách hàng
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer">
-        <div class="footer__container box-wp">
-          <div class="footer-top clearfix">
-            <div class="footer-top-branch">
-              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
-              <h3>PHU MY QUANG TRAVEL</h3>
-              <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
-            </div>
-
-            <div class="footer-top-contact">
-              <h5>Thông tin liên hệ</h5>
-              <ul>
-                <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
-                <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
-                <li><b>Email:</b> info@logo.com</li>
-              </ul>
-              <div class="footer-top-contact-social">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/eva_facebook-fill.svg"
-                        alt=""
-                    /></a>
+    <div class="header">
+      <div class="header__top">
+        <div class="header__top-mobile">
+          <div class="header__top-menu-icon">
+            <i class="fas fa-bars" id="btn-menu-top"></i>
+            <div class="menu-small-display hide_layer" id="layer_btn">
+              <div class="menu-small-display-container hide_menu">
+                <ul class="menu-small-display-list">
+                  <li class="menu-small-display-list-item active">
+                    <a href="./index.html">Trang chủ</a>
                   </li>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/cib_youtube.svg" alt=""
-                    /></a>
+                  <li class="menu-small-display-list-item">
+                    <a href="./introduction.html">Giới thiệu</a>
                   </li>
-                  <li>
-                    <a href="#"
-                      ><img
-                        src="/assets/img/icons/logos_google-gmail.svg"
-                        alt=""
-                    /></a>
+                  <li class="menu-small-display-list-item has-submenu clearfix">
+                    <a href="./tour.html">Tour du lịch</a>
+                    <i class="icon-menu fas fa-chevron-right" id="btn-drop"></i>
+                    <ul class="submenu-mobile-list">
+                      <li class="submenu-mobile-item">
+                        <a href="./tour.html">Tour trong nước</a>
+                      </li>
+                      <li class="submenu-mobile-item">
+                        <a href="./tour.html">Tour ngoài nước</a>
+
+                      </li>
+                      <li class="submenu-mobile-item">
+                        <a href="./tour.html">Tour tự chọn</a>
+
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-small-display-list-item has-submenu clearfix">
+                    <a href="./hotel.html">Lưu trú</a>
+                    <i class="icon-menu fas fa-chevron-right" id="btn-drop"></i>
+                    <ul class="submenu-mobile-list">
+                      <li class="submenu-mobile-item">
+                        <a href="./hotel.html">Khách sạn</a>
+                      </li>
+                      <li class="submenu-mobile-item">
+                        <a href="./hotel.html">Resort</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-small-display-list-item">
+                    <a href="./event_service.html">Tổ chức sự kiện</a>
+                  </li>
+                  <li class="menu-small-display-list-item has-submenu clearfix">
+                    <a href="./tour.html">Dịch vụ khác</a>
+                    <i class="icon-menu fas fa-chevron-right" id="btn-drop"></i>
+                    <ul class="submenu-mobile-list">
+                      <li class="submenu-mobile-item">
+                        <a href="./plane_ticket.html">Vé máy bay</a>
+                      </li>
+                      <li class="submenu-mobile-item">
+                        <a href="./car_service.html">Thuê xe du lịch</a>
+
+                      </li>
+                      <li class="submenu-mobile-item">
+                        <a href="./visa_service.html">Dịch vụ visa</a>
+
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-small-display-list-item">
+                    <a href="./news.html">Tin tức</a>
+                  </li>
+                  <li class="menu-small-display-list-item">
+                    <a href="./contact.html">Liên hệ</a>
                   </li>
                 </ul>
               </div>
             </div>
-
-            <div class="footer-top-our-service">
-              <h5>Dịch vụ của chúng tôi</h5>
-              <ul>
-                <li><a href="#">Tour du lịch</a></li>
-                <li><a href="#">Lưu trú</a></li>
-                <li><a href="#">Vé máy bay</a></li>
-                <li><a href="#">Thuê xe du lịch</a></li>
-                <li><a href="#">Dịch vụ Visa</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-top-our-customer">
-              <h5>Góc khách hàng</h5>
-              <ul>
-                <li><a href="#">Chính sách đặt tour</a></li>
-                <li><a href="#">Chính sách bảo mật</a></li>
-                <li><a href="#">Ý kiến khách hàng</a></li>
-                <li><a href="#">Phiếu góp ý</a></li>
-              </ul>
-            </div>
           </div>
-          <div class="footer-bottom">
-            <div class="footer-bottom-left">
-              Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
-            </div>
-            <div class="footer-bottom-right">
-              <p>Designed and Maintained by</p>
-              <a href="https://danaweb.vn/"
-                ><img src="./assets/img/icons/danaweb.png" alt=""
-              /></a>
-            </div>
+          <div class="header__top-logo">
+            <a href="./index.html"><img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" /></a>
           </div>
-          <div class="footer-img-plane">
-            <img src="./assets/img/icons/plane.png" alt="" />
-          </div>
-        </div>
-        <div class="footer-img-bottom-l">
-          <div class="footer-img-bottom-l-left">
-            <img src="./assets/img/vt1.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-l-right">
-            <img src="./assets/img/vt1.png" alt="" />
+          <div class="header__top-user">
+            <a href="#">
+              <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+              <img class="icon-arrow-down" src="./assets/img/icons/Polygon 4.png" alt="" />
+            </a>
           </div>
         </div>
 
-        <div class="footer-img-bottom-s">
-          <div class="footer-img-bottom-s-left">
-            <img src="./assets/img/vt2.png" alt="" />
+        <div class="header__top-nav box-wp">
+          <div class="header__top-left">
+            <a href="index.html">
+              <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+              <span class="name-company">PHU MY QUANG CO., LTD</span>
+            </a>
           </div>
-          <div class="footer-img-bottom-s-mid">
-            <img src="./assets/img/vt2.png" alt="" />
-          </div>
-          <div class="footer-img-bottom-s-right">
-            <img src="./assets/img/vt2.png" alt="" />
+          <div class="header__top-right">
+            <ul class="header__top-right-list">
+              <li class="header__top-right-item">
+                <a href="./introduction.html">
+                  <span>Giới thiệu</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./tour.html">
+                  <span>Tour du lịch</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                </a>
+                <div class="mega-menu">
+                  <div class="submenu-left">
+                    <ul class="submenu-left-list">
+                      <li class="submenu-left-list-item">
+                        <a href="./tour.html"><span>Tour trong nước</span>
+                          <i class="fa-solid fa-angle-right"></i></a>
+                        <div class="submenu-right db">
+                          <div class="submenu-right-content">
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Miền Bắc</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hà Nội</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hà Giang</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Mộc Châu</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hạ Long</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lai Châu</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Ninh Bình</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Ninh Bình</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Miền Trung</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Đà Nẵng</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hà Tĩnh</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Nghệ An</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Quảng Nam</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Huế</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Quảng Ninh</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Thanh Hóa</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Miền Nam</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Cà Mau</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hà Giang</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Mộc Châu</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hạ Long</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lai Châu</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lạng Sơn</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Ninh Bình</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="submenu-left-list-item">
+                        <a href="./tour.html"><span>Tour ngoài nước</span>
+                          <i class="fa-solid fa-angle-right"></i></a>
+                        <div class="submenu-right">
+                          <div class="submenu-right-content">
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Châu Âu</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Paris</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch London</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Scotland</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Châu Á</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Trung Quốc</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Ấn Độ</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Nepal</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Hàn Quốc</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Campuchia</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Lào</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Thái Lan</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Nam Mĩ</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch Colombia</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Chile</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Peru</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch Ecuador</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="submenu-left-list-item">
+                        <a href="./tour.html"><span>Tour tự chọn</span>
+                          <i class="fa-solid fa-angle-right"></i></a>
+                        <div class="submenu-right">
+                          <div class="submenu-right-content">
+                            <div class="submenu-right-list">
+                              <a href="./tour.html">
+                                <h4>Tour Biển Đảo</h4>
+                              </a>
+                              <ul>
+                                <li>
+                                  <a href="./tour.html">Du lịch đảo Phú Quốc</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch đảo Hoàng Sa</a>
+                                </li>
+                                <li>
+                                  <a href="./tour.html">Du lịch đảo Trường Sa</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span>Lưu trú</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                </a>
+                <div class="header__top-drop-menu menu-stay">
+                  <ul>
+                    <li><a href="./hotel.html">Khách sạn</a></li>
+                    <li><a href="./hotel.html">Resort</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./event_service.html">
+                  <span>Tổ chức sự kiện</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <span class="other-service-active">Dịch vụ khác</span>
+                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                </a>
+                <div class="header__top-drop-menu menu-service">
+                  <ul>
+                    <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+                    <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+                    <li><a href="./visa_service.html">Dịch vụ visa</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./news.html">
+                  <span>Tin tức</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="./contact.html">
+                  <span>Liên hệ</span>
+                </a>
+              </li>
+              <li class="header__top-right-item">
+                <a href="#">
+                  <img src="./assets/img/icons/Ellipse 24.png" alt="" />
+                  <img src="./assets/img/icons/Polygon 4.png" alt="" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">
-              &times;
+      <div class="background-on-top">
+        <img src="./assets/img/visa_banner.png" alt="banner" />
+      </div>
+    </div>
+  </head>
+
+  <section>
+    <div class="box-wp section_container">
+      <div class="page-navigation">
+        <span class="page-navigation"><a href="./index.html">Trang chủ</a></span>
+        <span class="page-navigation"><a href="#">Dịch vụ visa</a></span>
+      </div>
+
+      <div class="box-container">
+        <div class="content-left">
+          <div class="content-left-title">
+            <span>Dịch vụ visa</span>
+          </div>
+          <div class="content-left-description">
+            <p>
+              <b>
+                <i>
+                  Công ty Cổ phần truyền thông Du lịch cam kết tỷ lệ đậu visa
+                  cao nhất, tận tâm nhất và đúng hạn trao tận tay Visa tới
+                  khách hàng. Để có một bộ hồ sơ hoàn hảo xin visa đạt tỷ lệ
+                  đậu cao hãy cùng tìm hiểu qua bài viết dưới đây nhé!
+                </i>
+              </b>
+              <br />
+              <br />
+
+              Hồ sơ xin cấp visa gồm những gì?
+              <br />
+              Dù xin visa du lịch, thăm thân, hay công tác thì bạn phải đảm
+              bảo bộ hồ sơ của mình có những giấy tờ sau đây: <br />
+
+              <b style="color: #0070b4">- Hồ sơ cá nhân:</b> <br />
+
+              1. Hộ chiếu đã kí tên (còn hạn ít nhất 06 tháng) và còn trang
+              trống dán visa. <br />
+
+              2. 02 Ảnh 4x6 chuẩn quốc tế (ảnh chụp không quá 6 tháng, đầu để
+              trần, áo trắng, phông nền trắng) <br />
+
+              3. Đơn làm visa (theo mẫu 48R) được điền đầy đủ thông tin và ký
+              tên xác nhận (chữ ký trên tờ khai phải đúng với chữ ký trông Hộ
+              chiếu) <br />
+
+              4. Bản sao công chứng tất cả các trang của sổ hộ khẩu hiện tại
+              có tên người xin visa <br />
+              5. Bản sao công chứng Giấy khai sinh <br />
+              6. Bản gốc Sơ yếu lý lịch có xác nhận của chính quyền địa phương
+              nơi người xin visa đang đăng ký sinh sống (Dịch sang tiếng Anh)
+              <br />
+              7. Chứng minh trình trạng độc thân/ kết hôn/ ly hôn <br />
+              8. Tờ khai chi tiết lý lịch thân nhân <br />
+
+              <b style="color: #0070b4">- Hồ sơ tài chính:</b> <br />
+
+              1. Bản sao công chứng tài khoản cá nhân trong 03 tháng gần nhất
+              <br />
+              2. Giấy xác nhận số dư tài khoản có giá trị tối thiểu 5.000 -
+              7.000 USD <br />
+              3. Các giấy tờ chứng minh tài chính khác (sổ nhà đất, xe cộ,...)
+              <br />
+
+              <b style="color: #0070b4">- Hồ sơ công việc</b> <br />
+
+              + Làm visa đối với khối hành chính sự nghiệp: <br />
+              1. Quyết định tuyển dụng hoặc quyết định bổ nhiệm (trong trường
+              hợp giữ chức vụ) <br />
+              2. Đơn xin nghỉ phép đi du lịch (Bản gốc tiếng Việt và dịch sang
+              tiếng Anh công chứng – Hoặc làm luôn bằng tiếng Anh) <br />
+              3. Giấy xác nhận công tác. <br />
+              + Làm visa đối với khối kinh doanh thuộc Nhà nước quản lý:
+              <br />
+              1. Quyết định tuyển dụng, hoặc quyết định bổ nhiệm, hoặc hợp
+              đồng lao động <br />
+              2. Giấy phép thành lập hoặc giấy Đăng ký kinh doanh của Công ty
+              nơi đang làm việc <br />
+              3. Giấy xác nhận công tác. <br />
+              + Làm visa đối với công ty TNHH: <br />
+              1. Trong trường hợp Quý khách là người đứng tên trong Giấy đăng
+              ký kinh doanh thì chỉ cần nộp Giấy đăng ký kinh doanh + biên lai
+              đóng thuế 3 tháng gần nhất <br />
+              2. Trong trường Quý khách là nhân viên: hợp đồng lao động, giấy
+              xác nhận công tác và giấy đăng ký kinh doanh của Cty nơi Quý
+              khách đang làm việc. <br />
+              3. Trong trường hợp là người về hưu: Quyết định nghỉ hưu hoặc sổ
+              hưu trí <br />
+              <b style="color: #e52620">Xin lưu ý:</b> Nếu trẻ nhỏ chưa đến
+              tuổi vị thành niên (&#60; 18 tuổi) đi du lịch cùng – cần nộp
+              giấy ủy quyền của cả hai bố mẹ, chữ ký của cả hai bố mẹ phải
+              được chính quyền địa phương xác nhận <br />
+              <br />
+              <b>Những lưu ý khi nhờ dịch vụ làm visa </b> <br />
+              - Nếu đang đi làm phải có xác nhận tham gia BHXH có mộc xác nhận
+              của BHXH nơi đang đăng ký (theo mẫu do dịch vụ làm visa du lịch
+              hướng dẫn) <br />
+              - Hồ sơ phải có bản gốc để đối chiếu. <br />
+              - Người nộp visa phải có mặt trình diện theo sự hướng dẫn của
+              dịch vụ visa du lịch <br />
+              <b style="color: #e52620">Xin lưu ý:</b>
+              Nếu du khách thường xuyên đi nước ngoài với các mục đích khác
+              nhau thì cần lựa chọn: Visa du lịch, visa công tác, visa thăm
+              thân,…sao cho phù hợp.
+            </p>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="content-right-box">
+            <p class="content-right-box-description">
+              Liên hệ ngay chúng tôi <br />
+              để được hỗ trợ nhanh nhất
+            </p>
+            <button class="btn-order-ticket" data-toggle="modal" data-target="#myModal">
+              Đăng ký dịch vụ visa
+            </button>
+            <button class="btn-contact">
+              <a href="tel:0905999888">
+                <img src="./assets/img/icons/phone.png" alt="" />
+                <span>Hotline : 0905 999 888</span>
+              </a>
             </button>
           </div>
-          <div class="modal-body">
-            <h4 class="title-plane">Thông tin khách hàng</h4>
-            <div class="body-content-form">
-              <form>
-                <div class="form-group">
-                  <label for="inputAddress label-form">Họ và tên *</label>
-                  <input type="text" class="form-control" id="inputAddress" />
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4 label-form">Email *</label>
-                    <input type="email" class="form-control" id="inputEmail4" />
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4 label-form">Điện thoại *</label>
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="inputPassword4"
-                    />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress label-form">Địa chỉ </label>
-                  <input type="text" class="form-control" id="inputAddress" />
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1 label-form"
-                    >Ghi chú</label
-                  >
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-btn-main">
-              <button type="button" class="btn-order">Gửi thông tin</button>
-            </div>
+        </div>
+      </div>
+      <div class="visa-title"><span>Các bước làm visa</span></div>
+      <div class="visa-container">
+        <div class="visa-card">
+          <div class="visa-card-item">
+            <h3>1</h3>
+            <h4>Đăng ký (1 phút)</h4>
+            <p>
+              Form điền thông tin đơn giản, nhanh chóng. Thông tin được bảo
+              mật an toàn.
+            </p>
+          </div>
+        </div>
+        <div class="visa-card">
+          <div class="visa-card-item">
+            <h3>2</h3>
+            <h4>Tư vấn</h4>
+            <p>
+              Nhân viên sẽ liên hệ lại với bạn trong vòng 4h. Hoặc liên hệ qua
+              Hotline 0905 498 888
+            </p>
+          </div>
+        </div>
+        <div class="visa-card">
+          <div class="visa-card-item">
+            <h3>3</h3>
+            <h4>Hoàn thiện hồ sơ</h4>
+            <p>
+              Một nhân viên giàu kinh nghiệm sẽ đồng hành hỗ trợ bạn suốt quá
+              trình
+            </p>
+          </div>
+        </div>
+        <div class="visa-card">
+          <div class="visa-card-item">
+            <h3>4</h3>
+            <h4>Nhận visa tận tay</h4>
+            <p>
+              Khách hàng nhận Visa sẽ đến lấy trực tiếp hoặc chuyển phát nhanh
+              đến khách hàng
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </body>
-  <script src="./assets/js/modal.js"></script>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container box-wp">
+        <div class="footer-top clearfix">
+          <div class="footer-top-branch">
+            <img src="./assets/img/6f13e9916f56ad08f447 1.png" alt="" />
+            <h3>PHU MY QUANG TRAVEL</h3>
+            <h4>Công ty cổ phần du lịch Phú Mỹ Quang</h4>
+          </div>
+
+          <div class="footer-top-contact">
+            <h5>Thông tin liên hệ</h5>
+            <ul>
+              <li><b>Địa chỉ:</b> 215 Nguyễn Hữu Thọ, Hải Châu, Đà Nẵng</li>
+              <li><b>Điện thoại:</b> (+84) 236 123 4567</li>
+              <li><b>Email:</b> info@logo.com</li>
+            </ul>
+            <div class="footer-top-contact-social">
+              <ul>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/eva_facebook-fill.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/cib_youtube.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/icons/logos_google-gmail.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-top-our-service">
+            <h5>Dịch vụ của chúng tôi</h5>
+            <ul>
+              <li><a href="#">Tour du lịch</a></li>
+              <li><a href="#">Lưu trú</a></li>
+              <li><a href="#">Vé máy bay</a></li>
+              <li><a href="#">Thuê xe du lịch</a></li>
+              <li><a href="#">Dịch vụ Visa</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-top-our-customer">
+            <h5>Góc khách hàng</h5>
+            <ul>
+              <li><a href="#">Chính sách đặt tour</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Ý kiến khách hàng</a></li>
+              <li><a href="#">Phiếu góp ý</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            Copyright © 2020 <b>PhuMyQuangTravel</b> . All Rights Reserved.
+          </div>
+          <div class="footer-bottom-right">
+            <p>Designed and Maintained by</p>
+            <a href="https://danaweb.vn/"><img src="./assets/img/icons/danaweb.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="footer-img-plane">
+          <img src="./assets/img/icons/plane.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-img-bottom-l">
+        <div class="footer-img-bottom-l-left">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-l-right">
+          <img src="./assets/img/vt1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="footer-img-bottom-s">
+        <div class="footer-img-bottom-s-left">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-mid">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+        <div class="footer-img-bottom-s-right">
+          <img src="./assets/img/vt2.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4 class="title-plane">Thông tin khách hàng</h4>
+          <div class="body-content-form">
+            <form>
+              <div class="form-group">
+                <label for="inputAddress label-form">Họ và tên *</label>
+                <input type="text" class="form-control" id="inputAddress" />
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4 label-form">Email *</label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4 label-form">Điện thoại *</label>
+                  <input type="password" class="form-control" id="inputPassword4" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress label-form">Địa chỉ </label>
+                <input type="text" class="form-control" id="inputAddress" />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1 label-form">Ghi chú</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-btn-main">
+            <button type="button" class="btn-order">Gửi thông tin</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./assets/js/modal.js"></script>
+<script src="./assets/js/app.js"></script>
+
 </html>

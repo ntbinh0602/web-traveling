@@ -61,7 +61,7 @@
         font-size: 16px;
     }
     .input-custom-extra {
-        display: block;
+        display: flex;
         width: unset;
     }
 
@@ -70,7 +70,11 @@
     }
 
     .input-box {
-        width: 100%;
+        width: 70%;
+    }
+
+    .input-custom-extra-box label {
+        width: 30%;
     }
 
     .input-custom-extra-box {
@@ -78,11 +82,11 @@
     }
 
     .input-custom.large-txt {
-        height: 100px;
+        height: 50px;
     }
 
     .input-custom.large-txt img {
-        margin-top: -72px;
+        margin-top: -21px;
     }
 
     .modal-btn-main {
@@ -190,7 +194,7 @@
         font-size: 16px;
     }
     .input-custom-extra {
-        display: block;
+        display: flex;
         width: unset;
     }
 
@@ -199,19 +203,23 @@
     }
 
     .input-box {
-        width: 100%;
+        width: 60%;
     }
 
     .input-custom-extra-box {
         margin-top: 10px;
     }
 
+    .input-custom-extra-box label {
+        width: 40%;
+    }
+
     .input-custom.large-txt {
-        height: 100px;
+        height: 50px;
     }
 
     .input-custom.large-txt img {
-        margin-top: -72px;
+        margin-top: -21px;
     }
 
     .modal-btn-main {
