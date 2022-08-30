@@ -124,58 +124,59 @@
     margin-left: 11px;
 }
 
-[type="checkbox"]:checked,
-[type="checkbox"]:not(:checked) {
-    position: relative;
-    height: 28px;
-    width: 28px;
-}
-[type="checkbox"]:checked + label,
-[type="checkbox"]:not(:checked) + label
-{
-    position: relative;
-    cursor: pointer;
-    line-height: 20px;
-    display: inline-block;
-    padding-left: 2px;
-    color: #666;
-}
-[type="checkbox"]:checked + label:before,
-[type="checkbox"]:not(:checked) + label:before {
-   content: '';
-   position: absolute;
-   left: -29px;
-   top: -15px;
-   width: 28px;
-   border-radius: 4px;
-   height: 28px;
-   border: 1px solid #DEDEDE;
-   background: #fff;
-}
-[type="checkbox"]:checked + label:after,
-[type="checkbox"]:not(:checked) + label:after {
-      content: '';
-      width: 16px;
-      height: 16px;
-      background: #0070B4;
-      position: absolute;
-      top: -8px;
-      left: -22px;
-      border-radius: 2px;
-      -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease;
-}
-[type="checkbox"]:not(:checked) + label:after {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-}
-[type="checkbox"]:checked + label:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-} 
 
+ .sb-checkbox {
+   display: inline-block;
+   font-size: 0;
+ }
+ .sb-checkbox__input {
+   display: none;
+ }
+ .sb-checkbox__input:checked + .sb-checkbox__label:after {
+   opacity: 1;
+ }
+ .sb-checkbox__label {
+   display: inline-block;
+   width: 28px;
+   height: 28px;
+   position: relative;
+   cursor: pointer;
+ }
+ .sb-checkbox__label:before {
+   content: '';
+   width: 28px;
+   height: 28px;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 4px;
+   /* overflow: hidden; */
+ }
+ .sb-checkbox__label:after {
+   content: '\2713';
+   font-size: 20px;
+   line-height: 28px;
+   text-align: center;
+   width: 30px;
+   height: 30px;
+   display: block;
+   border-radius: 4px;
+   overflow: hidden;
+   text-align: center;
+   opacity: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: #0070B4;
+   color: #fff;
+   transition: 0.2s opacity;
+ }
+ 
 
 .arrow-for-select {
     position: relative;
@@ -476,7 +477,7 @@
    width: 100%;
    padding: 0 15px;
    margin-bottom: 30px;
-   text-align: right;
+   text-align: center;
 }
 
 .btn-confirm button {
@@ -484,7 +485,7 @@
    border: none;
    outline: none;
    cursor: pointer;
-   background: #FC636B;
+   background: #0070B4;
    color: #fff;
    border-radius: 4px;
 }

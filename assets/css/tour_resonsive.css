@@ -5,6 +5,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) { 
+    .top-title-label {
+        display: block;
+        margin-bottom: 5px;
+    }
 
     .body-content {
         display: block;
@@ -24,6 +28,9 @@
 
     .content-right-sum-founded button.btn-filter {
         display: flex;
+        display: -webkit-box;
+    -webkit-box-orient: vertical;
+        
      }
 
      .box-container {
@@ -116,6 +123,11 @@
         width: 100%;
     }
 
+    .top-title-label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
     .card__box-item img.card__box-item-img {
         height: auto;
     }
@@ -127,6 +139,7 @@
 
     .content-right-sum-founded button.btn-filter {
         display: flex;
+       
         position: unset;
         width: 100%;
         margin-top: 20px;
@@ -229,5 +242,37 @@
     }
     .btn-order {
         width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 380px) {
+    .card__box-item {
+        width: 100%;
+    }
+    .row-input {
+        margin-top: 0;
+    }
+
+    .modal-body h5 {
+        margin-bottom: 0;
+        display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+    }
+
+    .input-custom.large-txt {
+        height: 34px;
+    }
+
+    .input-custom.large-txt img {
+        margin-top: -3px;
+    }
+
+    .input-custom-extra-box {
+        margin-top: 0;
+        align-items: center;
     }
 }

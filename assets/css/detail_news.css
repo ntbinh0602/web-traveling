@@ -16,6 +16,7 @@
     font-size: 28px;
     line-height: 34px;
     color: #1D293F;
+    text-align: left !important;
 }
 
 .content-left-description {

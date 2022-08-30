@@ -120,20 +120,22 @@
 input::-webkit-input-placeholder{
     font-family: 'HelveticaNeue';
     font-size: 14px;
-    font-weight: 600;
-    color: #4D4D51;
+    font-weight: 500;
+    color: #6d6d72;
 }
 input:-ms-input-placeholder{
     font-family: 'HelveticaNeue';
     font-size: 14px;
-    font-weight: 600;
-    color: #4D4D51;
+    font-weight: 500;
+    color: #6d6d72;
+
 }
 input::placeholder{
     font-family: 'HelveticaNeue';
     font-size: 14px;
-    font-weight: 600;
-    color: #4D4D51;
+    font-weight: 500;
+    color: #6d6d72;
+
 }
 
 
@@ -154,29 +156,33 @@ input::placeholder{
 
 textarea::-webkit-input-placeholder {
     font-family: 'HelveticaNeue';
-    color: #4D4D51;
+    color: #6d6d72;
+
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     }
     
     textarea:-moz-placeholder { /* Firefox 18- */
     font-family: 'HelveticaNeue';
-    color: #4D4D51; 
+    color: #6d6d72;
+ 
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     }
     
     textarea::-moz-placeholder {  /* Firefox 19+ */
     font-family: 'HelveticaNeue';
-    color: #4D4D51; 
+    color: #6d6d72;
+
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     }
     
     textarea:-ms-input-placeholder {
     font-family: 'HelveticaNeue';
-    color: #4D4D51; 
-    font-weight: 600;
+    color: #6d6d72;
+
+    font-weight: 500;
     font-size: 14px;
     }
 

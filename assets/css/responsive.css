@@ -26,9 +26,13 @@
 
     .search-box-item-btn {
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
     .search-box-item-input {
         width: 100%;
+
     }
 
     .card__box-location-item {
@@ -102,6 +106,7 @@
     }
     .search-box-item-input {
         width: 100%;
+        
     }
 
     .card__box-other-services {
@@ -126,6 +131,11 @@
         display: block;
     }
 
+    .search-box-item-input input {
+        background: #F7F7F7;
+        -webkit-appearance: none;
+    }
+
 
     .card__box-item {
         width: 285px;
@@ -147,12 +157,12 @@
 
     .card__box {
         display: inline-flex;
-        margin: 0 15px;
+        margin: 0 10px;
     }
 
     .card__box-location {
         display: inline-flex;
-        margin: 0 16px;
+        margin: 0 10px;
     }
     .card__box-location-item {
         width: 184px;
@@ -175,10 +185,13 @@
     }
 
     .box__blog-traveling-img-right {
-        gap: 10px;
-        margin-top: 8px;
+        margin: 8px 0 -5px;
+        display: block;
     }
 
+    .box__blog-traveling-item {
+        margin-bottom: 10px;
+    }
 
     .box__blog-traveling-img-left,
     .box__blog-traveling-img-right {
@@ -278,7 +291,7 @@
     }
 
     .other-services-content p {
-        width: 100%;   
+        width: 80%;   
     }
 
 
@@ -320,10 +333,6 @@
     .box-wp {
         max-width: 100vw;
     }
-
-    .slick-dots {
-        display: none !important;
-    } 
 
     .header__bottom-title {
         display: none;
@@ -405,7 +414,7 @@
 
     .card__box {
         display: inline-flex;
-        margin: 0 16px;
+        margin: 0 10px;
     }
 
     .card__box-item:hover {
@@ -414,7 +423,7 @@
 
     .card__box-location {
         display: inline-flex;
-        margin: 0 16px;
+        margin: 0 10px;
     }
     .card__box-location-item {
         width: 184px;
@@ -445,7 +454,7 @@
     }
 
     .box__blog-traveling-img-right {
-        gap: 10px;
+        margin: 3px 0 -5px;
         margin-top: 8px;
     }
 
@@ -529,4 +538,6 @@
         font-size: 24px;
         line-height: 34px;
     }   
+
+    
 }

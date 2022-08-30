@@ -288,7 +288,7 @@
     }
 
     .contact-form-input input {
-        width: 50% ;
+        width: 100% ;
     }
 
     .contact-phone {
@@ -303,12 +303,33 @@
         height: 0px;
     }
 
+    .modal-header button {
+        color: #000 !important;
+    }
+
 }
 
 @media (max-width: 767px) {
 
     .d_none {
         display: none;
+    }
+
+    .content-left-title,
+    .introduction-title,
+    .news-title,
+    .body-title h2 {
+        text-align: center;
+    }
+
+
+
+
+
+    .pagination-wraper .pagination-item {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
     }
 
     .header__top-nav {
@@ -653,6 +674,112 @@
         height: 300px
     }
 
-    
+    .card__box-item img.card__box-item-img {
+        height: auto;
+    }
 
+    .slick-slider {
+        margin-bottom: 0;
+        padding-bottom: 24px;
+    }
+
+    .slick-dots {
+        bottom: -7px !important;
+    }
+    
+    .modal-header button {
+        color: #000 !important;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+
+    .footer-top-our-customer h5 ,
+    .footer-top-our-service h5 {
+        min-height: 40px;
+    }
+
+    .blog-traveling-item-content .item-content p {
+        display: none;
+    }
+
+    .card__box-item {
+        width: 240px;
+    }
+
+    .card__box-item img.card__box-item-img {
+        height: auto;
+    }
+   
+    .box_rating {
+        height: 460px;
+    }
+
+    .container-contact .box-review {
+        height: 450px;
+    }
+
+    .box_rating .slick-dots {
+        bottom: 32px !important;
+    }
+
+    .box-review .box-review-content {
+        width: 90%;
+    }
+
+    .search-box-item-input input {
+        width: 100%;
+        background: #F7F7F7;
+        -webkit-appearance: none;
+    }
+
+    .search-input {
+        margin-top: 10px;
+    }
+
+    .modal-header {
+        display: block;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .form-group {
+        margin-bottom: 5px;
+    }
+
+    .form-control {
+        padding: 5px 12px;
+    }
+
+    .decrease {
+        top: 26px;
+    }
+
+    .modal-header button {
+        color: #000 !important;
+    }
+
+    select.form-control {
+        background: #fff;
+    }
+
+    .title-plane {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+
+    .news-item-content p {
+        display: none;
+    }
+
+    .news-item-img {
+        height: 100%;
+    }
+
+    .modal-body {
+        padding: 0 15px;
+    }
 }

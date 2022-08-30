@@ -131,13 +131,13 @@ height: 100%;
 
 .title-plane {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 21px;
     text-align: center;
     color: #125E90;
     text-transform: uppercase;
     margin-top: -8px;
-    margin-bottom: 18px;
+    margin-bottom: 5px;
 }
 
 .label-form {
@@ -147,7 +147,7 @@ height: 100%;
 }
 
 .modal-header {
-    justify-content: end;
+    display: block;
     padding: 5px 15px 0 0 !important;
 }
 
@@ -167,7 +167,7 @@ height: 100%;
 }
 
 textarea {
-    height: 70px;
+    height: 45px;
     resize: none;
 }
 

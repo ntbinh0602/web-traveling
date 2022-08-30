@@ -51,3 +51,9 @@
     }
 
 }
+
+@media (max-width: 380px) {
+    .card__box-item {
+        width: 100%;
+    }
+}
