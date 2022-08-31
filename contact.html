@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
   <link rel="stylesheet" href="./assets/css/base.css" />
   <link rel="stylesheet" href="./assets/css/general.css" />
   <link rel="stylesheet" href="./assets/css/contact.css" />
@@ -68,7 +68,7 @@
                     <a href="./event_service.html">Tổ chức sự kiện</a>
                   </li>
                   <li class="menu-small-display-list-item has-submenu clearfix">
-                    <a href="./tour.html">Dịch vụ khác</a>
+                    <a href="#" class="disabled">Dịch vụ khác</a>
                     <i class="icon-menu fas fa-chevron-right" id="btn-drop"></i>
                     <ul class="submenu-mobile-list">
                       <li class="submenu-mobile-item">
@@ -87,7 +87,7 @@
                   <li class="menu-small-display-list-item">
                     <a href="./news.html">Tin tức</a>
                   </li>
-                  <li class="menu-small-display-list-item">
+                  <li class="menu-small-display-list-item active">
                     <a href="./contact.html">Liên hệ</a>
                   </li>
                 </ul>
@@ -122,7 +122,7 @@
               <li class="header__top-right-item">
                 <a href="./tour.html">
                   <span>Tour du lịch</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header fas fa-chevron-down"></i>
                 </a>
                 <div class="mega-menu">
                   <div class="submenu-left">
@@ -325,9 +325,9 @@
                 </div>
               </li>
               <li class="header__top-right-item">
-                <a href="#">
+                <a href="./hotel.html">
                   <span>Lưu trú</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header fas fa-chevron-down"></i>
                 </a>
                 <div class="header__top-drop-menu menu-stay">
                   <ul>
@@ -342,9 +342,9 @@
                 </a>
               </li>
               <li class="header__top-right-item">
-                <a href="#">
+                <a href="#" class="disabled">
                   <span>Dịch vụ khác</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header fas fa-chevron-down"></i>
                 </a>
                 <div class="header__top-drop-menu menu-service">
                   <ul>
@@ -433,8 +433,8 @@
 
   <div class="map-location">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.090513842578!2d108.18202891433661!3d16.060792143931263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421903f846f125%3A0xa39c873c7dc67b29!2zQ8O0bmcgVHkgVE5ISCBN4buZdCBUaMOgbmggVmnDqm4gQ8O0bmcgTmdo4buHIFBo4bqnbiBN4buBbSBEYW5hd2Vi!5e0!3m2!1svi!2s!4v1660699836574!5m2!1svi!2s"
-      width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.429566965384!2d108.20813611433637!3d16.043183444398064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142184db24f3d6f%3A0x736317b8ebdff7c2!2zQ8O0bmcgVHkgVGhp4bq_dCBL4bq_IFdlYiDEkMOgIE7hurVuZyAtIERhbmF3ZWI!5e0!3m2!1svi!2s!4v1661915729783!5m2!1svi!2s"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
@@ -473,11 +473,11 @@
           <div class="footer-top-our-service">
             <h5>Dịch vụ của chúng tôi</h5>
             <ul>
-              <li><a href="#">Tour du lịch</a></li>
-              <li><a href="#">Lưu trú</a></li>
-              <li><a href="#">Vé máy bay</a></li>
-              <li><a href="#">Thuê xe du lịch</a></li>
-              <li><a href="#">Dịch vụ Visa</a></li>
+              <li><a href="./tour.html">Tour du lịch</a></li>
+              <li><a href="./hotel.html">Lưu trú</a></li>
+              <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+              <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+              <li><a href="./visa_service.html">Dịch vụ Visa</a></li>
             </ul>
           </div>
 

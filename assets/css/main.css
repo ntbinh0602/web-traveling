@@ -87,9 +87,9 @@ html:not([data-scroll='0']) .header__top-right-list {
 }
 
 
-.header__top-right-item img {
+.icon-header {
    margin-left: 3px;
-
+   font-size: 11px;
 }
 
 .header__top-right-item:last-child img:first-child {
@@ -1135,7 +1135,7 @@ html:not([data-scroll='0']) .header__top-right-list {
    width: 100%;
    left: 0; 
    right: 0;
-   bottom: 0;
+   bottom: -3px;
  }
 
  .footer-top-contact {

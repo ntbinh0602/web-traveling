@@ -9,6 +9,11 @@
    color: #0070B4 ;
 }
 
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+ }
+
 
 ul {
    margin-bottom: 0;
@@ -93,8 +98,9 @@ button {
 }
 
 
-.header__top-right-item img {
+.icon-header {
    margin-left: 3px;
+   font-size: 11px;
 
 }
 
@@ -520,7 +526,8 @@ button {
    width: 100%;
    left: 0; 
    right: 0;
-   bottom: 0;
+   bottom: -3px;
+   z-index: -1;
  }
 
  .footer-top-contact {
@@ -650,6 +657,7 @@ button {
    left: 0; 
    right: 0;
    bottom: -5px;
+   z-index: -1;
  }
 
  .footer-img-bottom-s-left , 

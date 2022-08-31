@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -83,8 +85,8 @@
                   <li class="menu-small-display-list-item">
                     <a href="./event_service.html">Tổ chức sự kiện</a>
                   </li>
-                  <li class="menu-small-display-list-item has-submenu clearfix">
-                    <a href="./tour.html">Dịch vụ khác</a>
+                  <li class="menu-small-display-list-item active has-submenu clearfix">
+                    <a href="#" class="disabled">Dịch vụ khác</a>
                     <i class="icon-menu fas fa-chevron-right" id="btn-drop"></i>
                     <ul class="submenu-mobile-list">
                       <li class="submenu-mobile-item">
@@ -138,7 +140,7 @@
               <li class="header__top-right-item">
                 <a href="./tour.html">
                   <span>Tour du lịch</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header fas fa-chevron-down"></i>
                 </a>
                 <div class="mega-menu">
                   <div class="submenu-left">
@@ -341,9 +343,9 @@
                 </div>
               </li>
               <li class="header__top-right-item">
-                <a href="#">
+                <a href="./hotel.html">
                   <span>Lưu trú</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header fas fa-chevron-down"></i>
                 </a>
                 <div class="header__top-drop-menu menu-stay">
                   <ul>
@@ -358,9 +360,9 @@
                 </a>
               </li>
               <li class="header__top-right-item">
-                <a href="#">
+                <a href="#" class="disabled">
                   <span class="other-service-active">Dịch vụ khác</span>
-                  <img src="./assets/img/icons/arrow-down-black.png" alt="" />
+                  <i class="icon-header other-service-active fas fa-chevron-down"></i>
                 </a>
                 <div class="header__top-drop-menu menu-service">
                   <ul>
@@ -598,11 +600,11 @@
           <div class="footer-top-our-service">
             <h5>Dịch vụ của chúng tôi</h5>
             <ul>
-              <li><a href="#">Tour du lịch</a></li>
-              <li><a href="#">Lưu trú</a></li>
-              <li><a href="#">Vé máy bay</a></li>
-              <li><a href="#">Thuê xe du lịch</a></li>
-              <li><a href="#">Dịch vụ Visa</a></li>
+              <li><a href="./tour.html">Tour du lịch</a></li>
+              <li><a href="./hotel.html">Lưu trú</a></li>
+              <li><a href="./plane_ticket.html">Vé máy bay</a></li>
+              <li><a href="./car_service.html">Thuê xe du lịch</a></li>
+              <li><a href="./visa_service.html">Dịch vụ Visa</a></li>
             </ul>
           </div>
 

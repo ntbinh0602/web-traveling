@@ -29,6 +29,10 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    a.disabled {
+        pointer-events: none;
+        cursor: default;
+      }
 
     .d_none {
         display: none;
@@ -137,15 +141,27 @@
         background: #efefef;
         float: right;
         width: 60px;
+        color: #000;
         text-align: center;
     }
 
+
     .menu-small-display-list-item.active {
-        background: #efefef;
+        background: #0070B4;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .menu-small-display-list-item.active .icon-menu {
+        background: #0070B4;
+        color: #fff;
+        border-left: 1px solid #fff;
     }
 
     .submenu-mobile-item > a {
         display: block;
+        color: #000;
+        font-weight: normal;
     }
 
     .submenu-mobile-item > a:hover {
@@ -161,20 +177,22 @@
     .submenu-mobile-list {
         list-style: none;
         display: none;
+        background: #fff;
     }
 
     .submenu-mobile-item {
-        padding: 8px 15px;
+        padding: 8px 45px;
     }
 
     .has-submenu {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0 ;
+
     }
 
     .has-submenu > a{
         line-height: 36px;
         width:calc(100% - 60px);
+        padding-left: 30px;
     }
 
 
@@ -310,6 +328,10 @@
 }
 
 @media (max-width: 767px) {
+    a.disabled {
+        pointer-events: none;
+        cursor: default;
+      }
 
     .d_none {
         display: none;
@@ -427,15 +449,26 @@
         background: #efefef;
         float: right;
         width: 60px;
+        color: #000;
         text-align: center;
     }
 
     .menu-small-display-list-item.active {
-        background: #efefef;
+        background: #0070B4;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .menu-small-display-list-item.active .icon-menu {
+        background: #0070B4;
+        color: #fff;
+        border-left: 1px solid #fff;
     }
 
     .submenu-mobile-item > a {
         display: block;
+        color: #000;
+        font-weight: normal;
     }
 
     .submenu-mobile-item > a:hover {
@@ -451,20 +484,21 @@
     .submenu-mobile-list {
         list-style: none;
         display: none;
+        background: #fff;
     }
 
     .submenu-mobile-item {
-        padding: 8px 15px;
+        padding: 8px 45px;
     }
 
     .has-submenu {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
     }
 
     .has-submenu > a{
         line-height: 36px;
         width:calc(100% - 60px);
+        padding-left: 30px;
     }
 
 
@@ -516,6 +550,8 @@
 
     .footer {
         height: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .footer-top {
@@ -695,6 +731,11 @@
 
 
 @media (max-width: 380px) {
+
+    a.disabled {
+        pointer-events: none;
+        cursor: default;
+      }
 
     .footer-top-our-customer h5 ,
     .footer-top-our-service h5 {

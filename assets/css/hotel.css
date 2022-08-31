@@ -45,8 +45,7 @@
 
  .search-button {
     display: flex;
-    gap: 9px;
-    margin-top: 14px;
+    margin: 14px -5px 0 -5px;
  }
 
  .search-button button {
@@ -57,6 +56,7 @@
     color: #32363D;
     font-size: 14px;
     border: none;
+    margin: 0 5px;
     outline: none;
     cursor: pointer;
     background: #FFFFFF;

@@ -93,7 +93,7 @@
 
 .news-item-img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -170,6 +170,7 @@
     display: flex;
     align-items: center;
     width: fit-content;
+    width: -webkit-max-content;
     border-top: 1px solid #EBE9E9;
     border-left: 1px solid #EBE9E9;
     border-bottom: 1px solid #EBE9E9;

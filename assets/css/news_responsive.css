@@ -25,6 +25,10 @@
         width: 100%;
     }
 
+    .news-item-content p {
+        -webkit-line-clamp: 2;
+    }
+
     
 }
 
