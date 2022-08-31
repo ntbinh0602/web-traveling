@@ -1,4 +1,4 @@
-.header {
+   .header {
    width: 100%;
    position: relative;
 }
@@ -233,7 +233,7 @@ html:not([data-scroll='0']) .header__top-right-list {
 
 
 .submenu-left > ul {
-   margin-top: 8px;
+   margin-top: 12px;
 }
 
 .submenu-left > ul > li {
@@ -290,7 +290,7 @@ html:not([data-scroll='0']) .header__top-right-list {
 
 .submenu-right-content {
    display: flex;
-   margin-top: 6px; 
+   margin-top: 12px; 
 }
 
 .submenu-right-list {

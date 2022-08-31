@@ -325,6 +325,10 @@
         color: #000 !important;
     }
 
+    .footer-img-plane::before {
+        width: 520px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -726,6 +730,23 @@
     .modal-header button {
         color: #000 !important;
     }
+
+    .news-item-img {
+        height: 100%;
+    }
+
+    .news-item-content p {
+        display: none;
+    }
+
+    .news-item-content h4 {
+        font-size: 16px;
+    }
+
+    .modal-body {
+        padding: 0 15px;
+    }
+
 
 }
 
