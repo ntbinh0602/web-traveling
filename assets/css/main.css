@@ -90,6 +90,7 @@ html:not([data-scroll='0']) .header__top-right-list {
 .icon-header {
    margin-left: 3px;
    font-size: 11px;
+   margin-bottom: 3px;
 }
 
 .header__top-right-item:last-child img:first-child {
