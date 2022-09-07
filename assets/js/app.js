@@ -26,6 +26,10 @@ $(document).ready(function (){
   });
 });
 
+$(".heading-clicked").click(function(e){
+  $(this).parent('.description-infor-detail-heading').parent(".content-description-infor-detail").children(".description-infor-detail-txt").toggleClass("hide-content-p"); 
+})
+
 
 
 
